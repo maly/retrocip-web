@@ -1,0 +1,34 @@
+---
+id: 730
+title: 'Elektronika a Mac, díl první: Arduino'
+date: 2015-10-19T16:11:14+01:00
+author: Martin Maly
+layout: revision
+guid: http://retrocip.uelectronics.info/697-autosave-v1/
+permalink: /697-autosave-v1/
+---
+Lidé se mě občas ptají: A co ta tvoje knížka a ta elektronika, půjde mi to na Macu? A já teď už konečně mohu odpovědět: Ano!
+
+<!--more-->
+
+Díky štědrému dárci jsem se stal majitelem postaršího MacBooku (2008), který jsem si &#8222;vytunil&#8220; novým systémem 10.10.1 (Yosemite) a přidanou RAM (originál 2GB se docela vlekl). Samozřejmě mě zajímalo, jak si tento systém porozumí s elektronikou.
+
+Začal jsem od Arduina. Připojuje se přes USB a tváří se jako standardní sériový port. OSX má ovladače, takže nebyl naprosto žádný problém.
+
+IDE jsem stáhnul [zde](https://www.arduino.cc/en/Main/Software): [Arduino IDE Mac OS X 10.7 Lion or newer (verze 1.6.5)](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.5-r5-macosx.zip)
+
+Zapojil jsem Arduino do USB, chvilku počkal a v nabídce vybral možnost &#8222;cu.usbmodem621&#8220; (zkoušel jsem Arduino Due, na jiné verzi to může být jinak, netuším):
+
+<img loading="lazy" class="aligncenter size-full wp-image-698" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx2.jpg" alt="osx2" width="849" height="111" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2.jpg 849w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2-650x85.jpg 650w" sizes="(max-width: 849px) 100vw, 849px" /> 
+
+Překlad naprosto bez problémů, instalace knihoven taky, instalace jiných desek (v tomto případě Due) taky bez problémů.
+
+Jediný problém nastal s čínským klonem Arduina, který používá jiný obvod pro USB. V naprosté většině jde o typ CH340G. Ale nic, co by chvilka googlení nevyřešila: [ovladač CH340 pro Mac OS X máte zde](http://retrocip.cz/files/ch34x-install-osx.zip)! V nových OSX si nejprve spusťte Terminál a zadejte &#8222;sudo nvram boot-args=&#8220;kext-dev-mode=1&#8220; Stačí rozbalit, spustit, a dokonce ani není potřeba přepisovat jméno zařízení, jak radí některé manuály. Po připojení takového Arduina se v nabídce objevila jen trochu jiná položka:
+
+<img loading="lazy" class="aligncenter size-full wp-image-699" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx3.jpg" alt="osx3" width="795" height="284" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3.jpg 795w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3-650x232.jpg 650w" sizes="(max-width: 795px) 100vw, 795px" /> 
+
+Zvolil jsem &#8222;wchusbserial&#8220;, a zvolil jsem správně!
+
+S Arduinem jsem na Macu neměl žádný problém, což je potěšující zpráva. Na další vývojová prostředí a elektronické kity se podíváme zase příště.
+
+[sc:ebay item=arduino%20UNO%20R3%20atmega328p%20board]
