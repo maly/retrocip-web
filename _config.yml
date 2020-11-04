@@ -3,3 +3,5 @@ name: Retročip
 description: >
   Staré procesory, nostalgické
   počítače, LSI za zenitem...
+
+theme: jekyll-theme-dinky
