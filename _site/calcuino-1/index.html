@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Calcuino 1</title>
+
+  
+
+  <meta name="description" content="Námět pro takové to hraní s Arduinem. Je veřejným tajemstvím, že plánuju knihu o elektronice, která bude kombinovat příklady elektronických konstrukcí s Arduinem a výklad principů elektroniky a některých pojmů (třeba „co to je SPI a jak si to připojím ke svému počítači?“) Od blikání s LEDkou půjdeme přes zapojení...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Calcuino 1">
+  <meta property="og:description" content="Námět pro takové to hraní s Arduinem. Je veřejným tajemstvím, že plánuju knihu o elektronice, která bude kombinovat příklady elektronických konstrukcí s Arduinem a výklad principů elektroniky a některých pojmů (třeba „co to je SPI a jak si to připojím ke svému počítači?“) Od blikání s LEDkou půjdeme přes zapojení...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2015-08-22T12:10:55+02:00">
+  <meta property="og:url" content="http://localhost:4000/calcuino-1/">
+  <link rel="canonical" href="http://localhost:4000/calcuino-1/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Calcuino 1">
+  <meta property="twitter:description" content="Námět pro takové to hraní s Arduinem. Je veřejným tajemstvím, že plánuju knihu o elektronice, která bude kombinovat příklady elektronických konstrukcí s Arduinem a výklad principů elektroniky a některých pojmů (třeba „co to je SPI a jak si to připojím ke svému počítači?“) Od blikání s LEDkou půjdeme přes zapojení...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Calcuino 1
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 22. 8. 2015</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Námět pro takové to hraní s Arduinem.</p>
+
+<!--more-->
+
+<p>Je veřejným tajemstvím, že plánuju knihu o elektronice, která bude kombinovat příklady elektronických konstrukcí s Arduinem a výklad principů elektroniky a některých pojmů (třeba „co to je SPI a jak si to připojím ke svému počítači?“) Od blikání s LEDkou půjdeme přes zapojení senzorů a připojení celého bazmeku k internetu až k jednoduchým počítačům. A jaký je předstupeň mezi blikačem a počítačem? No přece kalkulačka!</p>
+
+<p>Dnes existují dva hlavní způsoby stavby kalkulačky…</p>
+
+<p>Nebo jinak: Existují dva způsoby, jak přijít ke kalkulačce. Zaprvé: Buď použijete tu, co máte v počítači, v mobilu, v lednici nebo kdekoli jinde, popřípadě si koupíte některou z 572 modelů, co mají v obchodech, vietnamskými večerkami počínaje, nebo si nějakou postavíte.</p>
+
+<p>Proč si stavět draho něco, co si mohu koupit, nebo co dokonce dostanu jako reklamní dárek, a bude to vypadat líp než to doma postavené? Otázka stará jako poznání samo. A odpověď stejně stará: buď vás baví něco tvořit a přitom se učit nové věci, nebo vás to nebaví. (<em>Některým lidem můžete odseknout: „A proč ty píšeš znovu e-shop, quicksort, bankovní systém…?“</em>)</p>
+
+<p>Takže postavit. Dnes existují dva hlavní způsoby stavby kalkulačky. Jeden je opravdu retro, při něm použijete staré kalkulačkové obvody (MHB7001, MC14007 – viz třeba tahle <a href="http://www.nostalcomp.cz/kalkulajda.php">kalkulajda</a>), druhý je modernistický. Ten způsob mám rád i já. Ve stručnosti: Pokud to můžu poskládat z hotových modulů z eBay za dolar až pět včetně poštovného, tak to poskládám z modulů!</p>
+
+<p>Já si takhle vyhlédl modul pro remake jednodeskáčů. Je tam osm osmisegmentovek a šestnáct tlačítek a připojuje se to přes SPI, tedy tři dráty (+2 na napájení). Objednal jsem, přišel, včetně těch kablíků s dutinkami, a já přemýšlel, jak to připojit. Samozřejmě, nejjednodušší by bylo použít kablíky, kde jsou na jedné straně dutinky (pro ten modul) a na druhé dráty (pro zastrčení do Arduina), ale nakonec jsem se tak na to UNO koukal a oči mi furt kroužily kolem toho pinového konektoru ICSP. Tak jsem se na něj podíval blíž – a co myslíte?</p>
+
+<p><img loading="lazy" class="aligncenter size-full wp-image-685" src="http://retrocip.cz/wp-content/uploads/sites/6/2015/08/ICSP_connector_pinout.png" alt="" width="414" height="219" /></p>
+
+<p>Je tam +5V a zem, jsou tam tři datové vývody (11, 12 a 13) a RESET. Pokud zrovna nehodláte programovat jednočip, tak jsou volné a jsou natvrdo připojené na ty datové výstupy. Takže když to nastrkám tam…</p>
+
+<p>Druhý krok k řešení byl ten obvod TM1638. Mám sice <a href="/files/tm1638.pdf">datasheet</a>, který je srozumitelný – inu, jako datasheet k čínskému obvodu, ale raději se podívám, jestli někdo nemá knihovnu. Naštěstí měl: <a href="http://code.google.com/p/tm1638-library/">TM1638-library</a>. Dokonce v <a href="https://drive.google.com/file/d/0B4oMHcU_S9TNM2ZGUFJ3bkhPTFU/view?usp=sharing">aktuální verzi (2.2.0)</a> byla i úprava pro ten modul, co mám, protože modul má sedmisegmentovky se společnou anodou.</p>
+
+<p>Všechno jsem tedy propojil, vzal jsem knihovní demo (tm1638qyf), změnil nastavení vývodů, spustil – a děly se věci! Ono to svítilo, blikalo, běhaly po displeji zuřivé nápisy, logiku to nedávalo, až jsem se lekl, že to je rozbité, a ono ne, ono je tak naprogramované to demo!</p>
+
+<p>A tak jsem sedl a udělal svoje vlastní, co zobrazovalo čísla. Fungovalo to skvěle, ale mělo to takový jeden nešvar: Zobrazovalo to čísla buď s úvodními nulami, nebo vlevo. Takže jsem udělal <a href="/files/tm1638-library-v2.2.0-modified.zip">drobnou úpravu knihovny</a> – přidal jsem funkci pro zobrazení čísla se zarovnáním doprava, jak to kalkulačky mívají.</p>
+
+<p>Otestoval jsem i klávesnici. Práce s ní je jednoduchá: modul vrátí šestnáctibitové číslo, kde co bit, to tlačítko. Nejnižší bit odpovídá tlačítku 1, které je „vlevo nahoře“…</p>
+
+<p>Kalkulačka potřebuje 10 tlačítek pro číslice. Zbývalo mi 6. Jedno tlačítko zabere „=“, zbývá jich pět. Takže mám akorát na čtyři základní matematické operace, a to poslední bude „C“ – tedy tlačítko na smazání chyby.</p>
+
+<p>Namapoval jsem je takto:</p>
+
+<p><img loading="lazy" class="aligncenter size-full wp-image-686" src="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/calcuino1.png" alt="calcuino1" width="500" height="285" /></p>
+
+<p><em>(„Calcuino? WTF?“ No, taky to mohla být Ardulačka!)</em></p>
+
+<p>První pokus mi ukázal, že obvod by sice měl odstranit zákmity, ale nějak se mu do toho nechtělo, takže jsem si je ošetřil sám. A pak už to šlo krok za krokem.</p>
+
+<p>Přidal jsem jednoduchou funkci: Když zmáčknu tlačítko s číslicí, objeví se na displeji a přidá se k už napsanému číslu. Je to jednoduchá operace: Z = 10 * Z + n. Jestli nevěříte, zkuste si to: Mám na displeji 123, zmáčknu čtyřku, výsledek by měl být 1234, a to je přeci těch původních 123 * 10 + (zmáčknutá) 4! Do téže funkce přidám omezení počtu míst (na sedm, osmou pozici nechám volnou pro mínus).</p>
+
+<p>Tlačítko C prostě jen vynuluje pracovní registr (a na displeji se objeví 0).</p>
+
+<p>Tohle mi zabralo asi pět minut, a pak jsem zkusil implementovat první operaci, totiž plus.</p>
+
+<p>Není to úplně triviální, jak by to na první pohled mohlo vypadat. Nezapomeňte, že kalkulačky pracují s infixovou notací, to znamená že 2+3 se zadává jako série stisknutí tlačítek 2, +, 3 a =. Algoritmus je tedy takový:</p>
+
+<ol>
+  <li>Pokud uživatel stisknul číslici, přidej ji jako nejnižší řád k tomu, co je na displeji.</li>
+  <li>Pokud uživatel stisknul C, nastav displej na 0</li>
+  <li>Pokud uživatel stisknul nějakou operaci, poznamenej si ji. Ještě předtím proveď předchozí uloženou operaci, ulož si mezivýsledek do registru X a zobraz ho. Zároveň při dalším stisknutí číslice nejprve vynuluj displej.</li>
+  <li>Pokud uživatel stisknul „=“, tak proveď poslední uloženou operaci, výsledek si ulož do registru X a zobraz ho.</li>
+</ol>
+
+<p>K tomu jen poznámka: Kalkulačka nezohledňuje (v téhle verzi) prioritu operátorů, to budu řešit až příště (a vy si to můžete dát za domácí úkol).</p>
+
+<p>Kalkulačka tak potřebuje několik pracovních registrů: jednak registr X na uložení mezivýsledku, pak registr „op“ na uložení zvolené operace, a konečně registr Z, kde je obsah displeje.</p>
+
+<p>Takhle z popisu by to mohlo vypadat, že při stisku tlačítka s nějakou operací se vlastně vykonává ta předchozí, a když se nad tím zamyslíte, tak to tak opravdu je. Ta aktuální se ukládá „na příště“ a provádí se ta předchozí. Tlačítko „=“ je v podstatě stejné jako jakákoli jiná operace, jen s tím rozdílem, že „na příště“ se uloží operace „nedělej nic, jen zkopíruj displej do mezivýsledku!“</p>
+
+<p>Tak co, troufnete si to dát sami?</p>
+
+<p><img loading="lazy" class="aligncenter size-full wp-image-689" src="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102252.jpg" alt="IMG_20150822_102252" width="3072" height="1728" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102252.jpg 3072w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102252-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102252-1024x576.jpg 1024w" sizes="(max-width: 3072px) 100vw, 3072px" /><img loading="lazy" class="aligncenter size-full wp-image-690" src="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301.jpg" alt="IMG_20150822_102301" width="3072" height="1728" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301.jpg 3072w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301-1024x576.jpg 1024w" sizes="(max-width: 3072px) 100vw, 3072px" /><img loading="lazy" class="aligncenter size-full wp-image-691" src="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102335.jpg" alt="IMG_20150822_102335" width="3072" height="1728" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102335.jpg 3072w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102335-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102335-1024x576.jpg 1024w" sizes="(max-width: 3072px) 100vw, 3072px" /></p>
+
+<p>Můj kód je tady:</p>
+
+<p>A tady k tomu máte <a href="/files/calcuino1.zip">balíček</a>: kód, modifikovaná knihovna, datasheet a rozložení kláves.</p>
+
+<p>Náměty pro příště: upravit kalkulačku tak, aby zvládala prioritu operátorů, upravit ji tak, aby umožňovala zadat záporná čísla, upravit ji na RPN… Všechny tyhle modifikace mám připravené a postupně je budu přidávat. Ale nechci vás připravit o radost z vlastních experimentů.</p>
+
+<h3 id="komponenty-scebay-itemtm1638modulekeyboarddisplay-scebay-itemarduino20uno20r320atmega328p20board">Komponenty [sc:ebay item=TM1638+module+keyboard+display] [sc:ebay item=arduino%20UNO%20R3%20atmega328p%20board]</h3>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#arduino">arduino</a>
+        
+        <a href="/tags#calcuino">calcuino</a>
+        
+        <a href="/tags#kalkulačka">kalkulačka</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Calcuino+1&url=http%3A%2F%2Flocalhost%3A4000%2Fcalcuino-1%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fcalcuino-1%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fcalcuino-1%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/emw3162-dalsi-levne-wifi/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="EMW3162: další levné wifi"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/elektronika-a-mac-dil-prvni-arduino/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Elektronika a Mac, díl první: Arduino"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

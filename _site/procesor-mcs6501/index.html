@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Procesor MCS6501</title>
+
+  
+
+  <meta name="description" content="Díky svolení kurátora CPU Shack Musea mohu na Retročipu zveřejnit některé zajímavé články z historie mikroprocesorů. Dnes to bude příběh o ikonickém procesoru a jeho sourozenci… Jeden z nejklasičtějších příběhů z mikroprocesorového boomu v 70. letech je ten o MOS Technology na výstavě WESCON 16. září 1975 v San Franciscu. MOS...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Procesor MCS6501">
+  <meta property="og:description" content="Díky svolení kurátora CPU Shack Musea mohu na Retročipu zveřejnit některé zajímavé články z historie mikroprocesorů. Dnes to bude příběh o ikonickém procesoru a jeho sourozenci… Jeden z nejklasičtějších příběhů z mikroprocesorového boomu v 70. letech je ten o MOS Technology na výstavě WESCON 16. září 1975 v San Franciscu. MOS...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2015-02-09T13:33:14+01:00">
+  <meta property="og:url" content="http://localhost:4000/procesor-mcs6501/">
+  <link rel="canonical" href="http://localhost:4000/procesor-mcs6501/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Procesor MCS6501">
+  <meta property="twitter:description" content="Díky svolení kurátora CPU Shack Musea mohu na Retročipu zveřejnit některé zajímavé články z historie mikroprocesorů. Dnes to bude příběh o ikonickém procesoru a jeho sourozenci… Jeden z nejklasičtějších příběhů z mikroprocesorového boomu v 70. letech je ten o MOS Technology na výstavě WESCON 16. září 1975 v San Franciscu. MOS...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Procesor MCS6501
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 9. 2. 2015</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Díky svolení kurátora <a href="http://www.cpushack.com/">CPU Shack Musea</a> mohu na Retročipu zveřejnit některé zajímavé články z historie mikroprocesorů. Dnes to bude příběh o ikonickém procesoru a jeho sourozenci…</p>
+
+<!--more-->
+
+<p>Jeden z nejklasičtějších příběhů z mikroprocesorového boomu v 70. letech je ten o MOS Technology na výstavě WESCON 16. září 1975 v San Franciscu. MOS Technology byli ve světě procesorů nováčci. Na výstavu s sebou přivezli dva nové procesory, MCS6501 a MCS6502, a doufali, že by jich s cenou 20 či 25 dolarů mohli pár na výstavě prodat. Pravidla WESCONu ale neumožňovala prodej přímo ve výstavních prostorách, tak bystrý šéf MOS Technology Chuck Peddle nalákal lidi do hotelového pokoje, kde bylo „pivo zdarma a čip(s)y za 25 dolarů“. V místnosti byly nádoby plné procesorů 6501 a 6502. Měly vzbuzovat dojem, že výroba je v plném proudu. Ve skutečnosti byly vespod vadné kusy. Ale to nevadilo, série 6500 se stala velkým hitem, především díky dostupnosti, nízké ceně a prodejem každému (a ne jen „velkým korporátním zákazníkům“). Řada 6500, a speciálně procesor 6501, má zajímavý příběh, který vedl až k jejich slavnému dni na WESCONu.</p>
+
+<p><img loading="lazy" class="aligncenter size-full wp-image-519" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/02/MOSMCS6501-4575.jpg" alt="" width="599" height="222" /></p>
+
+<p>Příběh začal v Motorole, kde Chuck Peddle, Bill Mensch a někteří další zaměstnanci na počátku 70. let navrhovali procesor MC6800 a periferní obvody. 6800 nebyl špatně navržený procesor, ale byl hodně drahý. Vývojový kit stál přes 300 dolarů. Chuck pracoval hlavně jako systémový architekt, jehož zodpovědností bylo, aby obvody fungovaly bez problémů společně a aby dělaly, co zákazníci očekávají. Proto s budoucími klienty často hovořil, a přitom si všimnul, že mnohé z nich odrazuje jedna věc, totiž cena. S tímto vědomím se snažil postavit levnější verzi 6800 pomocí novějších technologií, které byly k dispozici (jmenovitě využít místo „enhancement mode MOS“, kterým byla vyráběna 6800, technologii „depletion mode NMOS“). Management Motoroly o tom nechtěl ani slyšet, nějaký levný procesor pro masy je nezajímal. Takže Chuck, Bill a další lidé, víc než polovina týmu, co pracoval na 6800, odešli.</p>
+
+<p>Skončili ve firmě MOS Technology, které v té době byla z velké části vlastněná společností Allen/Bradley. Právě zde, v MOS Technology pod vedením Chucka Peddla, vznikly procesory 6501 a 6502. 6501 byl pinově kompatibilní s procesorem MC6800, ačkoli měl jinou instrukční sadu. Mohli jste v návrhu beze změn nahradit 6800 procesorem 6501 a jediné, co se muselo změnit, byl software. Použití „depletion mode NMOS“ přineslo zmenšení struktur, takže se na jednu destičku vešlo víc čipů. 6502 byl velmi podobný, dokonce používal skoro totožnou sadu masek, s tím rozdílem, že 6502 měl zapojený oscilátor na čipu a jiné rozmístění vývodů. 6501 vyžadoval externí dvoufázový generátor hodin, stejně jako 6800.</p>
+
+<p>6501 nebyl nikdy zamýšlený jako obvod pro masový trh; Chuck často říkal, že to je <em>„dlouhý nos na Motorolu“</em>. Motorola si toho samozřejmě všimla a podala žalobu, což v důsledku znamenalo, že se Allen/Bradley z MOS Technology stáhli, 6501 byl stažen z prodeje, padla pokuta 200.000 dolarů a zároveň výrazně klesla cena procesorů 6800 a dalších. Všeobecně se předpokládá, že si Motorola vynutila redesign 6501 a tak vznikl 6502, ale tak to není. Oba procesory (a s nimi i 6503, 04 a 05) vznikly souběžně a byly dostupné ve stejnou dobu. Motorola si vynutila konec prodeje 6501, ale ten nikdy nebyl určen k prodeji masám, 6502 byl jednodušší a snadněji použitelný v návrhu. 6502 žil dál, i když MOS Technology koupila firma Commodore. 6502 byl použit v mnoha legendárních strojích, jako Apple 1, Commodore 64 <em>(Ten měl upravenou verzi 6510, pozn. překl.) _a v mnoha dalších. Obvod 6502, ovšem už v CMOS podobě, je několika společnostmi vyráběn dodneška, téměř 40 let po svém debutu s _pivem zdarma</em>.</p>
+
+<p><em>Článek je přeložen z anglického originálu <a href="http://www.cpushack.com/2013/08/03/mos-technology-mcs6501-processor">MOS Technology MCS6501 Processor</a> a je publikován s laskavým svolením vydavatele CPU Shack.</em></p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#6501">6501</a>
+        
+        <a href="/tags#6502">6502</a>
+        
+        <a href="/tags#Atari">Atari</a>
+        
+        <a href="/tags#Commodore">Commodore</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Procesor+MCS6501&url=http%3A%2F%2Flocalhost%3A4000%2Fprocesor-mcs6501%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprocesor-mcs6501%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fprocesor-mcs6501%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/zx-spectrum-a-loadery-2/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="ZX Spectrum a loadery &#8211; 2"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/national-semiconductor-cops/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="National Semiconductor COPS"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

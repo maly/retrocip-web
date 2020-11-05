@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>3. Instrukce, pseudoinstrukce, makra</title>
+
+  
+
+  <meta name="description" content="Obsah 1 Preprocesor 1.1 Makra 2 Pseudoinstrukce 3  4. Výrazy a čísla ## Preprocesor Instrukce pro preprocesor začínají vždy tečkou. Provedou se ještě před parsováním zdrojového textu. | Pseudoinstrukce | Význam | | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | | .include _filename_ | Vloží obsah jiného souboru do tohoto místa. | | .incbin _filename_...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="3. Instrukce, pseudoinstrukce, makra">
+  <meta property="og:description" content="Obsah 1 Preprocesor 1.1 Makra 2 Pseudoinstrukce 3  4. Výrazy a čísla ## Preprocesor Instrukce pro preprocesor začínají vždy tečkou. Provedou se ještě před parsováním zdrojového textu. | Pseudoinstrukce | Význam | | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | | .include _filename_ | Vloží obsah jiného souboru do tohoto místa. | | .incbin _filename_...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2014-01-15T10:55:02+01:00">
+  <meta property="og:url" content="http://localhost:4000/manual-asm80/3-instrukce-pseudoinstrukce-makra/">
+  <link rel="canonical" href="http://localhost:4000/manual-asm80/3-instrukce-pseudoinstrukce-makra/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="3. Instrukce, pseudoinstrukce, makra">
+  <meta property="twitter:description" content="Obsah 1 Preprocesor 1.1 Makra 2 Pseudoinstrukce 3  4. Výrazy a čísla ## Preprocesor Instrukce pro preprocesor začínají vždy tečkou. Provedou se ještě před parsováním zdrojového textu. | Pseudoinstrukce | Význam | | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | | .include _filename_ | Vloží obsah jiného souboru do tohoto místa. | | .incbin _filename_...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="page-heading">
+            <h1>
+              3. Instrukce, pseudoinstrukce, makra
+            </h1>
+             
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <div id="toc_container" class="toc_wrap_right no_bullets">
+  <p class="toc_title">
+    Obsah
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#Preprocesor"><span class="toc_number toc_depth_1">1</span> Preprocesor</a><ul>
+        <li>
+          <a href="#Makra"><span class="toc_number toc_depth_2">1.1</span> Makra</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#Pseudoinstrukce"><span class="toc_number toc_depth_1">2</span> Pseudoinstrukce</a>
+    </li>
+    <li>
+      <a href="#4_Vyrazy_a_cisla"><span class="toc_number toc_depth_1">3</span>  4. Výrazy a čísla</a>
+    </li>
+  </ul>
+</div>
+
+<h2 id="preprocesor"><span id="Preprocesor">Preprocesor</span></h2>
+
+<p>Instrukce pro preprocesor začínají vždy tečkou. Provedou se ještě před parsováním zdrojového textu.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pseudoinstrukce</th>
+      <th>Význam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.include <em>filename</em></td>
+      <td>Vloží obsah jiného souboru do tohoto místa.</td>
+    </tr>
+    <tr>
+      <td>.incbin <em>filename</em></td>
+      <td>Vloží obsah jiného souboru do tohoto místa binárně, tj. nepovažuje ho za zdrojový kód pro assembler, ale za sérii dat, která bude vložena tak jak je.</td>
+    </tr>
+    <tr>
+      <td>.macro <em>macro_name</em></td>
+      <td>Označuje začátek definice makra. Tyto definice nelze vnořovat.</td>
+    </tr>
+    <tr>
+      <td>.rept <em>počet</em></td>
+      <td>Zopakuje instrukce od tohoto místa až po .endm tolikrát, kolik říká parametr</td>
+    </tr>
+    <tr>
+      <td>.endm</td>
+      <td>Konec definice makra / smyčky REPT</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="makra"><span id="Makra">Makra</span></h3>
+
+<p>Makro se definuje pomocí pseudoinstrukcí .macro a .endm. Parametry jsou číslovány od 1 a odkazovány pomocí zápisu %%1, %%2, %%3, …</p>
+
+<pre>.macro decadd
+   adi %%1
+   daa
+.endm
+; Ukázka použití
+ decadd $22</pre>
+
+<p>Výsledný kód je:</p>
+
+<pre>0000 ; Ukázka použití 
+ **MACRO UNROLL - DECADD
+0000 87 22 ADI $22 
+0001 27    DAA</pre>
+
+<h2 id="pseudoinstrukce"><span id="Pseudoinstrukce">Pseudoinstrukce</span></h2>
+
+<p>Slouží k ovlivnění běhu překladače nebo pro vložení obsahu do výsledného kódu. Některé z nich lze z důvodu zpětné kompatibility používat bez úvodní tečky, ty jsou v následující tabulce uvedené bez tečky (ale lze použít i tečkovanou verzi).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pseudoinstrukce</th>
+      <th>Význam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>db (aliasy: defb, fcb)</td>
+      <td>Vložení bajtů. Umožňuje DB čísel i řetězců. Lze použít syntaxi 10 DUP (123) – N krát zopakuje to, co je v závorce.</td>
+    </tr>
+    <tr>
+      <td>dw (aliasy: defw, fdb)</td>
+      <td>Vložení slov. Lze použít syntaxi 10 DUP (123) – N krát zopakuje to, co je v závorce.</td>
+    </tr>
+    <tr>
+      <td>ds (aliasy: defm, defs, rmb)</td>
+      <td>Vložení prázdného místa</td>
+    </tr>
+    <tr>
+      <td>fill <em>value</em>, <em>count</em></td>
+      <td>Vyplní paměť (count byte) hodnotou value.</td>
+    </tr>
+    <tr>
+      <td>bsz (alias: zmb)</td>
+      <td>Vložení určeného počtu nulových bajtů</td>
+    </tr>
+    <tr>
+      <td>org <em>addr</em></td>
+      <td>Nastavení počáteční adresy překladu</td>
+    </tr>
+    <tr>
+      <td>.phase <em>addr</em></td>
+      <td>Kód bude vygenerován na tom místě, kde je zapsán (tedy dle příslušného ORG), ale bude vygenerován tak, jako by byl od adresy addr. Hodí se k psaní rutin, co budou později v paměti přeneseny na jiné místo</td>
+    </tr>
+    <tr>
+      <td>.dephase</td>
+      <td>Konec bloku .phase</td>
+    </tr>
+    <tr>
+      <td>.align <em>N</em></td>
+      <td>Další instrukce bude na adrese, která je dělitelná N. Volné místo je volné a ve výsledném HEX není nijak ovlivněné.</td>
+    </tr>
+    <tr>
+      <td>.ent <em>addr</em></td>
+      <td>Nastavení adresy, od které se kód spustí v emulátoru. Použití např.: <strong>.ent $</strong></td>
+    </tr>
+    <tr>
+      <td>.engine <em>název</em></td>
+      <td>Nastavení emulátoru, ve kterém bude spouštěn kód při emulaci. Dostupné jsou: pmi, pmd, bob, jpr, sbcz80, sbc6502, sbc09 a zxs</td>
+    </tr>
+    <tr>
+      <td>equ (alias: =)</td>
+      <td>Přiřazení hodnoty návěští. Např. <strong>VIDRAM equ $4000</strong></td>
+    </tr>
+    <tr>
+      <td>.if <em>cond</em></td>
+      <td>Podmínka – blok instrukcí až po .endif se vloží pouze tehdy, pokud podmínka platí (výraz je nenulový)</td>
+    </tr>
+    <tr>
+      <td>.ifn <em>cond</em></td>
+      <td>Podmínka – blok instrukcí až po .endif se vloží pouze tehdy, pokud podmínka neplatí (výraz je nulový)</td>
+    </tr>
+    <tr>
+      <td>.endif</td>
+      <td>Ukončuje blok s podmínkou. Pozor! Podmínky nelze vnořovat!</td>
+    </tr>
+    <tr>
+      <td>.block</td>
+      <td>Zahajuje blok lokálních proměnných. Všechna návěští v tomto bloku jsou lokální, tzn. mimo blok na ně nelze odkazovat. Pokud chcete definovat takové návěští,</td>
+    </tr>
+    <tr>
+      <td>které bude vidět i zvenčí bloku, napište před jeho jméno znak @. Možné využití je u knihoven, vkládaných pomocí include.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>.endblock</td>
+      <td>Ukončuje blok lokálních proměnných</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="4-výrazy-a-čísla"><span id="4_Vyrazy_a_cisla"> 4. Výrazy a čísla</span></h2>
+
+<p>Assembler z důvodu kompatibility umožňuje zápis v různých formátech. Decimální čísla se zapisují bez jakéhokoli prefixu či postfixu (10,42,-5). Hexadecimální v několika různých tvarech – s prefixy 0x nebo $ či s postfixem h: 0x12AB, $12AB nebo 12ABh jsou ekvivaletní zápisy. Binární konstanty se zapisují pomocí prefixu „%“ nebo postfixem „b“: 01001b / %01001</p>
+
+<p>Parser v assembleru zvládne i složitější matematické výrazy se závorkami apod. Lze použít operátory +, -, *, /, % (modulo), # (modulo – alias k % kvůli komaptibilitě) a další. Ve výrazech lze použít návěští v roli proměnných. Lze použít i pseudoproměnnou $, která obsahuje aktuální hodnotu čítače adres.</p>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

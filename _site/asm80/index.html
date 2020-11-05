@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>ASM80</title>
+
+  
+
+  <meta name="description" content="Obsah 1 1. Konvence 2 2. Instrukce pro preprocesor 2.1 2.1. Makra 3 3. Pseudoinstrukce 4  4. Výrazy a čísla 5 5. Emulátor 6 Dotazy a připomínky 7 Demo 8 Roadmap Já vím, já vím… Není to nic nového, ale mě to baví. Pokud byste někdo hledali online assembler pro...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="ASM80">
+  <meta property="og:description" content="Obsah 1 1. Konvence 2 2. Instrukce pro preprocesor 2.1 2.1. Makra 3 3. Pseudoinstrukce 4  4. Výrazy a čísla 5 5. Emulátor 6 Dotazy a připomínky 7 Demo 8 Roadmap Já vím, já vím… Není to nic nového, ale mě to baví. Pokud byste někdo hledali online assembler pro...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2013-11-20T10:21:46+01:00">
+  <meta property="og:url" content="http://localhost:4000/asm80/">
+  <link rel="canonical" href="http://localhost:4000/asm80/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="ASM80">
+  <meta property="twitter:description" content="Obsah 1 1. Konvence 2 2. Instrukce pro preprocesor 2.1 2.1. Makra 3 3. Pseudoinstrukce 4  4. Výrazy a čísla 5 5. Emulátor 6 Dotazy a připomínky 7 Demo 8 Roadmap Já vím, já vím… Není to nic nového, ale mě to baví. Pokud byste někdo hledali online assembler pro...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              ASM80
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 20. 11. 2013</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><div id="toc_container" class="toc_wrap_right no_bullets">
+  <p class="toc_title">
+    Obsah
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#1_Konvence"><span class="toc_number toc_depth_1">1</span> 1. Konvence</a>
+    </li>
+    <li>
+      <a href="#2_Instrukce_pro_preprocesor"><span class="toc_number toc_depth_1">2</span> 2. Instrukce pro preprocesor</a><ul>
+        <li>
+          <a href="#21_Makra"><span class="toc_number toc_depth_2">2.1</span> 2.1. Makra</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#3_Pseudoinstrukce"><span class="toc_number toc_depth_1">3</span> 3. Pseudoinstrukce</a>
+    </li>
+    <li>
+      <a href="#4_Vyrazy_a_cisla"><span class="toc_number toc_depth_1">4</span>  4. Výrazy a čísla</a>
+    </li>
+    <li>
+      <a href="#5_Emulator"><span class="toc_number toc_depth_1">5</span> 5. Emulátor</a>
+    </li>
+    <li>
+      <a href="#Dotazy_a_pripominky"><span class="toc_number toc_depth_1">6</span> Dotazy a připomínky</a>
+    </li>
+    <li>
+      <a href="#Demo"><span class="toc_number toc_depth_1">7</span> Demo</a>
+    </li>
+    <li>
+      <a href="#Roadmap"><span class="toc_number toc_depth_1">8</span> Roadmap</a>
+    </li>
+  </ul>
+</div>
+
+<p>Já vím, já vím… Není to nic nového, ale mě to baví. Pokud byste někdo hledali online assembler pro staré osmibitové procesory, tak je tady.</p>
+
+<!--more-->
+
+<p><a href="http://www.asm80.com/">ASM80</a> je online editor / assembler / emulátor pro osmibitové procesory.</p>
+
+<p> </p>
+
+<p><a href="http://www.asm80.com/">ASM80</a> ukládá soubory ve vašem prohlížeči. Nenajdete je tedy ani na svém disku, ani na serveru. Pokud s nimi chcete pracovat mimo IDE, můžete si celý pracovní prostor (workspace) stáhnout jako ZIP soubor. V budoucnu přibude možnost ukládat si pracovní prostory a soubory na serveru.<a href="http://www.asm80.com/">ASM80</a> pro práci nevyžaduje přihlašování ani zakládání účtu.</p>
+
+<h2 id="1-konvence"><span id="1_Konvence">1. Konvence</span></h2>
+
+<p>Assembler rozlišuje typ procesoru podle přípony:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Přípona</th>
+      <th>Procesor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.a80</td>
+      <td>Intel 8080 / 8085</td>
+    </tr>
+    <tr>
+      <td>.z80</td>
+      <td>Zilog Z80</td>
+    </tr>
+    <tr>
+      <td>.a65</td>
+      <td>MOS 6502</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pokud nepozná typ podle přípony, zkouší najít pseudoinstrukci „.cpu“</p>
+
+<p>Po úspěšném překladu souboru filename.ext (např. pokus.a80) vzniknou soubory filename.ext.hex a filename.ext.lst (pokus.a80.hex a pokus.a80.lst), které obsahují přeložený kód ve formátu INTEL HEX a listing překladu.</p>
+
+<p>Assembler nerozlišuje mezi velkými a malými písmeny, interně si názvy instrukcí i návěští překládá na velká písmena. Název návěští smí obsahovat znaky A-Z, 0-9, – a _.</p>
+
+<h2 id="2-instrukce-pro-preprocesor"><span id="2_Instrukce_pro_preprocesor">2. Instrukce pro preprocesor</span></h2>
+
+<p>Instrukce pro preprocesor začínají vždy tečkou. Provedou se ještě před parsováním zdrojového textu.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pseudoinstrukce</th>
+      <th>Význam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.include <em>filename</em></td>
+      <td>Vloží obsah jiného souboru do tohoto místa.</td>
+    </tr>
+    <tr>
+      <td>.macro <em>macro_name</em></td>
+      <td>Označuje začátek definice makra. Tyto definice nelze vnořovat.</td>
+    </tr>
+    <tr>
+      <td>.rept <em>počet</em></td>
+      <td>Zopakuje instrukce od tohoto místa až po .endm tolikrát, kolik říká parametr</td>
+    </tr>
+    <tr>
+      <td>.endm</td>
+      <td>Konec definice makra / smyčky REPT</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="21-makra"><span id="21_Makra">2.1. Makra</span></h3>
+
+<p>Makro se definuje pomocí pseudoinstrukcí .macro a .endm. Parametry jsou číslovány od 1 a odkazovány pomocí zápisu %%1, %%2, %%3, …</p>
+
+<pre>.macro decadd
+   adi %%1
+   daa
+.endm
+; Ukázka použití
+ decadd $22</pre>
+
+<p>Výsledný kód je:</p>
+
+<pre>0000 ; Ukázka použití 
+ **MACRO UNROLL - DECADD
+0000 87 22 ADI $22 
+0001 27    DAA</pre>
+
+<h2 id="3-pseudoinstrukce"><span id="3_Pseudoinstrukce">3. Pseudoinstrukce</span></h2>
+
+<p>Slouží k ovlivnění běhu překladače nebo pro vložení obsahu do výsledného kódu. Některé z nich lze z důvodu zpětné kompatibility používat bez úvodní tečky, ty jsou v následující tabulce uvedené bez tečky (ale lze použít i tečkovanou verzi).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pseudoinstrukce</th>
+      <th>Význam</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>db (alias: defb)</td>
+      <td>Vložení bajtů. Umožňuje DB čísel i řetězců. Lze použít syntaxi 10 DUP (123) – N krát zopakuje to, co je v závorce.</td>
+    </tr>
+    <tr>
+      <td>dw (alias: defw)</td>
+      <td>Vložení slov. Lze použít syntaxi 10 DUP (123) – N krát zopakuje to, co je v závorce.</td>
+    </tr>
+    <tr>
+      <td>ds (aliasy: defm,defs)</td>
+      <td>Vložení prázdného místa</td>
+    </tr>
+    <tr>
+      <td>org <em>addr</em></td>
+      <td>Nastavení počáteční adresy překladu</td>
+    </tr>
+    <tr>
+      <td>.ent <em>addr</em></td>
+      <td>Nastavení adresy, od které se kód spustí v emulátoru. Použití např.: <strong>.ent $</strong></td>
+    </tr>
+    <tr>
+      <td>equ (alias: =)</td>
+      <td>Přiřazení hodnoty návěští. Např. <strong>VIDRAM equ $4000</strong></td>
+    </tr>
+    <tr>
+      <td>.if <em>cond</em></td>
+      <td>Podmínka – blok instrukcí až po .endif se vloží pouze tehdy, pokud podmínka platí (výraz je nenulový)</td>
+    </tr>
+    <tr>
+      <td>.ifn <em>cond</em></td>
+      <td>Podmínka – blok instrukcí až po .endif se vloží pouze tehdy, pokud podmínka neplatí (výraz je nulový)</td>
+    </tr>
+    <tr>
+      <td>.endif</td>
+      <td>Ukončuje blok s podmínkou. Pozor! Podmínky nelze vnořovat!</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="4-výrazy-a-čísla"><span id="4_Vyrazy_a_cisla"> 4. Výrazy a čísla</span></h2>
+
+<p>Assembler z důvodu kompatibility umožňuje zápis v různých formátech. Decimální čísla se zapisují bez jakéhokoli prefixu či postfixu (10,42,-5). Hexadecimální v několika různých tvarech – s prefixy 0x nebo $ či s postfixem h: 0x12AB, $12AB nebo 12ABh jsou ekvivaletní zápisy. Binární konstanty se zapisují pomocí prefixu „%“ nebo postfixem „b“: 01001b / %01001</p>
+
+<p>Parser v assembleru zvládne i složitější matematické výrazy se závorkami apod. Lze použít operátory +, -, *, /, % (modulo), # (modulo – alias k % kvůli komaptibilitě) a další. Ve výrazech lze použít návěští v roli proměnných. Lze použít i pseudoproměnnou $, která obsahuje aktuální hodnotu čítače adres.</p>
+
+<h2 id="5-emulátor"><span id="5_Emulator">5. Emulátor</span></h2>
+
+<p>IDE obsahuje jednoduchý emulátor procesorů 8080 a 6502 (Z80 je v přípravě). Stiskem F10 proběhne překlad a spustí se emulátor. Můžete krokovat instrukce po jedné nebo po 50 a můžete měnit obsah registrů (změna obsahu paměti zatím není implementována)</p>
+
+<h2 id="dotazy-a-připomínky"><span id="Dotazy_a_pripominky">Dotazy a připomínky</span></h2>
+
+<p>K posílání dotazů a připomínek slouží ikona otazníku v pravém horním rohu. Upozorňuju předem, že ASM80 funguje pouze v moderních prohlížečích (IE9 a novější, Firefox, Chrome).</p>
+
+<h2 id="demo"><span id="Demo">Demo</span></h2>
+
+<p>Pomocí následujících odkazů si můžete do svého pracovního prostoru přidat připravené zdrojové kódy:</p>
+
+<ul>
+  <li><a href="http://www.asm80.com/#demo/pmi80.a80">Monitor PMI-80</a> – výpis pochází ze stránek <a href="http://www.nostalcomp.cz/pmi80.php">NOSTALCOMP PMI-80</a></li>
+  <li><a href="http://www.asm80.com/#demo/game.a65">SNAKE 6502</a> – jednoduchá hra, pocházející ze stránky <a href="http://skilldrick.github.io/easy6502/index.html">Easy6502</a>.</li>
+</ul>
+
+<p>Další demokódy budou následovat. Máte-li nějaký námět nebo nabídku, pošlete mi jej, díky.</p>
+
+<h2 id="roadmap"><span id="Roadmap">Roadmap</span></h2>
+
+<p>(nikoli v pořadí důležitosti)</p>
+
+<ul>
+  <li>emulace Z80</li>
+  <li>Emulátory počítačových sestav (PMI-80, BOB-85, TEMS 80-03 a další)</li>
+  <li>Podpora procesorů 680x</li>
+  <li>Možnost uložit si soubory z prohlížeče na serveru, přidat k nim dokumentaci, zveřejnit je jako knihovny</li>
+  <li>otevřené API pro vytváření dalších emulačních modulů</li>
+</ul>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#ASM80">ASM80</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=ASM80&url=http%3A%2F%2Flocalhost%3A4000%2Fasm80%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fasm80%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fasm80%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/na-dlouhe-zimni-vecery/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Na dlouhé zimní večery"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

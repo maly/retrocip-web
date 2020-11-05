@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Jednodesková výzva: druhé kolo</title>
+
+  
+
+  <meta name="description" content="Tak co, zkusili jste si jednoduchý obslužný program pro ovládání jednodeskového počítače přes sériovou linku? Já ano. Zkusil jsem napsat obslužný program pro model s procesorem Z80. Ovládání je jednoduché – máte pouze dva příkazy M a G. Příkaz M slouží ke změně obsahu paměti. Po jeho zadání zadáte adresu...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Jednodesková výzva: druhé kolo">
+  <meta property="og:description" content="Tak co, zkusili jste si jednoduchý obslužný program pro ovládání jednodeskového počítače přes sériovou linku? Já ano. Zkusil jsem napsat obslužný program pro model s procesorem Z80. Ovládání je jednoduché – máte pouze dva příkazy M a G. Příkaz M slouží ke změně obsahu paměti. Po jeho zadání zadáte adresu...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2017-10-02T19:53:55+02:00">
+  <meta property="og:url" content="http://localhost:4000/jednodeskova-vyzva-druhe-kolo/">
+  <link rel="canonical" href="http://localhost:4000/jednodeskova-vyzva-druhe-kolo/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Jednodesková výzva: druhé kolo">
+  <meta property="twitter:description" content="Tak co, zkusili jste si jednoduchý obslužný program pro ovládání jednodeskového počítače přes sériovou linku? Já ano. Zkusil jsem napsat obslužný program pro model s procesorem Z80. Ovládání je jednoduché – máte pouze dva příkazy M a G. Příkaz M slouží ke změně obsahu paměti. Po jeho zadání zadáte adresu...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Jednodesková výzva: druhé kolo
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 2. 10. 2017</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Tak co, zkusili jste si jednoduchý obslužný program pro ovládání jednodeskového počítače přes sériovou linku?</p>
+
+<p>Já ano. Zkusil jsem napsat <a href="https://gist.github.com/maly/542524230b4805976b32bf45ac2971dc">obslužný program pro model s procesorem Z80</a>. Ovládání je jednoduché – máte pouze dva příkazy M a G. Příkaz M slouží ke změně obsahu paměti. Po jeho zadání zadáte adresu (2 bajty, tedy 4 hexadecimální znaky), a pak vám systém vypíše adresu, stávající obsah a čeká na zadání. Pokud nezadáte nový obsah a stisknete enter, pokračuje se na další adresu beze změny. Pokud zadáte nový obsah, uloží se. Zadávání ukončíte stiskem mezery.</p>
+
+<p>Příkaz G si jen vezme adresu a skočí na ni (JP). Nic víc.</p>
+
+<p>Při zadávání hexadecimálních hodnot bere systém poslední dvě (popř. čtyři) hodnoty, takže když chcete zadat třeba 1234 a překlepnete se, tak neřešte žádné mazání, nic takového, prostě zadejte znovu: 12331234 – a systém vezme jen poslední zadané.</p>
+
+<p>V programu jsem použil pár triků. Například pro velmi často používanou rutinu “pošli na terminál znak” jsem umístil příkaz skoku na adresu 8. Proč? No protože Z80 má osm instrukcí RST, které zabírají jen jediný bajt, a skáčou (podobně jako call) na některou z adres 0, 8, 10, 18, 20, 28, 30, 38 (hexadecimálně). Úspora svou bajtů pro každé volání.</p>
+
+<p>Některé úspory jsou na první pohled méně patrné. Třeba rutina pro výpis dvoubajtové hodnoty, uložené ve dvojici registrů HL (PRINTADDR), obsahuje pouhé tři instrukce: přesune obsah registru H do registru A, zavolá rutinu “vypiš jednobajtovou hodnotu z registru A” (PRINTHEX), pak přesune do registru A hodnotu z registru L – a dál? No, dál pokračuje rutina PRINTHEX, protože je umístěná šikovně hned za PRINTADDR… Hezký trik, který ušetří jeden skok, ale je potřeba na to myslet, protože jakmile mezi PRINTADDR a PRINTHEX vložíte ještě něco, tak se PRINTADDR rozbije.</p>
+
+<p>Taky je dobrý zvyk nedělat konstrukce typu CALL něco, RET, a místo toho použít rovnou JP něco – ušetříte tím nejen jednu instrukci, ale i dva bajty na zásobníku.</p>
+
+<p>Ošidil jsem kontrolu hexadecimálních znaků, takže mi jako hexadecimální projde i to, co je v ASCII mezi 9 a A, třeba dvojtečka. To je ještě potřeba pořešit. Ještě bych udělal pár optimalizací, ale dostal jsem se do 256 bajtů, a to je snesitelné.</p>
+
+<p><em>PS: Komentáře jsem psal třikrát, a třikrát mi spadnul prohlížeč. Tak tam nakonec nejsou. Pardon, to je velká chyba, já je tam dopíšu. 🙁</em></p>
+
+<p>Tak. Pojďme na samotné <strong>druhé kolo</strong>. Přidáme si starou dobrou tlačítkovou klávesnici a sedmisegmentový displej.</p>
+
+<p>Způsobů řešení displeje je mnoho, nejčastěji se používá multiplexované řízení, kdy se pravidelně posílá informace o tom, jaká pozice se adresuje a jaký obsah má mít. Já zvolil jednodušší řešení: každá pozice má vlastní registr a zapisuje se do ní přímo. Konkrétní adresy jsou 0x40, 0x41 atd… Zvolil jsem displej s osmi pozicemi, takže u Z80 to je 0x40 až 0x47 (zleva doprava). U 6502 je zase mapování do prostoru paměti, 0xA040 až 0xA047.</p>
+
+<p>Klávesnice je řešená jako matice tlačítek. Minimálně jich je potřeba 16, pro každou hexadecimální hodnotu jedno tlačítko, ale pohodlnější práce je s maticemi 5×4 nebo 6×4. PMI-80 mělo matici 5×5 (ovšem mapovanou z obvodových důvodů na 3×9). Pro jednoduchost jsem zvolil matici 5×4, kam můžete namapovat 16 kláves s hodnotami a 4 řídicí, resp. funkční tlačítka.</p>
+
+<p>Adresaci jsem zvolil (u Z80) trochu zvláštní: řádky se čtou z různých adres tak, že adresa je vždy 0x80 + 16*číslo řádku. Tedy 0x80 pro první řádek, 0x90 pro druhý řádek, … Pokud není žádné tlačítko stisknuté, je přečtená hodnota 0xFF, pokud je, jsou na pozici bitů 0 až 3 nuly tam, kde jsou stisknutá tlačítka. (Nepřekvapí, že u klávesnice je to 0xA800, 0xA900, 0xAA00, 0xAB00, 0xAC00…)</p>
+
+<p>Já si navrhl čtyři funkční tlačítka M, G, EX a =, ale vy si klidně navrhněte jiné podle funkcí, které chcete nabídnout. Ale než se k tomu dostaneme…</p>
+
+<p>Jestli můžeme – pojďme si nejprve procvičit práci s klávesnicí a displejem úplně jednoduchým příkladem: Udělejme hexadecimální kalkulačku – přesněji sčítačku, která bude sčítat zadaná čísla. Budete potřebovat jen dvě funkční klávesy: CLR a + Čísla si můžeme omezit, ať se to líp počítá, na dvoubajtové hodnoty. Funkce bude jednoduchá: CLR vynuluje součet, zadáním čísla a + se tato hodnota přičte k mezisoučtu, a ten se zobrazí. 1234 + 21 + 52 + 75 + 3A + 2BFF + …</p>
+
+<p>Ještě <a href="https://gist.github.com/maly/5a67c663f88040213a6efabed9be34c9">moje EMU soubory</a> pro ASM80 jako gist.</p>
+
+<p>Ať se daří</p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#jednodeskáč">jednodeskáč</a>
+        
+        <a href="/tags#Jednodesková výzva">Jednodesková výzva</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Jednodeskov%C3%A1+v%C3%BDzva%3A+druh%C3%A9+kolo&url=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-druhe-kolo%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-druhe-kolo%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-druhe-kolo%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/jednodeskova-vyzva-prvni-kolo/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Jednodesková výzva: první kolo"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/monitor-ke-starym-pocitacum-za-par-korun/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Monitor ke starým počítačům za pár korun"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

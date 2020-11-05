@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Programujeme logiku&#8230;</title>
+
+  
+
+  <meta name="description" content="Dr. Divnočip, aneb Jak jsem se naučil nedělat si starosti a mít rád FPGA. To bylo v dobách, kdy jsem ještě nevěděl, že diskusním fórům, plným opravdových odborníků, je lepší se vyhnout. Někdy poradí dobře, o tom žádná, ale pokud se někdo ptá trošku jinak nebo pokud přistupuje k věcem...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Programujeme logiku&#8230;">
+  <meta property="og:description" content="Dr. Divnočip, aneb Jak jsem se naučil nedělat si starosti a mít rád FPGA. To bylo v dobách, kdy jsem ještě nevěděl, že diskusním fórům, plným opravdových odborníků, je lepší se vyhnout. Někdy poradí dobře, o tom žádná, ale pokud se někdo ptá trošku jinak nebo pokud přistupuje k věcem...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2015-05-03T17:26:02+02:00">
+  <meta property="og:url" content="http://localhost:4000/programujeme-logiku/">
+  <link rel="canonical" href="http://localhost:4000/programujeme-logiku/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Programujeme logiku&#8230;">
+  <meta property="twitter:description" content="Dr. Divnočip, aneb Jak jsem se naučil nedělat si starosti a mít rád FPGA. To bylo v dobách, kdy jsem ještě nevěděl, že diskusním fórům, plným opravdových odborníků, je lepší se vyhnout. Někdy poradí dobře, o tom žádná, ale pokud se někdo ptá trošku jinak nebo pokud přistupuje k věcem...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Programujeme logiku&#8230;
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 3. 5. 2015</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Dr. Divnočip, aneb Jak jsem se naučil nedělat si starosti a mít rád FPGA.</p>
+
+<!--more-->
+
+<p>To bylo v dobách, kdy jsem ještě nevěděl, že diskusním fórům, plným <em>opravdových odborníků</em>, je lepší se vyhnout. Někdy poradí dobře, o tom žádná, ale pokud se někdo ptá trošku jinak nebo pokud přistupuje k věcem tak, jak oni nejsou z praxe zvyklí, tak jsou často velmi nepříjemní, leckdy až vulgární. A často to jsou stesky na úrovni mojí babičky, které se taky nelíbilo, že „ty dnešní mladý holky by nejradši jen strčily prádlo do automatický pračky a vytáhly ho vypraný a vyždímaný“, což považovala za symbol úpadku doby a mravů, protože pořádná ženská přeci pere a ždímá a stráví u toho celé sobotní dopoledne.</p>
+
+<p>Těch keců, když jsem si jednou v jednom takovém „obecný pokec o elektronice“ dovolil povzdychnout, že by se mi líbila malá frézka na plošné spoje, ale že pro domácí použití to je hrozně drahé… Těch keců, když jsem se zeptal, jestli si můžu u domácího plošňáku nějak nahradit prokovy! Jojo, všichni opravdoví odborníci, pracovali v různých elektrofirmách, tak co by brali vážně nějakého bastliče!</p>
+
+<p>No a jednou se v takovém diskusním fóru objevil mladý nadšenec. Nejprve se, jak etiketa ve fórech plných opravdových odborníků velí, všem poníženě omluvil za svůj úplně pitomý dotaz, a pak napsal, že má od mládí sen, totiž navrhnout si vlastní mikroprocesor. A jestli tedy pánové nevědí, jak na to?</p>
+
+<p>Pokud znáte mentalitu těchto fór, tak víte, co následovalo. Pokud ne, tak vám to prozradím: <em>„To potřebuješ do nějakého zapojení? Tak takové bych nekoupil!“ – „Na co vlastní CPU?! Takový nesmysl! Kdyby ses, mladej, radši pořádně naučil AVR!“ – „Ne, PIC!“ – „Ne, ARM!“ – „Ne, MSP430!“ – „Ne, 86!“ – „Idiote, co tu doporučuješ 86?!“ </em></p>
+
+<p>Děkujeme za odpovědi.</p>
+
+<p>Dlouho se nic nedělo a asi po půl roce přišel do toho vlákna člověk, který napsal, že ten nápad mu nepřijde, na rozdíl od <em>kolegů otporníků</em>, vůbec hloupý. Že sice navrhovat vlastní CPU a doufat, že se komerčně uchytí, je opravdu nesmysl, ale na druhou stranu že tuhle touhu chápe, a že ví, že se při takovém mentálním cvičení člověk naučí spoustu věcí o elektronice (asi jako při psaní vlastního programovacího jazyka a překladače pro něj, dodávám já). A že cest je několik, a jedna z nich je naučit se VHDL nebo Verilog, napsat si svoje CPU v něm a vypálit do FPGA.</p>
+
+<p>Nevím, jestli si původní tazatel tuhle odpověď přečetl, nebo jestli se dnes smutně věnuje nějaké klidné činnosti a svůj mladický sen tiše pohřbil. Každopádně já si to zapamatoval a začal jsem (bylo to někdy okolo roku 2005) hledat, jak bych se dozvěděl víc. Postupně jsem si spájel programátor GALů, zkusil si naprogramovat je, pak jsem poexperimentoval s CPLD od Xilinxu, jenže pak na to postupně nebyla nálada, čas, peníze nebo sicflajš, zkrátka jsem si to tak jako odložil „na někdy“. Čas od času jsem vytáhl kit od Avnetu, zkusil si něco naprogramovat, zjistil jsem, že to je spíš utrpení než cokoli jiného, navíc to ISE od Xilinxu, kdo jste to kdy tahal a používal, tak mi dáte zapravdu…</p>
+
+<p>Plynuly roky.</p>
+
+<p>Pak jsem objevil zapojení Granta Searla a jeho <a href="http://searle.hostei.com/grant/Multicomp/index.html">Multicomp</a>. To je vám totiž taková stavebnice, kde si vyberete procesor, periferie, a poskládáte si osmibit, jaký se vám líbí, a v té úplně minimální variantě k tomu nemusíte připojovat vůbec nic, stačí jen převodník RS-232 / USB, a v terminálu uvidíte vlastní počítač s BASICem! Na nepájivém poli jsem měl zrovna rozposkládané nějaké zapojení s 6809, všude z toho trčely drátky, a tak jsem si říkal, že by mě to vlastně bavilo.</p>
+
+<p>Nemám <a href="http://retrocip.uelectronics.info/retro-duch/">retroducha</a>. Kdybych ho měl, tak si poskládám vlastní CPU z TTL 74xx (a klobouk dolů před <a href="http://www.nostalcomp.cz/cpu74_claudia1.php">těmi, co to udělali</a>) a tam, kde je napsáno „6502“, tam bude 40pinový šváb. Jenže já jsem takový barbar, a místo osmi 64Kbit DRAM, co jsou brutál retro, dám 64KB SRAM, a vůbec z toho nemám těžkou hlavu. Takže místo toho, abych sháněl třeba TMS9929 (což je TMS9918 ve verzi pro PAL) a navrhoval zapojení a leptal pro to plošňák, tak si to klidně seskládám do FPGA, neboť <em>radost z práce s novým osmibitem = (1-a) * radost z toho, že to funguje + a * radost z toho, že to je poskládané ze součástek z 80. let</em>. Přičemž parametr <em>a</em> se u různých lidí liší. U mne je někde okolo 0.01, u lidí, co jsou ochotni připustit GAL v nové konstrukci to bývá tak okolo 0.5…</p>
+
+<p>Ale zpátky k původnímu tématu: Okouzlily mě možnosti FPGA, od Granta jsem si nechal doporučit <a href="http://fpga.cz/ep2c5t144/">vhodný kit</a>, zjistil jsem, že je za pár korun a programátor taky, pak jsem si s tím pohrál, a ono to fakt fungovalo… Ou kej, pak přišly jiné starosti a radosti, jako třeba assembler <a href="http://www.asm80.com">ASM80.com</a> a práce a tak, ale furt v hlavě vrtalo… V mezičase jsem našel <a href="http://zz-indigo.mavipet.sk/?cat=14">stránky pana ZZ</a>, který si taky z FPGA skládá všechno možné, tak jsem si říkal, že bych se měl to VHDL už fakt doučit, a znáte to, šlo to tak jako jo, ne, jo, ne, furt jako by chyběla motivace a spouštěč, a pak jednoho dne…</p>
+
+<p>Jednoho dne jsem meditoval nad generováním videosignálu z procesoru. Nalomilo mě zkoumání <a href="http://retrocip.uelectronics.info/cosmac-rca-1802/">COSMAC ELFa</a> a jeho videoobvodů, spojilo se to s neustálým opakováním Pavla Tišnovského, jak by bylo fajn zkusit dneska navrhnout videořadič, kde by nebyla bitmapa (třeba v tomto <a href="http://www.root.cz/clanky/historie-vyvoje-pocitacovych-her-7-cast-osmibitova-herni-konzole-atari-2600/">článku o konzoli 2600</a>), ale něco jako TIA a vhodným časováním by se generoval řádek po řádku, zkoumal jsem generování obrazu u ZX80, přitom jsem se tak jako po očku koukal na ten kit, pak mě napadlo podívat se, jak by se generoval videosignál VGA (protože sehnat VGA monitor je snazší a levnější, než sehnat přijatelnou barevnou televizi s videovstupem), objevil jsem tutoriál, jak vytvořit VGA signál ve VHDL, koukal jsem se na to s neskutečným nadšením, protože to bylo fakt jednoduchý, ale jako FAKT JEDNODUCHÝ, a pak se to spustilo!</p>
+
+<p>Fakt, nekecám, během tejdne jsem si ve volném čase prostudoval několik knih o VHDL a návrhu obvodů, konečně mi to celé začalo zapadat do sebe, dívám se na cizí kód a už mu rozumím, píšu vlastní kód a syntetizér to překládá napoprvé, a mám z toho fakt radost, protože to je zase po čase něco, co funguje.</p>
+
+<p>Při učení čehokoliv se mi osvědčilo snažit se to, co jsem se naučil, vysvětlit někomu jinému. Ať už to byl pes, manželka, imaginární posluchač, virtuální posluchač, nebo skuteční studenti. Když se člověk snaží učit, tak při přípravě sám sobě klade otázky, které ho posunou dál. Nestačí studentovi říct „takhle to je“. Člověk se zamyslí a přemýšlí: Proč to tak je? Jak to udělat jinak? Proč to takhle jde a takhle ne? Navíc člověku naučené snáz přejde do krve.</p>
+
+<p>Třeba takový <a href="http://strojak.cz">strojak.cz</a> (pokud neznáte, tak je to kurz assembleru pro osmibity) vznikl v trošku jiné situaci – já assembler znám někdy od poloviny 80. let, takže tam jsem to víceméně <em>dával spatra</em>, ale taky jsem si některé věci osvěžil.</p>
+
+<p>U VHDL jsem si říkal, že bych o tom mohl napsat sem, ale pak jsem objevil, že je volná doména vhdl.cz. A volná byla i fpga.cz! Tak dlouho jsem váhal, kterou z nich vzít, až jsem vzal obě, a připravil tam takový úvod pro lidi, co jsou v podobné situaci jako já, totiž doma si šmrdlají něco s elektronikou a rádi by do toho zapojili FPGA, jenže nevědí, kde začít, na fórech se bojí zeptat (a leckdy oprávněně, viz historka na začátku), ale hrozně je to láká.</p>
+
+<p>Takže jsem na <a href="http://fpga.cz">fpga.cz</a> dal takový přehled toho, co člověk potřebuje, když chce začít s FPGA pracovat. Jsou tam nějaké popisy kitů s low end FPGA Cyclone a Spartan, je tam popsáno, co budete potřebovat pro programování, jsou tam odkazy na to, kde to koupit (eBay je váš přítel!), popis toho, jak začít, co stáhnout, jak nainstalovat, jak si „nakreslit“ zapojení… A snažil jsem se vybrat takové kity a programátory, aby se člověk vešel do tisícovky. Jako jo, seženete kity za čtyři tisíce, ale pro ten úplný začátek je to trošku <em>overkill</em>, neboli hezky česky přestřelené. Rovnou říkám, že pokud tam někdo přijde hledat <em>novinky a __informace</em> <em>ze světa FPGA</em>, tak je na špatné adrese… O Stratixech se tam nedozví nic.</p>
+
+<p>No a na <a href="http://vhdl.cz">vhdl.cz</a> jsem sepsal takový úvodní kurz VHDL stylem „učte se se mnou“. Popisuju VHDL a věnuju se věcem, které mi v něm, coby člověku, zvyklému na programování, dělaly problém. Naopak přeskakuju věci, co jsou programátorům zřejmé – nebudu vysvětlovat, co jsou celočíselné typy, prostě očekávám, že tohle čtenář ví. Na rovinu ale přiznávám, že nejsem VHDL guru, jsem tak někde <em>lehce pokročilý. _Navíc vím, že se někde spletu a někde na to jdu prostě _blbě</em> a nebojím se to přiznat. Ale pokud nejste <em>Opravdoví Odborníci a</em> nehodláte mě kamenovat za to, že vykládám i o tom, kde jsem se spálil, a chcete si doma jako já bastlit s FPGA, jste vítáni na obou mých webech! Snad vám informace k něčemu budou.</p>
+
+<p>PS: Na <a href="http://vhdl.cz">VHDL.cz</a> stále pokračuju s novými články… V nejbližších dnech přijdou stavové automaty, a taky si dáme generování toho VGA signálu.</p>
+
+<p>PPS: „<em>Možná by bylo zajímavé podobný grafický subsystém vytvořit s využitím soudobých komponent, protože dnešní mikroprocesory mají více než dostatečný výpočetní výkon pro programovou tvorbu grafiky a dobře navržený systém přerušení by mohl zajistit potřebnou kooperaci mezi podprogramem určeným pro vykreslování a zbylými aplikacemi…</em>“ <a href="http://www.root.cz/clanky/graficke-subsystemy-pocitacu/">píše Pavel Tišnovský</a>, a já mu tímto neděkuju za brouka v hlavě.</p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#FPGA">FPGA</a>
+        
+        <a href="/tags#VHDL">VHDL</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Programujeme+logiku%26%238230%3B&url=http%3A%2F%2Flocalhost%3A4000%2Fprogramujeme-logiku%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprogramujeme-logiku%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fprogramujeme-logiku%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/thomson-mo5/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Thomson MO5"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/jak-dobre-znate-stare-hry-pro-spectrum/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Jak dobře znáte staré hry pro Spectrum?"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

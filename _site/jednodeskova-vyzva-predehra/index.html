@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Jednodesková výzva: předehra</title>
+
+  
+
+  <meta name="description" content="Obsah 1 PMI-80 1.1 Ovládání PMI-80 2 BOB-85 3 KIM-1 4 ET3400 Dámy a pánové, vítám vás u Jednodeskové výzvy, určené všem programátorům, co si troufají ukázat světu, jak to válí s osmibitem. Troufnete si napsat vlastní firmware pro jednodeskový osmibitový počítač? V dalším článku si řekneme víc k zadání....">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Jednodesková výzva: předehra">
+  <meta property="og:description" content="Obsah 1 PMI-80 1.1 Ovládání PMI-80 2 BOB-85 3 KIM-1 4 ET3400 Dámy a pánové, vítám vás u Jednodeskové výzvy, určené všem programátorům, co si troufají ukázat světu, jak to válí s osmibitem. Troufnete si napsat vlastní firmware pro jednodeskový osmibitový počítač? V dalším článku si řekneme víc k zadání....">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2017-08-27T14:21:28+02:00">
+  <meta property="og:url" content="http://localhost:4000/jednodeskova-vyzva-predehra/">
+  <link rel="canonical" href="http://localhost:4000/jednodeskova-vyzva-predehra/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Jednodesková výzva: předehra">
+  <meta property="twitter:description" content="Obsah 1 PMI-80 1.1 Ovládání PMI-80 2 BOB-85 3 KIM-1 4 ET3400 Dámy a pánové, vítám vás u Jednodeskové výzvy, určené všem programátorům, co si troufají ukázat světu, jak to válí s osmibitem. Troufnete si napsat vlastní firmware pro jednodeskový osmibitový počítač? V dalším článku si řekneme víc k zadání....">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Jednodesková výzva: předehra
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 27. 8. 2017</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><div id="toc_container" class="toc_wrap_right no_bullets">
+  <p class="toc_title">
+    Obsah
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#PMI-80"><span class="toc_number toc_depth_1">1</span> PMI-80</a><ul>
+        <li>
+          <a href="#Ovladani_PMI-80"><span class="toc_number toc_depth_2">1.1</span> Ovládání PMI-80</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#BOB-85"><span class="toc_number toc_depth_1">2</span> BOB-85</a>
+    </li>
+    <li>
+      <a href="#KIM-1"><span class="toc_number toc_depth_1">3</span> KIM-1</a>
+    </li>
+    <li>
+      <a href="#ET3400"><span class="toc_number toc_depth_1">4</span> ET3400</a>
+    </li>
+  </ul>
+</div>
+
+<p>Dámy a pánové, vítám vás u Jednodeskové výzvy, určené všem programátorům, co si troufají ukázat světu, jak to válí s osmibitem. Troufnete si napsat vlastní firmware pro jednodeskový osmibitový počítač?</p>
+
+<!--more-->
+
+<p>V dalším článku si řekneme víc k zadání. Dnes mi dovolte udělat takové malé lehké představení „jednodeskáčů“.</p>
+
+<p><strong>Jednodeskáč</strong>, tedy celým jménem „jednodeskový mikropočítač“, byl v 70. a 80. letech malý počítač, co se vešel na jednu desku. Dnes se na jednu desku vejde leccos, ale tehdy jste si moc vyskakovat nemohli. Většinou se tam vešel procesor, trocha paměti (typicky 1 kB RAM, 1 kB PROM), klávesnice (měla většinou okolo 20-25 tlačítek: 16 znaků 0-9 a A-F pro zadávání hexadecimálních číslic a několik ovládacích), displej (ze sedmisegmentovek) a nějaké vstupně/výstupní porty, které byly buď dostupné pro další rozšiřování, nebo na nich byly různé LEDky, motorky a podobně. (Hezky <a href="http://www.nostalcomp.cz/jednodesky.php">o jednodeskáčích píše Nostalcomp</a>.)</p>
+
+<p>V Československu se vyráběly dva známější jednodeskáče (a několik dalších, dnes už pozapomenutých): legendární PMI-80 a školní jednodeskový počítač TEMS 80-03A. Oba s procesorem 8080A a s plusmínus stejnou technickou výbavou. Několik jednodeskových počítačů vzniklo i péčí nadšenců (BOB85, SAVIA84), vznikaly i jako stavebnice (Petr)… Technicky vzato byl třeba i Ondra jednodeskový, ale pro nás budiž jednodeskáč počítač s omezenou klávesnicí a s displejem ze sedmisegmentovek.</p>
+
+<p>Ve světě se prosadil asi nejvíc KIM-1, jednodeskový počítač od MOS Technology s procesorem 6502. Vznikla i „odlehčená“ verze Junior Computer. Další zajímavý jednodeskáč byl třeba Cosmac Elf nebo Heathkit ET3400. (A samozřejmě <a href="http://www.nostalcomp.cz/slavni.php">spousta dalších</a>.)</p>
+
+<p>Nechci vás nijak zatěžovat výčtem a podrobnostmi. Spíš bych rád demostroval „ducha doby“ a „feeling“ na několika jednodeskáčích.</p>
+
+<h2 id="pmi-80"><span id="PMI-80">PMI-80</span></h2>
+
+<p>Začnu <strong>PMIčkem</strong>. Je totiž velmi dobře zdokumentované, hlavně díky sérii článků v Amatérském Radiu (<a href="http://www.nostalcomp.cz/pdfka/pmi80_popis.pdf">výtah najdete zde</a>). PMI-80 mělo 1 kB RAM, 1 kB ROM (a mohli jste si druhý kB přidat), klávesnici s 25 tlačítky, devítimístný displej z kalkulačky (obojí připojené přes periferní obvod 8255) a primitivní rozhraní pro magnetofon.</p>
+
+<p>Já si kdysi udělal <a href="http://www.asm80.com/pmi80.html">online emulátor PMI-80</a>, a tak si můžete ověřit, jak to celé fungovalo.</p>
+
+<p>ROM byla od adresy 0000 (logicky, po RESETu se spouštěl program od téhle adresy). RAM byla od adresy 1C00 do 1FFF. S periferiemi se komunikovalo na adresách F8, F9, FA a FB (klasická čtveřice registrů 8255 – PA, PB, PC, řídicí). Displej používal budič a dekodér 1-z-9 typu MH1082, připojený na port PC (=adresa FA), bity 0-3. Tímto bitem se vybírala pozice na displeji. Segmenty ovládal port PA (=adresa F8), a to bity 0-6 (bit 7 nebyl zapojený, desetinná tečka nefungovala).</p>
+
+<p>Stejný budič používala i klávesnice, dokonce kvůli tomu byla zapojená do matice 3×9 (tlačítka I a RE, Interrupt a Reset, byly mimo matici a šly přímo k procesoru). Informace z řádků klávesnice se četly na portu PC, piny 4-6.</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-972" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-650x430.png" alt="" width="650" height="430" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-650x430.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-768x508.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29.png 812w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+
+<p>Displej tedy musel být pravidelně občerstvován procesorem; jakmile se program někde zasekl, zůstala svítit jediná pozice a klávesnice přestala reagovat.</p>
+
+<p>Na magnetofon se vysílalo pomocí nosného kmitočtu na bitu 6 portu PA, klíčovaného bitem PA7. Z magnetofonu se data četla přes pin PC7.</p>
+
+<h3 id="ovládání-pmi-80"><span id="Ovladani_PMI-80">Ovládání PMI-80</span></h3>
+
+<p>Displej byl, jako u většiny jednodeskáčů, rozdělen na část adresní (vlevo) a část datovou (vpravo). Rozdělení nebylo nijak dané, byla to čistě konvence. Klávesnice obsahovala 25 tlačítek, fyzicky rozmístěných do matice 5×5:</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-973" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png" alt="" width="264" height="467" /></a></p>
+
+<p>Tlačítko RE celý systém zresetovalo, a na displeji se objevil nápis „PMI-80“. Po stisknutí libovolné klávesy (tedy kromě RE a I) se na displeji úplně vlevo objeví znak, co má být asi otazník, který říká, že PMI je připravené přijímat pokyny.</p>
+
+<p>Nejzásadnější věc u jednodeskáče byla funkce prohlížení a měnění obsahu paměti. Po stisku tlačítka M (Memory) se vlevo objevilo „velké M“ (píšu to v uvozovkách, protože na sedmisegmentovém displeji to vypadá spíš jako obrácené velké U nebo ruské P), pak mezera a čtyři pozice adresy. Třeba: „M 1C00“ Pomocí hexadecimální klávesnice jste zadali adresu (pokud jste udělali chybu, prostě jste psali dál, systém bral jako platné pouze čtyři poslední znaky) a tlačítkem „=“ jste ji potvrdili. Na displeji se objevil za adresou znak „=“ a za ním dva znaky – obsah paměti na dané adrese. Třeba „M 1C00=00“. Teď můžete zadat nový obsah, zase pomocí hexadecimální klávesnice a zase se berou pouze poslední dva znaky, a tlačítkem „=“ potvrdíte změnu a přesunete se k další adrese.</p>
+
+<p>Konec zadávání můžete buď způsobit tím, že stisknete klávesu, kterou program nečeká (třeba EX), nebo resetujete stroj (RE). Tady reset neznamená vymazání paměti, takže to, co jste zadali, v ní zůstává.</p>
+
+<p>Pomocí EX jste program spustili. Po stisku EX zase systém očekává zadání adresy, a po jejím potvrzení tlačítkem „=“ spouští program.</p>
+
+<p>Sofistikovanější podobu měla funkce Break (BR). Zde jste nejprve zadali adresu, na které se má program přerušit a skočit do monitoru, a v druhém kroku spouštěcí adresu. Jakmile program narazil na danou adresu, odskočil zpět do monitoru, a vy jste si mohli zkontrolovat, zda je vše tak, jak má být.</p>
+
+<p>K tomu vám dopomáhala třeba i funkce kontroly registrů – klávesa R. Po jejím stisknutí jste si vybrali, od jaké dvojice chcete prohlížet (AF, BC, DE, HL, SP – viz klávesnice). Zase můžete pomocí klávesnice obsah měnit, tlačítkem „=“ potvrzovat a přesunout se k další dvojici.</p>
+
+<p>Poslední dvě funkce, S a L, fungovaly pro ukládání (save) a čtení (load) programů na pásek a z pásku.</p>
+
+<p>Ve výše odkazovaném PDFku najdete i další informace, včetně některých užitečných rutin z ROMky. Další spoustu materiálů najdete na <a href="http://www.nostalcomp.cz/pmi80.php">stránkách PMI-80 na Nostalcompu</a>.</p>
+
+<h2 id="bob-85"><span id="BOB-85">BOB-85</span></h2>
+
+<p>Tuhle konstrukci postavil ing. Kratochvíl s procesorem 8085 a <a href="http://www.nostalcomp.cz/pdfka/bob_85.pdf">publikoval ji, jak jinak, v Amatérském Radiu</a>, a to včetně dokumentace, výpisu monitoru, několika programů a zdrojových kódů. BOB-85 měl plusmínus stejné schopnosti jako PMI-80. Klávesnice měla 24 tlačítek (6×4) a displej pouhých 6 pozic.</p>
+
+<p>Displej nebyl multiplexovaný, ale každá pozice měla vlastní adresu (0A – 0F). ROM byla na adresách 0000 až 05FF, RAM od adresy 0600 do 09FF.</p>
+
+<p>Pár zajímavých informací zase najdete na <a href="http://www.nostalcomp.cz/bob85.php">Nostalcompu (BOB-85)</a>, já jsem udělal <a href="http://www.asm80.com/bob85.html">online emulátor</a>, ale je v nějaké alfaverzi a ještě jsem ho nedodělal.</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-974" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png" alt="" width="324" height="275" /></a></p>
+
+<p>Ovládání se od PMI-80 trochu lišilo. Nebyla tu možnost měnit obsah registrů nebo nastavovat breakpointy. Prohlížení paměti fungovalo podobně (jen místo klávesy M se jmenovala S MEM), místo klávesy „=“ byla klávesa „NEXT“ a při opravě dat nefungoval systém tak, že by obsah posouval, ale zadávali jste ho znovu. Navíc proti PMI tu je možnost postupovat pamětí nejen dopředu (NEXT), ale i dozadu (REC).</p>
+
+<p>Klávesa EXEC vyvolala RESET stroje. Klávesa GO spouštěla program od dané adresy. VEK1, VEK2, a RST měly být nějaké přerušovací vektory do budoucna. A klávesa REC kromě už uvedené funkce vyvolávala ještě funkce pro zápis a čtení programů.</p>
+
+<h2 id="kim-1"><span id="KIM-1">KIM-1</span></h2>
+
+<p>Pro nás trochu exotičtější stroj, s těmi jsme se v ČSSR moc nesetkávali. Koncepce opět stejná: procesor (6502), trocha pamětí, šest sedmisegmentovek, klávesnice 6×4, ale hlavně: vyvedený rozšiřující konektor, díky kterému se dalo ke KIM-1 snadno připojit leccos.</p>
+
+<p><a href="http://www.kim-1.com/usrman.htm">Manuál najdete zde</a>, <a href="http://www.asm80.com/kim.html">online emulátor zde</a>.</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-975" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg" alt="" width="546" height="400" /></a></p>
+
+<p>Displej držel stejnou konvenci, 4 pozice adresa, 2 data, ale ovládání bylo trošičku jiné. Tlačítkem AD jste zvolili možnost „zadám adresu“, tlačítkem DA jste začali přistupovat k datům. Roli tlačítka „=“, respektive „NEXT“, tu má tlačítko „+“.</p>
+
+<p>Tlačítko GO spustilo program od adresy, která byla na displeji (zadaná po stisknutí AD). Tlačítko PC vyvolalo hodnotu Program Counteru (PC) na displej. RS je RESET, ST je STOP.</p>
+
+<p>Poslední tlačítko nebylo tlačítko, ale přepínač SST – pokud byl aktivní, fungoval KIM-1 v režimu „Single Step“, tedy po stisknutí tlačítka GO vykonal přesně jednu instrukci a opět se zastavil.</p>
+
+<h2 id="et3400"><span id="ET3400">ET3400</span></h2>
+
+<p>U tohoto jednodeskáče emulátor nemám. <a href="https://archive.org/details/HeathkitManualForTheEt-3400MicroprocessorTrainer">Manuál ET3400</a> je k dispozici na Archive.org nebo jako <a href="http://www.classiccmp.org/dunfield/heath/et3400.pdf">PDF</a>.</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-976" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg" alt="" width="640" height="620" /></a>Tato počítačová stavebnice obsahovala procesor 6800 (ano, ten od Motoroly), a kromě klasických „jednodeskáčových“ propriet i nepájivé kontaktní pole. Co mě na tomto stroji fascinuje je, že si vystačí s šestnácti tlačítky a RESETem. Každé tlačítko mělo dvě funkce – kromě hexadecimálního znaku to byl i nějaký povel, a co bylo aktivní, to záleželo na kontextu.</p>
+
+<p>Mimochodem, ten manuál vřele doporučuju, stejně jako manuál ke KIM-1! Není to jen „jak se to ovládá“, ale představují i procesor, popisují jeho funkce, učí ho programovat, a ET3400 začíná dokonce konstrukčním návodem (IKEA faktor: 100!)</p>
+
+<p>Čeho jsem chtěl touto exkurzí docílit? Chtěl jsem vás trošku vtáhnout do ducha jednodeskáčů a připravit vás na tu Jednodeskovou Výzvu, která brzy přijde. A nepůjde v ní o nic menšího, než – a teď poslouchejte – <strong>navrhnout ovládání nového jednodeskáče a napsat pro něj monitor</strong>. Máte na to pár tlačítek, osm míst na displeji, jedno kilo paměti – a ukažte se!</p>
+
+<p>(A jestli ještě neumíte assembler 8080 a 6502, tak to <a href="https://strojak.cz/">honem napravte</a>!)</p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#6502">6502</a>
+        
+        <a href="/tags#8080">8080</a>
+        
+        <a href="/tags#Assembler">Assembler</a>
+        
+        <a href="/tags#jednodeskáč">jednodeskáč</a>
+        
+        <a href="/tags#stroják">stroják</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Jednodeskov%C3%A1+v%C3%BDzva%3A+p%C5%99edehra&url=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-predehra%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-predehra%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjednodeskova-vyzva-predehra%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/arduino-emulator-8080-tinybasic/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Arduino + emulátor 8080 + TINYBASIC"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/jednodeskova-vyzva-prvni-kolo/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Jednodesková výzva: první kolo"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

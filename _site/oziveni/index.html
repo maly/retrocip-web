@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Oživení</title>
+
+  
+
+  <meta name="description" content="Před časem jsem na Facebooku a Twitteru napsal, že připravuju druhou knihu, tentokrát o stavbě osmibitových počítačů, a ptal jsem se jich, jaký procesor by je nejvíc zajímal. Dal jsem na výběr osvědčené kousky: Zilog Z80, MOS 6502, Motorolu 6809 a Intel 8085. Po pravdě jsem se nechtěl pouštět hned na...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Oživení">
+  <meta property="og:description" content="Před časem jsem na Facebooku a Twitteru napsal, že připravuju druhou knihu, tentokrát o stavbě osmibitových počítačů, a ptal jsem se jich, jaký procesor by je nejvíc zajímal. Dal jsem na výběr osvědčené kousky: Zilog Z80, MOS 6502, Motorolu 6809 a Intel 8085. Po pravdě jsem se nechtěl pouštět hned na...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2018-05-02T09:53:42+02:00">
+  <meta property="og:url" content="http://localhost:4000/oziveni/">
+  <link rel="canonical" href="http://localhost:4000/oziveni/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Oživení">
+  <meta property="twitter:description" content="Před časem jsem na Facebooku a Twitteru napsal, že připravuju druhou knihu, tentokrát o stavbě osmibitových počítačů, a ptal jsem se jich, jaký procesor by je nejvíc zajímal. Dal jsem na výběr osvědčené kousky: Zilog Z80, MOS 6502, Motorolu 6809 a Intel 8085. Po pravdě jsem se nechtěl pouštět hned na...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Oživení
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 2. 5. 2018</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Před časem jsem na Facebooku a Twitteru napsal, že připravuju druhou knihu, tentokrát o stavbě osmibitových počítačů, a ptal jsem se jich, jaký procesor by je nejvíc zajímal. Dal jsem na výběr osvědčené kousky: Zilog Z80, MOS 6502, Motorolu 6809 a Intel 8085.</p>
+
+<p>Po pravdě jsem se nechtěl pouštět hned na začátku do Z80 nebo 6809, to jsou hodně mocné procesory. Měl jsem vizi, že začnu úplnou klasikou, buď 6502, nebo 8080 – a protože s procesorem 8080 a jeho podpůrnými obvody je mrzení <em>on so many levels</em>, od toho, že se špatně shání po to, že se konstrukce zbytečně zesložiťuje, tak jsem místo něj nabídl 8085.</p>
+
+<p>Že skoro nikdo nechtěl 6809 není divu, tenhle procesor skoro nikdo nezná. Ale překvapilo mě, že Z80 nebyl tak jasný vítěz (na FB tedy ano, ale tam byly jen dvě možnosti) a že se 8085 dlouho drželo na prvním místě. Až jsem si říkal, jestli se hlasující nespletli a nemysleli si, že jde o 8086… No a 6502 doplatila na iracionální odpor, který k němu česká obec počítačová, odkojená Sinclairy a vůbec Intelskými procesory, asi pociťuje.</p>
+
+<p>Takže jsem nakonec sáhl po 8085. Ten procesor je výrazně vylepšená 8080 a až na multiplex adres s daty je jednoduše použitelná. Navíc na rozdíl od 6502, odděluje paměti a periferie do samostatných prostorů, což trochu zjednoduší konstrukci.</p>
+
+<p>A tak jsem jednoho krásného dne sedl a začal konstruovat.</p>
+
+<p>Procesor semhle, paměti támhle, mezi to adresní latch, budič a oddělovač datové sběrnice, obvod ACIA MC6850, LED na výstup SOD, aby to blikalo, když to má blikat, a nakonec 8255. Na pohled krása nesmírná, tak jsem to chvilku routoval v Eagle ručně, ale pak jsem si řekl, že na to kašlu, že to stejně udělají Číňani za čtyři koruny kus, tak jsem dal Autorouter, nechal doběhnout, okem jsem se pokochal, zděsil jsem se nad tím zuřivým taháním linek, a – děj se bůle voží!</p>
+
+<p>Po čase dorazily procesory a další součástky, a i balíček desek. No a minulý víkend jsem tedy začal pájet.</p>
+
+<h2 id="oživení-den-první">Oživení, den první</h2>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1028" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n-650x366.jpg" alt="" width="650" height="366" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n-768x432.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n.jpg 960w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+
+<p>Začal jsem hezky zvolna: patice pro procesor (přesněji dvě dutinkové lišty, mám s nimi dobré zkušenosti), patice pro paměti (měl jsem tu dvě „přesné patice“ DIL 28), bižuterie okolo RESETu (tlačítko, kondenzátory, dioda), krystal a dva rezonanční kondenzátory.</p>
+
+<blockquote>
+  <p>Kámen úrazu číslo 1: Hodnoty kondenzátorů jsem bral z datasheetu 8085, ovšem pro CMOS verzi. A pak, když jsem se pořádně podíval, co že to Číňan poslal, tak mě málem omyli: M5L8085AP! Tedy NMOS verze. Naštěstí až do 6 MHz, což je gut, ale stejně! Problém je, že NMOS verze chce kondenzátory 6,8 pF.</p>
+</blockquote>
+
+<p>Proměřil jsem patice, jestli je napájecí napětí tam, kde má být. Bylo. Zapojil jsem procesor. Díky plošnému spoji jsem se nemusel starat o přerušovací signály, ty byly neutralizované. Zajímalo mě jen jestli bude kmitat oscilátor a jestli na výstupu CLK bude něco zajímavého. Bylo, přátelé, bylo to tam! Ještě jsem zkusil RESET. Fungoval taky.</p>
+
+<p>Takže jsem osazoval dál. Zkusil jsem minimální verzi, tedy s adresovým latchem, oddělovačem datové sběrnice a pamětí EEPROM, kde byl jednoduchý blikací program, co měl blikat LEDkou s frekvencí 1 Hz, ale bez použití podprogramů (neosazoval jsem RAMku).</p>
+
+<p>No a nedělo se nic. Samozřejmě, jak jinak… Teda respektive na sběrnicích cosi probíhalo, ale úplně divně, a výstup SOD byl pořád 0. No a po čase se i to divné změnilo…</p>
+
+<p>Co naplat, podívám se po příčině. Koukám do schématu na to zapojení EEPROMky. Správně tam vede /ROMCS, správně jsou připojené vývody, správně je připojený signál /RD, správně je připojený signál /WR – moment, cože? Co tam má co dělat signál /WR? Tam má být logická 1!</p>
+
+<blockquote>
+  <p>Kámen úrazu číslo 2: Blbec!!! Třikrát na to koukám, RAM vlevo, ROM vpravo, a pak stejně zapojím /WR k jinému čipu. Takže RAM měla zakázaný zápis a ROM si vesele zapisovala. Strčil jsem EEPROMku do programátoru, pro forma ji přečetl – a tam byla tuna nesmyslů! Přepsal jsem si ji. Ale aspoň je vidět, že procesor nějak pracoval.</p>
+</blockquote>
+
+<p>Přeškrábnul jsem jeden spoj a zapojil dva drátky. Furt nic.</p>
+
+<p>Koukám na ta data, a pořád se mi zdálo, že na nich něco nesedí. Ven po datové sběrnici šly samé jedničky, dovnitř… ech… moment!</p>
+
+<blockquote>
+  <p>Kámen úrazu číslo 3: Blbec na kvadrát! Obousměrné budiče 245 mají povolovací vstup, ten jsem připojil na ALE, a pak vstup, co udává směr. Když je 0, tak pouští zleva doprava, když je 1, tak zprava doleva. Pamatuju se, jak jsem jedno oko upíral do datasheetu, druhé do Eaglu a přemýšlel: Když 1, tak data odsud sem, to znamená, že sem dám signál /RD, ten když je v 0, tak musí data jít takhle… Jdu se najíst, vrátím se, co jsem to… Jo aha, signál /WR, zapojím sem, moment, opravdu? No když je 0, tak… No a modří už vědí!</p>
+</blockquote>
+
+<p>Přeškrábnul jsem spoj, zapájel drátek, spustil – SOD se nastavil do 1!</p>
+
+<p>Aha, žije to! Juchů. Žije, ale neseje. Někde se to zacyklilo… Ale něco přeci proběhlo!</p>
+
+<p>Vytáhl jsem logický analyzátor a začal měřit a detekovat. Pořád se mi zdálo, že tam je na sběrnici nějak moc FF. <em>Tady mě mělo ťuknout – a taky ťuklo, ale jinam.</em></p>
+
+<p>Vytáhnul jsem budič sběrnice a nahradil ho drátkama. Ať minimalizuju možná místa problémů. Pak jsem taky zkrátil program, jen na úplně nezbytnou smyčku, bez čekání. A běželo to! Ještě jsem přidal RAMku, abych mohl testovat složitější programy…</p>
+
+<p>Už bylo deset večer, tak jsem další experimenty odložil na státní svátek.</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1034" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n-650x366.jpg" alt="" width="650" height="366" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n-768x432.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n.jpg 960w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+
+<h2 id="oživení-den-druhý">Oživení, den druhý</h2>
+
+<p>Našel jsem ten zpropadený obvod 6850. Já věděl, že ho mám, věděl jsem i že ho mám v nepájivém poli, ale kde to pole je, to jsem netušil. Nakonec jsem ho našel a koukám, že to je verze MC6850. Tedy trabl, protože tato verze má garantovaný provoz do 1 MHz, a já tam cpu 1,8432 MHz. Potřebuju verzi MC68B50, která je určena pro provoz do 2 MHz. <a href="http://searle.hostei.com/grant/6502/Simple6502.html">Grant Searle ale tvrdí</a>, a já nemám důvod mu nevěřit, že mu na této frekvenci fungují i nonB verze. Tak uvidíme, zkusím to, a když ne, tak holt počkám na „béčkové“ čipy, co jsou už na cestě.</p>
+
+<blockquote>
+  <p><em><strong><span style="font-family: Arial;">„Additionally, all of the standard 6850 chips that I have worked perfectly at the speeds required for this circuit even though the circuit requirement is faster than their specification. Therefore, you are unlikely to have any issues. However, I would recommend you buy the „B“ speed grade ACIA ie. 68B50 if possible.“ – Grant Searle</span></strong></em></p>
+</blockquote>
+
+<p>Připájel jsem tedy dutinkovou lištu coby patici pro 6850, do EEPROM nahrál „Hello world“ pro sériový port a jedeme testovat.</p>
+
+<p>A samozřejmě že nic.</p>
+
+<p>Logický analyzátor do ruky, osciloskop do druhé, popřipojovat, a jedeme!</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1035" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-650x366.jpg" alt="" width="650" height="366" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-768x432.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n.jpg 960w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+
+<p>Nakonec jsem sledoval adresy, jak jdou po adresní sběrnici, a data, co tam putují. A fakt: adresa 0, data $F3 – to je DI. Pak adresa 1, 2, 3 – LXI SP, $FFFF. Adresa 4, 5 – MVI A, $15. Takže to žije…</p>
+
+<p>Na adresách 6 a 7 je OUT $DE – nastavení ACIA. Tady se na chvilku datová sběrnice rozkmitala…</p>
+
+<p>Aha vlastně: ACIA už posílá data, ale neskončilo ALE. No jasně, oddělovač sběrnice tam není, jsou místo něj drátky. Drátky ven, oddělovač dovnitř, jedeme dál!</p>
+
+<p>Všechno běží. 0, 1, 2, 3, 4, 5, 6, 7, $DE, 8, 9, A, B, C, D, E, D, D, C, B, 8, A, 9, 8, … A to je divné… Proč to počítá nahoru a dolů?</p>
+
+<p>Na adresách 8, 9, A je LXI H, HELLO, na adresách B, C, D je CALL $1C. Jasně, E a D jsou adresy zásobníku v RAMce, kam si CALL ukládá návratovou adresu (protože jsem si inicializoval SP na hodnotu $FFFF a procesor nejdřív dekrementuje, pak ukládá). Pak je C – protože sleduju jen čtyři bity adresní sběrnice, tak to je 1D – a tam je instrukce MOV A,M.</p>
+
+<p>Ale není. Podle dat tam je cosi, co má ve spodních bitech samé jedničky, tady $xF.</p>
+
+<p>Tušení se stalo zřetelným! Z paměti to čte FF, což je instrukce RST 7. Ta uloží návratovou adresu na zásobník (C, B) a skočí na $0038. To je ta osmička. A tam se zase načte $FF, takže se zas ukládá na zásobník (A, 9)…</p>
+
+<p>Paměť! Nejsou někde prohozené vývody? To vypadá na prohozené adresní vývody. Podle schématu je všechno OK, ještě to konzultuju s datasheetem. Všechno sedí…</p>
+
+<blockquote>
+  <p>Kámen úrazu číslo 4: Nepozornost! Koukám na plošný spoj, dívám se na nožičku po nožičce u EEPROMky, a – herdek, proč je propojené A4 a A5? A ke vstupu A5 nevede signál?! Aha, takže paměť místo adresy $1C, která byla správná, četla adresu $3C, kde už byly samé $FF!</p>
+</blockquote>
+
+<p>Proškrábnutí, připájení drátku… Ještě to proměřím. Všechno sedí. Zasunu EEPROMku, ještě jednou to pro sichr proměřím a – moment, jeden vstup se mi zdá podivný! Jako by pískal tak napůl!</p>
+
+<blockquote>
+  <p>Kámen úrazu číslo 5: Pin v patici byl propojen, ale na nožičce paměti už signál nebyl. Na pinu jo, v nožičce ne. Herdek! Debilní „přesné patice“! Vypájet to už asi nepůjde. Ale pro příště a pro vás: Nepoužívejte je! Nejsem jediný, kdo před nimi varuje, a je moje blbost, že jsem varování nedbal!</p>
+</blockquote>
+
+<p>Propojil jsem vývod paměti u poškozené dutinky se správným signálem a spustil stroj. Všechno běželo jak mělo, alespoň podle adres soudě.</p>
+
+<p><em>Čímž se taky jaksi mimochodem vysvětlilo, proč blikání s časovací smyčkou neběželo, zato blikání plnou rychlostí ano: protože „full speed“ kód byl krátký a vešel se do 16 bajtů!</em></p>
+
+<p>Připojil jsem jednu měřicí sondu na TxD – a tam se opravdu něco dělo!</p>
+
+<p><a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1037" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o-650x142.jpg" alt="" width="650" height="142" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o-650x142.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o-768x167.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o-1024x223.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o.jpg 1842w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+
+<p>Tak jsem, pln očekávání, připojil převodník USB-to-UART, pustil terminál – a nic…</p>
+
+<p>Přitom podle měření to… echm… ale nějak pomalu… Tedy takty odpovídaly, jen ty časy, co ukazoval analyzátor, naznačovaly, že přenosová rychlost je 700 Bd. Jak je to možné?</p>
+
+<p>No, dále viz <em>Kámen úrazu 1</em>. Oscilátor se rozkmital pomaleji. Stačilo vypnout a zapnout, a krásně to jelo na 28800. Ale budu muset snížit kapacitu, nebo počkat na CMOS verzi procesoru.</p>
+
+<p>A když to jede mně, pojede to i vám! <strong>Od příštího týdne, jako takovou ochutnávku z nové knihy, zveřejním pár kapitol s konstrukcí tohoto počítače.</strong></p>
+
+<div id="gallery-17" class="gallery galleryid-1026 gallery-columns-3 gallery-size-thumbnail gallery1">
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31395225_10155719198482496_5249525418213507072_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1027'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31395225_10155719198482496_5249525418213507072_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1028'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31398178_10155719198122496_2103658630640304128_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31487886_10155719198057496_1976284645263671296_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1029'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31487886_10155719198057496_1976284645263671296_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31416695_10155719197957496_2673553404445327360_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1030'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31416695_10155719197957496_2673553404445327360_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31543725_10155719197852496_717758867034865664_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1031'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31543725_10155719197852496_717758867034865664_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31437534_10155719197772496_3802059806680809472_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1032'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31437534_10155719197772496_3802059806680809472_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31489558_10155719197727496_6371426628899176448_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1033'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31489558_10155719197727496_6371426628899176448_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1034'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31378758_10155719197597496_2609138412652855296_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1035'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31676557_10155727164917496_2294856792108171264_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1036'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31676557_10155727164917496_2294856792108171264_n-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1037'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31743508_10155727164927496_5765523321730891776_o-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+</div>
+
+<pre class="lang:default decode:true ">0000                          .ENGINE   alpha   
+0000                          .ORG   0   
+0000                          ; inicializace()
+0000   F3           COLD:     DI   
+0001   31 FF FF               LXI   SP,0FFFFh   
+0004                          ; adresace sériového rozhraní
+0004                ACIA:     EQU   0DEh   
+0004                ACIAC:    EQU   ACIA   
+0004                ACIAS:    EQU   ACIA   
+0004                ACIAD:    EQU   ACIA+1   
+0004                ACIA_TDRE:   EQU   02h   
+0004                          ;inicializace ACIA
+0004   3E 15                  MVI   A,15h   ; 115200 Bd, 8 bit, no parity, 1 stop bit, no IRQ
+0006   D3 DE                  OUT   ACIAC   
+0008                WARM:     
+0008   21 2B 00               LXI   H,HELLO   
+000B   CD 1D 00               CALL   STROUT   
+000E   C3 08 00               JMP   WARM   
+0011                SEROUT:   
+0011   F5                     PUSH   PSW   
+0012                SO_WAIT:   
+0012   DB DE                  IN   ACIAS   
+0014   E6 02                  ANI   ACIA_TDRE   ;bit TDRE - pokud lze vysílat, je =1
+0016   CA 12 00               JZ   SO_WAIT   
+0019   F1                     POP   PSW   
+001A   D3 DF                  OUT   ACIAD   
+001C   C9                     RET   
+001D                STROUT:   
+001D   7E                     MOV   A,M   
+001E   E6 7F                  ANI   7Fh   
+0020   CD 11 00               CALL   SEROUT   
+0023   7E                     MOV   A,M   
+0024   E6 80                  ANI   80h   
+0026   C0                     RNZ   
+0027   23                     INX   H   
+0028   C3 1D 00               JMP   STROUT   
+002B                HELLO:    
+002B   48 45 4C 4C 4F 20 57 4F 52 4C 44 0D 8A .ISTR   "HELLO WORLD",0Dh,0Ah   
+</pre>
+
+<p> </p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#8080">8080</a>
+        
+        <a href="/tags#8085">8085</a>
+        
+        <a href="/tags#Kniha">Kniha</a>
+        
+        <a href="/tags#konstrukce">konstrukce</a>
+        
+        <a href="/tags#Procesor">Procesor</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=O%C5%BEiven%C3%AD&url=http%3A%2F%2Flocalhost%3A4000%2Foziveni%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Foziveni%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Foziveni%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/prvni-konstrukce-s-prvni-otazkou/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="První konstrukce s první otázkou&#8230;"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/alpha-seznam-soucastek/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Alpha: Seznam součástek"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

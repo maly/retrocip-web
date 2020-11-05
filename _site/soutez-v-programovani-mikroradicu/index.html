@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Soutěž v programování mikrořadičů</title>
+
+  
+
+  <meta name="description" content="O víkendu proběhlo celorepublikové kolo soutěže mládeže v programování. Se Štěpánem Bechynským jsme byli porotci kategorie „mikrořadiče“. Účastníci dostali Arduino a výukový kit, který používáne na workshopu Arduino101. Na vypracování úlohy měli čtyři hodiny… Chcete s nimi zmřit síly? [sc:ebay item=“arduino uno USB“] [sc:ebay item=“arduino clock shield TM1636″] Zadání úlohy...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Soutěž v programování mikrořadičů">
+  <meta property="og:description" content="O víkendu proběhlo celorepublikové kolo soutěže mládeže v programování. Se Štěpánem Bechynským jsme byli porotci kategorie „mikrořadiče“. Účastníci dostali Arduino a výukový kit, který používáne na workshopu Arduino101. Na vypracování úlohy měli čtyři hodiny… Chcete s nimi zmřit síly? [sc:ebay item=“arduino uno USB“] [sc:ebay item=“arduino clock shield TM1636″] Zadání úlohy...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2016-06-27T00:15:59+02:00">
+  <meta property="og:url" content="http://localhost:4000/soutez-v-programovani-mikroradicu/">
+  <link rel="canonical" href="http://localhost:4000/soutez-v-programovani-mikroradicu/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Soutěž v programování mikrořadičů">
+  <meta property="twitter:description" content="O víkendu proběhlo celorepublikové kolo soutěže mládeže v programování. Se Štěpánem Bechynským jsme byli porotci kategorie „mikrořadiče“. Účastníci dostali Arduino a výukový kit, který používáne na workshopu Arduino101. Na vypracování úlohy měli čtyři hodiny… Chcete s nimi zmřit síly? [sc:ebay item=“arduino uno USB“] [sc:ebay item=“arduino clock shield TM1636″] Zadání úlohy...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Soutěž v programování mikrořadičů
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 27. 6. 2016</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>O víkendu proběhlo celorepublikové kolo soutěže mládeže v programování. Se Štěpánem Bechynským jsme byli porotci kategorie „mikrořadiče“.</p>
+
+<p>Účastníci dostali Arduino a výukový kit, který používáne na workshopu Arduino101. Na vypracování úlohy měli čtyři hodiny… Chcete s nimi zmřit síly?</p>
+
+<p>[sc:ebay item=“arduino uno USB“] [sc:ebay item=“arduino clock shield TM1636″]</p>
+
+<h2 id="zadání-úlohy-pro-celostátní-kolo-kategorie-mikrořadiče">Zadání úlohy pro celostátní kolo kategorie mikrořadiče</h2>
+
+<h4 id="univerzální-hlídač-lednice">Univerzální hlídač lednice</h4>
+
+<p>Nové lednice mají velmi často zabudovaný teploměr, takže víte, jestli fungují správně, a když necháte dveře dlouho otevřené, tak začnou pískat. Co ale udělat s lednicí, která takto vybavená není? To je úkol pro Univerzální hlídač lednice (UHL). Vaším úkolem je takovéto zařízení vytvořit. Hardware dostanete připravený a vaším úkolem bude vše naprogramovat.</p>
+
+<p>Funkce UHL je následující: 1. Pokud je lednice otevřená déle než 30 vteřin, tak začne UHL přerušovaně (5 Hz) pískat. Otevření lednice detekujte pomocí fotorezistoru.</p>
+
+<ol>
+  <li>
+    <p>Při otevření lednice zobrazuje UHL teplotu ve stupních Celsia nebo Fahrenheita, podle toho, co si uživatel naposled zvolil, viz bod 3. Teplota je zaokrouhlena na celé číslo a za teplotou se na displeji zobrazí jednotky, tedy znak C nebo F.</p>
+  </li>
+  <li>
+    <p>Pokud je lednice zavřena, tak se na displeji nic nezobrazuje, aby se šetřila energie.</p>
+  </li>
+  <li>
+    <p>Tlačítkem Menu UHL přepíná mezi zobrazením teploty ve stupních Celsia, Fahrenheita.</p>
+  </li>
+  <li>
+    <p>UHL ukládá maximální a minimální naměřenou teplotu. Tyto hodnoty zůstanou uloženy, i když UHL přijde o napájení, např. při výměně baterie.</p>
+  </li>
+  <li>
+    <p>Ke každému extrému se zároveň uloží i datum a čas. Nezapomeňte proto správně nastavit hodiny.</p>
+  </li>
+  <li>
+    <p>Pomocí tlačítka Up zobrazí UHL maximální naměřenou teplotu a po 10 vteřinách se vrátí na naposled zvolené zobrazení, viz funkce č. 2.</p>
+  </li>
+  <li>
+    <p>Pomocí tlačítka Down zobrazí UHL minimální naměřenou teplotu a po 10 vteřinách se vrátí na naposled zvolené zobrazení, viz funkce č. 2.</p>
+  </li>
+  <li>
+    <p>UHL umí hlídat překročení mezních hodnot teploty. Při překročení minimální nebo maximální teploty se rozblikají všechny LED a na displeji začne blikat hodnota teploty, která je mimo rozsah. Frekvence blikání diod je 10 Hz, frekvence blikání displeje je 1 Hz. Nastavení minimální a maximální teploty se provádí přes sériovou linku. Tyto hodnoty se uchovávají i při odpojení napájení.</p>
+  </li>
+  <li>
+    <p>Po připojení UHL k počítači si mohu některé informace zobrazit nebo nastavit pomocí následujících příkazů přes sériovou linku:</p>
+  </li>
+</ol>
+
+<p> </p>
+
+<table>
+  <tr>
+    <th>
+      Příkaz (nezáleží na velikosti písmen)
+    </th>
+    
+    <th>
+      Funkce
+    </th>
+    
+    <th>
+      Ukázka výstupu
+    </th>
+  </tr>
+  
+  <tr>
+    <td>
+      Maxc
+    </td>
+    
+    <td>
+      Maximální hodnota ve °C
+    </td>
+    
+    <td>
+      2016-01-14 10:32:14 10C
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Maxf
+    </td>
+    
+    <td>
+      Maximální hodnota ve °F
+    </td>
+    
+    <td>
+      2016-01-14 10:32:14 50F
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Minc
+    </td>
+    
+    <td>
+      Minimální hodnota ve °C
+    </td>
+    
+    <td>
+      2016-01-14 12:02:14 7C
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Minf
+    </td>
+    
+    <td>
+      Minimální hodnota ve °F
+    </td>
+    
+    <td>
+      2016-01-14 12:02:14 44F
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Delete
+    </td>
+    
+    <td>
+      Smaže uložené informace
+    </td>
+    
+    <td>
+      OK nebo ERROR
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Allc
+    </td>
+    
+    <td>
+      Zobrazí minimální a maximální teplotu ve °C
+    </td>
+    
+    <td>
+      2016-01-14 12:02:14 7C<br /> 2016-01-14 10:32:14 10C
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Allf
+    </td>
+    
+    <td>
+      Zobrazí minimální a maximální teplotu ve °F
+    </td>
+    
+    <td>
+      2016-01-14 12:02:14 44F<br /> 2016-01-14 10:32:14 50F
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Setlimitmaxc <hodnota>
+    &lt;/td&gt;
+    
+    <td>
+      Nastaví poplach při překročení maximální teploty
+    </td>
+    
+    <td>
+      OK nebo ERROR
+    </td>
+  &lt;/tr&gt;
+  
+  <tr>
+    <td>
+      Setlimitminc <hodnota>
+    &lt;/td&gt;
+    
+    <td>
+      Nastaví poplach při překročení minumální teploty
+    </td>
+    
+    <td>
+      OK nebo ERROR
+    </td>
+  &lt;/tr&gt;
+  
+  <tr>
+    <td>
+      Deletelimitmaxc Vypne hlídání
+    </td>
+    
+    <td>
+      maximální teploty
+    </td>
+    
+    <td>
+      OK nebo ERROR
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Deletelimitminc Vypne hlídání
+    </td>
+    
+    <td>
+      minimální teploty
+    </td>
+    
+    <td>
+      OK nebo ERROR
+    </td>
+  </tr>
+&lt;/table&gt;
+
+11. Pokud uživatel provede neplatnou operaci, třeba zadá nesmyslnou hodnotu, tak se na displeji objeví text ERROR, který bude po dobu 10 vteřin po displeji rolovat, a zároveň se pošle chybové hlášení po sériové lince. Pak se UHL vrátí do režimu zobrazení teploty.
+
+Pravidla
+
+1. Pokud něčemu nerozumíte, tak se ihned zeptejte.
+
+2. Musí se použít jen dodaný jednotný hardware.
+
+3. Smí se použít Standard Libraries, které jsou dostupné v čisté instalaci Arduino IDE viz. https://www.arduino.cc/en/Reference/Libraries.
+
+4. Smí se použít knihovna TM1636 pro ovládání displeje, **kterou dodá pořadatel. **_(Odstranili jsme znaky A-F, abychom si ověřili, že soutěžící chápou cizí kód  dokážou ho upravit)_
+
+5. Knihovny se mohou libovolně upravovat.
+
+6. Můžete vytvořit vlastní knihovnu.
+
+7. Jiné knihovny jsou zakázané.
+
+8. Zdrojový kód musí být pečlivě okomentován, aby bylo zřejmé, že mu autor rozumí. I když vydělíte dvě čísla, tak musíte do komentáře napsat proč je dělíte.
+
+9. Zdrojové kódy aplikace, včetně knihoven, uložte na plochu do adresáře, jehož jméno bude vaše startovní číslo. Adresář je třeba si vytvořit.
+
+10. V případě stejného počtu bodů rozhoduje čas odevzdání úlohy. (Kdo dřív přijde, ten dřív mele. First come, first serve.)
+
+Co máte k dispozici
+
+1. Schéma zapojení použitého shieldu.
+
+2. Seznam použitých součástek.
+
+3. Katalogový list hodin reálného času.
+
+4. Knihovnu TM1636.
+
+5. Katalogový list použitého termistoru.
+
+6. Vzorec pro přepočet °C na °F.
+
+<p style="padding-left: 30px;">
+  t[C°]= 5/9.(t[F°]−32)
+</p>
+
+7. Vzorec pro výpočet teploty.
+
+t [°C] – výsledná teplota
+
+r [Ω] – odpor termistoru
+
+B – konstanta z katalogového listu
+
+t[°C]=1 / (log(r[Ω] / 10000) / (B+1) / 298.15)−273.15
+
+* * *
+
+Tak co, troufnete si?
+
+Soutěžící (12-19 let) se s tím popasovali všelijak. Dva byli výrazně lepší než zbytek, vítěz dokone používal i DDRD a PORTD, nastavil si přerušení,&#8230;
+
+Na druhé straně konstrukce:
+
+<pre class="">switch (flag) {
+    case true:
+        flag = false;
+        break;
+    case false:
+        flag = true;
+        break;
+}</pre>
+
+byla velmi neotřelá a ukazovala, že autor možná udělá líp, když se bude věnovat jiným aktivitám 😉
+
+Troufnete si vy? Alespoň koncept&#8230;
+</hodnota></td></tr></hodnota></td></tr></table>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#arduino">arduino</a>
+        
+        <a href="/tags#Atmel">Atmel</a>
+        
+        <a href="/tags#shield">shield</a>
+        
+        <a href="/tags#Soutěž">Soutěž</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Sout%C4%9B%C5%BE+v+programov%C3%A1n%C3%AD+mikro%C5%99adi%C4%8D%C5%AF&url=http%3A%2F%2Flocalhost%3A4000%2Fsoutez-v-programovani-mikroradicu%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fsoutez-v-programovani-mikroradicu%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fsoutez-v-programovani-mikroradicu%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/o-objektu-strukture-a-gotu/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="O objektu, struktuře a gotu"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/hratky-se-sigfoxem/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Hrátky se Sigfoxem"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

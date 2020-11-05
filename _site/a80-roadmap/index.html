@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>A80 roadmap</title>
+
+  
+
+  <meta name="description" content="Obsah 1 Typy procesorů 2 Funkce 3 Sprite editor 4 PMD 85 (1, 2A) 5 BOB-85 6 PMI-80 7 CP/M Sem si poznamenávám věci, co chci v rámci asm80.com udělat a dodělat&amp;#8230; # Assembler ## Typy procesorů * 6809 &amp;#8211; _**hotovo**_ * SC/MP II * 1802 ## Funkce * Ukládání workspace...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="A80 roadmap">
+  <meta property="og:description" content="Obsah 1 Typy procesorů 2 Funkce 3 Sprite editor 4 PMD 85 (1, 2A) 5 BOB-85 6 PMI-80 7 CP/M Sem si poznamenávám věci, co chci v rámci asm80.com udělat a dodělat&amp;#8230; # Assembler ## Typy procesorů * 6809 &amp;#8211; _**hotovo**_ * SC/MP II * 1802 ## Funkce * Ukládání workspace...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2013-11-26T11:08:57+01:00">
+  <meta property="og:url" content="http://localhost:4000/a80-roadmap/">
+  <link rel="canonical" href="http://localhost:4000/a80-roadmap/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="A80 roadmap">
+  <meta property="twitter:description" content="Obsah 1 Typy procesorů 2 Funkce 3 Sprite editor 4 PMD 85 (1, 2A) 5 BOB-85 6 PMI-80 7 CP/M Sem si poznamenávám věci, co chci v rámci asm80.com udělat a dodělat&amp;#8230; # Assembler ## Typy procesorů * 6809 &amp;#8211; _**hotovo**_ * SC/MP II * 1802 ## Funkce * Ukládání workspace...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="page-heading">
+            <h1>
+              A80 roadmap
+            </h1>
+             
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <div id="toc_container" class="toc_wrap_right no_bullets">
+  <p class="toc_title">
+    Obsah
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#Typy_procesoru"><span class="toc_number toc_depth_1">1</span> Typy procesorů</a>
+    </li>
+    <li>
+      <a href="#Funkce"><span class="toc_number toc_depth_1">2</span> Funkce</a>
+    </li>
+    <li>
+      <a href="#Sprite_editor"><span class="toc_number toc_depth_1">3</span> Sprite editor</a>
+    </li>
+    <li>
+      <a href="#PMD_85_1_2A"><span class="toc_number toc_depth_1">4</span> PMD 85 (1, 2A)</a>
+    </li>
+    <li>
+      <a href="#BOB-85"><span class="toc_number toc_depth_1">5</span> BOB-85</a>
+    </li>
+    <li>
+      <a href="#PMI-80"><span class="toc_number toc_depth_1">6</span> PMI-80</a>
+    </li>
+    <li>
+      <a href="#CPM"><span class="toc_number toc_depth_1">7</span> CP/M</a>
+    </li>
+  </ul>
+</div>
+
+<p>Sem si poznamenávám věci, co chci v rámci asm80.com udělat a dodělat…</p>
+
+<h1 id="assembler">Assembler</h1>
+
+<h2 id="typy-procesorů"><span id="Typy_procesoru">Typy procesorů</span></h2>
+
+<ul>
+  <li><del>6809</del> – <em><strong>hotovo</strong></em></li>
+  <li>SC/MP II</li>
+  <li>1802</li>
+</ul>
+
+<h2 id="funkce"><span id="Funkce">Funkce</span></h2>
+
+<ul>
+  <li><del>Ukládání workspace na server</del> – <em><strong>hotovo</strong></em></li>
+  <li><del>„Source beautifier“ na zkrášlení zdrojáku</del> <em>– <strong>hotovo</strong></em></li>
+  <li>Importy / exporty (např. možnost hodit jako zdroják výstup LST)</li>
+  <li>Emulátor 8080 doplnit o trasování <del>a breakpointy</del> <em>– <strong>breakpointy</strong> <strong>hotové</strong></em></li>
+  <li>Doplnit do výpisu volitelně takty procesoru</li>
+</ul>
+
+<h2 id="sprite-editor"><span id="Sprite_editor">Sprite editor</span></h2>
+
+<h1 id="emulátory">Emulátory</h1>
+
+<h2 id="pmd-85-1-2a"><span id="PMD_85_1_2A">PMD 85 (1, 2A)</span></h2>
+
+<ul>
+  <li><del>Ve Firefoxu extrémně pomalý, nefunguje audio – nepoužitelný! 🙁</del> <em>Opraveno</em></li>
+  <li><del>V Opeře funguje audio, nefunguje klávesa SHIFT (problém s jejím zachytáváním)</del> <em>Opraveno</em></li>
+  <li><del>V IE nefunguje! Nutnost fixnout clampedArrays!</del>  <em>– <strong>hotovo</strong></em></li>
+  <li>Dodělat 8251 a práci s páskou</li>
+  <li><del>Dodělat LED (kosmetická vada)</del><strong><em> Hotovo</em></strong></li>
+  <li><del>Přidat možnost zastavit procesor a krokovat ho (monitor)</del> <strong><em>Hotovo</em></strong></li>
+</ul>
+
+<h2 id="bob-85"><span id="BOB-85">BOB-85</span></h2>
+
+<ul>
+  <li>První verze otestována s procesorem 8080, klávesnice i displej fungují, monitor běží</li>
+  <li>Dodělat SIM/RIM a nedokumentované instrukce pro 8085</li>
+  <li>Dodělat práci s magnetofonem</li>
+</ul>
+
+<h2 id="pmi-80"><span id="PMI-80">PMI-80</span></h2>
+
+<ul>
+  <li>Dodělat zvuk</li>
+</ul>
+
+<h2 id="cpm"><span id="CPM">CP/M</span></h2>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

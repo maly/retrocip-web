@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>O objektu, struktuře a gotu</title>
+
+  
+
+  <meta name="description" content="A taky o globální proměnné. Programátoři se od pradávna dělili na Opravdové Programátory a Pojídače koláčů. Tenhle sloupek Eda Posta je tak notoricky známý, že ho ani nebudu připomínat, a místo toho rovnou řeknu, co mám na srdci… Totiž já už to psal, ale klidně to připomenu: Učte se programovat...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="O objektu, struktuře a gotu">
+  <meta property="og:description" content="A taky o globální proměnné. Programátoři se od pradávna dělili na Opravdové Programátory a Pojídače koláčů. Tenhle sloupek Eda Posta je tak notoricky známý, že ho ani nebudu připomínat, a místo toho rovnou řeknu, co mám na srdci… Totiž já už to psal, ale klidně to připomenu: Učte se programovat...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2016-06-23T00:46:04+02:00">
+  <meta property="og:url" content="http://localhost:4000/o-objektu-strukture-a-gotu/">
+  <link rel="canonical" href="http://localhost:4000/o-objektu-strukture-a-gotu/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="O objektu, struktuře a gotu">
+  <meta property="twitter:description" content="A taky o globální proměnné. Programátoři se od pradávna dělili na Opravdové Programátory a Pojídače koláčů. Tenhle sloupek Eda Posta je tak notoricky známý, že ho ani nebudu připomínat, a místo toho rovnou řeknu, co mám na srdci… Totiž já už to psal, ale klidně to připomenu: Učte se programovat...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              O objektu, struktuře a gotu
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 23. 6. 2016</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>A taky o globální proměnné.</p>
+
+<p>Programátoři se od pradávna dělili na Opravdové Programátory a Pojídače koláčů. Tenhle sloupek Eda Posta je tak notoricky známý, že ho ani nebudu připomínat, a místo toho rovnou řeknu, co mám na srdci…</p>
+
+<p>Totiž já už to psal, ale klidně to připomenu: Učte se programovat mikrokontroléry, naučte se assembler aspoň jednoho procesoru, a uvidíte, jak vám věci začnou dávat smysl.</p>
+
+<p>Uvědomil jsem si to, když mi jeden velmi zkušený programátor ukazoval svůj kód pro Arduino a divil se, že se mu to nevejde do paměti. Koukám do kódu, a ten byl – přátelé! – ten byl nádherný! Srdce každého učitele programování by nad tím zaplesalo. Nahoře měl konstruktor a destruktor, pod tím ty struktury, správně přetypované malloc()…</p>
+
+<p>Polknul jsem.</p>
+
+<p>„Co? Mám chybu v tom pointerovém typecastu? To snad ne…“</p>
+
+<p>Povídám: „Co to tady tím mallocem tvoříš?“</p>
+
+<p>Prý že nějaké úložiště dat… V hlavní smyčce se volají dvě funkce, první nějak sebere data, vytvoří tuhle strukturu, předá ji druhé, ta je zpracuje a strukturu zase zruší. Napsal bych objekt, ale nemělo to metody. Tady by asi ten učitel povytáhnul obočí.</p>
+
+<p>Funkce, která data zpracovávala, měla taky nějaké lokální proměnné. Ještě že nepoužil rekurzi, pak by bylo neštěstí hotové.</p>
+
+<p>Dal jsem mu stručnou nalejvárnu. Naštěstí šlo o chápavého a velmi liberálního programátora. Kdyby byl rigidní, tak mě ještě dneska škrtí a křičí, že globální proměnná neexistuje a GOTO je ďábel!</p>
+
+<p>Pojďme si to trošku nahodit na koleje. Pokud jste programátor bankovních systémů v Javě, pokud děláte weby nebo pokud programujete, cojávím, matematické algoritmy v … čemkoli, zkrátka pokud programujete cokoli s výjimkou low level systémů, tak si opravdu vystačíte s objektovým / objektově orientovaným přístupem, ti drsnější z vás se naučí funkcionální, a neberte to teď nijak zle: vystačíte si s tím a budete v tom klidně dobří. Ale nepouštějte se, probůh, do low level, protože tam jsou lvi a temnota a zmatení a jistoty přestávají platit.</p>
+
+<p>Trošku to připomíná situaci člověka, který je zvyklý na newtonovskou mechaniku, a najednou je postaven před teorii relativity. Všechno je jinak a sčítání rychlostí není sčítání a tak. Jenže platí, a to si zapište červenou tužkou hned vedle tabulky ASCII kódů, že v normálním životě si většina lidí vystačí s newtonovskou mechanikou, a kdo by při výpočtu doby dojezdu z Prahy do Brna autem po D1 montoval relativistické vzorce, dopočítal by se téhož, ale působil by značně nepatřičně. Tam stačí obyčejné „vzdálenost lomeno rychlost“. <em>Teda – na D1 je to potřeba ještě vynásobit imaginární jednotkou _i</em>, protože D1 se řídí vlastními zákony a žádný vzorec nikdy nezohlední počet bílých Transitů, Felicií jedoucích 110 v levém pruhu, vymletý pravý pruh od Humpolce po Jihlavu ani Slováků v audinách tak temných, že mají zatemněné i přední sklo, ale – rozumíme si, ne?_</p>
+
+<p>Zkrátka úplně stejně, jako jsou relativistické vzorce vhodné jen pro některé oblasti, tak jsou low level postupy taky vhodné převážně pro low level programování. Ale zase je dobré je znát, abyste si nepřipadali před cyklotronem a Arduinem jako mistři světa, protože umíte newtonovskou fyziku a Quicksort.</p>
+
+<p>[sc:ebay item=“arduino nano usb“][sc:ebay item=“arduino uno USB“][sc:ebay item=“arduino 2560 USB“][sc:ebay item=“arduino due SAM3X8E“]</p>
+
+<p>Pár základních věcí tedy zde:</p>
+
+<p>Zaprvé – globální proměnné existují a jsou užitečné. Pokud se pracuje s jednou instancí něčeho (tedy jako že singleton), tak to uložte do „globální proměnné“. V praxi to dostane v RAMce, které v jednočipu není nikdy dost, tolik bajtů, kolik to skutečně zabírá, bude to na konstantní adrese, a nazdar bazar, bude to tam furt, přistupuje se k tomu jednoduše a hotovo dvacet.</p>
+
+<p>Zadruhé – žádná halda. Víte vy, jak se pracuje s haldou? Jasně že víte, ale otázka zní: jak to ten procesor vlastně dělá, že tu haldu má, a že vám z ní přiděluje paměť, o kterou si řeknete? No, on si totiž vezme celou volnou paměť, co má k dispozici (a to se liší podle architektury), a udělá si v ní bloky. V zásadě si na začátku zapíše na začátek celé haldy pár servisních bajtů, typicky: toto je prázdný blok, má délku tolik a tolik. Pak uděláte malloc(), knihovna koukne do paměti, najde značku pro „prázdný blok“, z ní odpočítá požadovaný počet bajtů, a na začátek zapíše: Alokovaný blok, tolik a tolik bajtů, a za konec zapíše: Prázdný blok, tolik a tolik bajtů. Chvilku je přidělujte a rušte, nejlépe s různými a nesoudělnými délkami, a za chvilku v RAMce nebudete mít k hnutí. Prostě ne, dynamická alokace paměti je v jednočipu prostě hloupý nápad a pokud můžete, tak se jí vyhněte.</p>
+
+<p>Zadvouapůlté – ukazatel. Když už máte nějakou dynamickou paměť přidělenou, tak k ní přistupujete přes ukazatel a přes index. Což tedy v praxi znamená, že buď má procesor nějaké indexové registry, a do nich si uloží hodnotu ukazatele a pak přistupuje k paměti prostřednictvím nepřímé adresy, nebo je nemá, a pak si musí pokaždé adresu dopočítat. Naštěstí je dneska mají, taky překladače umí hodně dobře optimalizovat, ale raději se na to nespoléhejte, protože i překladač může narazit na omezení, buď svoje, nebo procesoru.</p>
+
+<p>Zatřetí – žádné lokální proměnné. Taková lokální proměnná, to je místo na zásobníku. Zásobník, helejte, to není nějaká abstraktní struktura ze skript „Algoritmy I – datové struktury“, ale docela zásadní součást procesoru na nízké úrovni. Když voláte podprogram (což je ve vyšších jazycích plusmínus ekvivalent „volání funkce“), tak se na zásobník, což je struktura v paměti, uloží adresa, ze které se skáče, aby se po returnu mohl procesor vrátit tam, kde byl naposledy. Na zásobník se taky ukládají věci, které si potřebujete na chvíli někam schovat. Zkrátka zásobník je velmi důležitá věc, bez ní by vám program ve strojáku fungoval naprosto nestrukturovaně. U „velkých“ procesorů to nebývá úplně takový problém, tam bývá zásobník hodně velký a s chybou „stack overflow“, která nastává ve chvíli, kdy toho na zásobník uložíte moc, se setkáte jen zřídka. Nebo ještě hůř – nesetkáte se s ní až do chvíle, než vám někdo pomocí téhle chyby nezruší systém a nenabourá se do něj. U malých procesorů to už problém je, tam není dost RAMky. Některé dokonce mají omezenou velikost (třeba 6502 měl jen 256 bajtů na zásobníku) a některé jednočipy mají hardwarově zásobník zcela mimo adresní prostor a pevně omezený například na 16 hodnot.</p>
+
+<p>No, a proč o zásobníku mluvím? Protože zrovna lokální proměnné se dělají tak, že po vstupu do podprogramu (=funkce, procedury, jakkoli) se na zásobníku alokuje množství paměti, potřebné pro všechny proměnné, a pak se k nim přistupuje (zase) nepřímo. Moderní překladače to řeší tak, že se snaží alokovat pro tyto situace některé z registrů, ale zase: nejde to vždy a všude, nespoléhejte na to.</p>
+
+<p>Mimochodem – když předáváte funkci parametry, víte, co se stane? Záleží na překladači, ale obecně platí, že zase uloží všechny na zásobník a zavolají podprogram. Pak je opět zahodí. Znovu: překladače optimalizují a snaží se nacpat parametry do registrů, ale když jich je moc, tak i registry dojdou.</p>
+
+<p>Začtvrté – rekurze. Není to dobrý nápad, důvod vizte výš.</p>
+
+<p>Za páté – goto. Nebo GO TO. Zkrátka přímý skok na nějaké místo programu. Od dob strukturovaného programování je to zlo, protože to rozbíjí strukturu. Ve skutečnosti za všemi těmi for a loop a while není nic jiného než prachsprosté goto, jen zakapotované tak, že cílovou adresu skoku řeší překladač a ne chybující programátor. I známé <em>break</em> a <em>continue</em> jsou jen syntaktický cukřík místo goto. V assembleru se mu ale říká většinou jump (JMP, JP, JUMP) nebo branch. Je to velmi silný nástroj, takže chápu, proč ve vyšších jazycích moc nebývá, ale tam dole, tam, kde to smrdí křemíkem, se bez něj neobejdete. A stačí jedna chyba, a program vám najednou skáče, kam nemá, kde ho nikdo nečekal, a dějou se věci veliké.</p>
+
+<p>Holt jednočipy, osmibity a assembler nejsou pro měkkýše… Jsou to mocné nástroje, ale nebezpečné a v rukou nezkušeného můžou napáchat obrovské škody. Ale rozhodně pomůže, když se je naučíte – i kdyby hlavním důvodem měla být ta úleva, že programujete v něčem s podstatně vyšší mírou abstrakce.</p>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#Assembler">Assembler</a>
+        
+        <a href="/tags#Jednočipy">Jednočipy</a>
+        
+        <a href="/tags#Programování">Programování</a>
+        
+        <a href="/tags#Software">Software</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=O+objektu%2C+struktu%C5%99e+a+gotu&url=http%3A%2F%2Flocalhost%3A4000%2Fo-objektu-strukture-a-gotu%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fo-objektu-strukture-a-gotu%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fo-objektu-strukture-a-gotu%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/bigclown/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="BigClown"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/soutez-v-programovani-mikroradicu/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Soutěž v programování mikrořadičů"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Jak fungují nedokumentované instrukce 6502?</title>
+
+  
+
+  <meta name="description" content="Snad každý procesor osmibitové éry v sobě ukrýval nějaké překvapení, o kterém se v manuálu nepsalo. Nejčastěji to byly instrukce s kódy, které byly v oficiálním seznamu instrukcí označeny cudným „- – -„. Procesor 8085 měl několik šikovných instrukcí, o nichž se nemluví, stejně jako Z80 – tam se před...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Jak fungují nedokumentované instrukce 6502?">
+  <meta property="og:description" content="Snad každý procesor osmibitové éry v sobě ukrýval nějaké překvapení, o kterém se v manuálu nepsalo. Nejčastěji to byly instrukce s kódy, které byly v oficiálním seznamu instrukcí označeny cudným „- – -„. Procesor 8085 měl několik šikovných instrukcí, o nichž se nemluví, stejně jako Z80 – tam se před...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2014-05-12T09:05:26+02:00">
+  <meta property="og:url" content="http://localhost:4000/jak-funguji-nedokumentovane-instrukce-6502/">
+  <link rel="canonical" href="http://localhost:4000/jak-funguji-nedokumentovane-instrukce-6502/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Jak fungují nedokumentované instrukce 6502?">
+  <meta property="twitter:description" content="Snad každý procesor osmibitové éry v sobě ukrýval nějaké překvapení, o kterém se v manuálu nepsalo. Nejčastěji to byly instrukce s kódy, které byly v oficiálním seznamu instrukcí označeny cudným „- – -„. Procesor 8085 měl několik šikovných instrukcí, o nichž se nemluví, stejně jako Z80 – tam se před...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Jak fungují nedokumentované instrukce 6502?
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 12. 5. 2014</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>Snad každý procesor osmibitové éry v sobě ukrýval nějaké překvapení, o kterém se v manuálu nepsalo. Nejčastěji to byly instrukce s kódy, které byly v oficiálním seznamu instrukcí označeny cudným „- – -„.</p>
+
+<!--more-->
+
+<p>Procesor 8085 měl několik šikovných instrukcí, o nichž se nemluví, stejně jako Z80 – tam se před člověkem otevřel velmi široký svět, ve kterém šlo pracovat s polovinami indexových registrů, posouvat obsah apod.</p>
+
+<p>Naprostým přeborníkem v nedokumentovaných instrukcích je ale procesor 6502. Zatímco výše zmíněné procesory působí dojmem, že „nedokumentované“ někdo opravdu navrhl, zabudoval, ale pak se rozhodli, že o nich nikomu neřeknou, tak u 6502 působí nedokumentované („ilegální“) operační kódy jako směs instrukcí s naprosto nahodilými efekty, od použitelných přes obskurní až k naprosto ujetým.</p>
+
+<p>Použitelná by mohla být (s trochou fantazie) třeba instrukce ANC #imm, která provede operaci AND mezi obsahem registru A a přímým operandem a nastaví hodnotu příznaku C podle nejvyššího bitu výsledku.  Trošku divočejší instrukce jsou třeba LAX (která funguje jako LDA a LDX najednou, tj. vloží operand do registrů A a X) nebo XAA (přenese obsah registru X do registru A a pak provede logický součin [AND] registru A s operandem). Naprosté obskurity jsou instrukce jako TAS nebo SAY.</p>
+
+<p>Kupříkladu taková instrukce TAS. Ta má tvar TAS $nnnn, Y – tedy operační kód a dva bajty adresy. Jako příklad dejme TAS $1234, Y:</p>
+
+<ol>
+  <li>Instrukce udělá logický součin (AND) obsahu registrů A a X (oba registry ponechá nezměněné) a uloží výsledek do ukazatele zásobníku S.</li>
+  <li>S výsledkem udělá logický součin s hodnotou $13 (tj. vyšší byte adresy, zvýšený o 1) a výsledek uloží do paměti na adresu $1234</li>
+</ol>
+
+<p>Vzbuzuje to několik otázek. Například: Jak na to, proboha, někdo mohl přijít? Nebo: K čemu to je? Nebo: Proč?</p>
+
+<p>Na tu poslední si odpovíme právě v tomto článku. Budu vycházet z famózního <a href="http://www.pagetable.com/?p=39">How MOS 6502 Illegal Opcodes really work</a> a přidám drobné úpravy.</p>
+
+<h2 id="jak-6502-dekóduje-instrukce">Jak 6502 dekóduje instrukce?</h2>
+
+<p>Na rozdíl od procesorů s mikrokódem, ve kterých je každá instrukce přeložena interně do posloupnosti jednoduchých operací, které jsou provedeny jakýmsi „vnitřním procesorem“, používá 6502 kombinační logiku, jejímž srdcem je PLA – dekódovací paměť. PLA je organizována jako 130 řádků (údajů), každý po 21 bitech. Každý řádek udává operaci (či operace), co se pro daný operační kód (či sadu operačních kódů) provedou v určitém taktu.</p>
+
+<p>Každý údaj lze rozdělit na tři části: ON bity, OFF bity a časování. Zjednodušeně si je můžeme představit takto:</p>
+
+<table border="1" width="500px">
+  <tr>
+    <td colspan="8" align="center">
+      <b>ON bity</b>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <i>7</i>
+    </td>
+    
+    <td>
+      <i>6</i>
+    </td>
+    
+    <td>
+      <i>5</i>
+    </td>
+    
+    <td>
+      <i>4</i>
+    </td>
+    
+    <td>
+      <i>3</i>
+    </td>
+    
+    <td>
+      <i>2</i>
+    </td>
+    
+    <td>
+      <i>1</i>
+    </td>
+    
+    <td>
+      <i></i>
+    </td>
+  </tr>
+  
+  <tr>
+    <td colspan="8" align="center">
+      <b>OFF bity</b>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <i>7</i>
+    </td>
+    
+    <td>
+      <i>6</i>
+    </td>
+    
+    <td>
+      <i>5</i>
+    </td>
+    
+    <td>
+      <i>4</i>
+    </td>
+    
+    <td>
+      <i>3</i>
+    </td>
+    
+    <td>
+      <i>2</i>
+    </td>
+    
+    <td>
+      <i>1</i>
+    </td>
+    
+    <td>
+      <i></i>
+    </td>
+  </tr>
+  
+  <tr>
+    <td colspan="6" align="center">
+      <strong>časování</strong>
+    </td>
+    
+    <td>
+    </td>
+    
+    <td>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <i>T6</i>
+    </td>
+    
+    <td>
+      <i>T5</i>
+    </td>
+    
+    <td>
+      <i>T4</i>
+    </td>
+    
+    <td>
+      <i>T3</i>
+    </td>
+    
+    <td>
+      <i>T2</i>
+    </td>
+    
+    <td>
+      <i>T1</i>
+    </td>
+    
+    <td>
+    </td>
+    
+    <td>
+    </td>
+  </tr>
+</table>
+
+<p>Pozornému čtenáři neuniklo, že nesedí počet bitů (22) s deklarovaným. To je proto, že ve skutečnosti vypadá řádek o něco složitěji – ale k tomu se hned dostanu.</p>
+
+<p>Části ON a OFF určují, jak má vypadat instrukční kód. Pokud má mít nastaven bit 4, bude nastaven bit 4 v části ON. Pokud má mít bity 3 a 2 nulové, budou nastaveny bity 3 a 2 v části OFF. Na hodnotě bitů, které nejsou nastaveny ani v ON, ani v OFF, nezáleží a může být jakákoli. Poslední, co se kontroluje, je takt. V prvním taktu instrukce (po jejím vyzvednutí) je procesor v taktu T1 a s každým dalším se zvětšuje o 1, tj. posouvá doleva v poli „časování“.</p>
+
+<p>Pokud všechny bity, na kterých záleží, odpovídají dané hodnotě, a pokud sedí i číslo taktu, je daný řádek „platný“ a předává se kombinační logice, která podle toho vykoná nějaké jednoduché úkony. Pro jednu instrukci může být platných řádků i víc najednou.</p>
+
+<h2 id="skládání-instrukcí">Skládání instrukcí</h2>
+
+<p>Ve skutečnosti je v PLA uloženo pouze šest ON bitů a šest OFF bitů pro bity 2-7. Hodnoty bitů 0 a 1 se kódují trochu jinak, pomocí trojice signálů G1, G2 a G3. G1 platí, pokud je nastavený bit 0, G2 pro nastavený bit 1 a G3 pro oba bity nulové. Vidíte, že logika není úplná, že chybí ošetření stavu pro oba bity nastavené. A je to opravdu tak, při pohledu do <a href="http://www.oxyron.de/html/opcodes02.html">tabulky instrukcí</a> vidíme, že instrukce, které mají nastavené oba nejnižší bity (tj. končí na x3, x7, xB a xF) jsou „ilegální“. Ve skutečnosti takové instrukce spustí řádky s G1 i s G2 a fungují tak jako kombinace dvou předchozích instrukcí.</p>
+
+<p>(Když se ponoříte do <a href="https://code.google.com/p/breaks/source/browse/trunk/Docs/6502/PLA.txt?spec=svn2&amp;r=2">výpisu PLA</a>, zjistíte, že jsou bity v naprosto odlišném pořadí, proto opakuju: výše zmíněné je pouze ilustrační!)</p>
+
+<p>Zjednodušeně řečeno: pokud má instrukce oba nejnižší bity nastavené, chová se, díky neúplnému dekodéru, jako dvě instrukce, G1 a G2. Například instrukce s kódem $AF se chová jako instrukce s kódem $AE – LDX i s kódem $AD – LDA (nikoli $AC, ta má oba bity nulové a je správně dekódována jako G3). U prvních dvou taktů to nevadí, v nich se pouze čte absolutní adresa, ve třetím taktu se obsah této adresy čte do registru. Do kterého? To se nastavuje v prvním taktu. Pro G1 se aktivuje signál, uvolňující zápis do registru A, pro G2 zápis do registru X. V našem případě se tedy uvolní oba, a hodnota se zapíše do obou.</p>
+
+<p>Obdobně kombinace STA a STX vytvoří složenou instrukci SAX, která do paměti uloží hodnoty obou registrů A a X najednou – totiž výsledek AND obou hodnot (tipuju, že jsou interně použity otevřené kolektory, které vytvoří „montážní AND“).</p>
+
+<p>Takto lze vystopovat mnoho „ilegálních instrukcí“. Dokonce i TAS…</p>
+
+<h2 id="kill-em">Kill ‚em!</h2>
+
+<p>V PLA je zakódováno nejen to, kolik taktů která instrukce trvá a kde bere operandy, ale i načtení kódu další instrukce v posledním taktu. Což s sebou nese další zajímavý jev.</p>
+
+<p>Některé kódy nedělají nic (NOP). Některé NOPy ještě předtím načtou jeden nebo dva bajty. No a některé instrukce prostě zaseknou celý procesor (většina kódů, které končí dvojkou). Nejpravděpodobnější vysvětlení je, že se u těchto kódů v PLA nenajde právě to načtení další instrukce, které mj. vynuluje počítadlo taktů, a instrukce se dostane do smrtícího „osmého taktu“, pro který už neexistuje žádný záznam v PLA. A protože se požadavky na přerušení řeší až na konci instrukce, tj. v okamžiku, kdy se nuluje počítadlo taktů, tak ani přerušení nenastane. Procesor se zkrátka „ocitne mimo šachovnici“ a vzpamatuje ho až RESET.</p>
+
+<p>K dalšímu studiu doporučuju:</p>
+
+<ul>
+  <li><a href="http://visual6502.org/wiki/index.php?title=6507_Decode_ROM">Decode ROM</a></li>
+  <li><a href="http://www.pagetable.com/?p=39">How MOS 6502 Illegal Opcodes really work</a></li>
+  <li><a href="https://code.google.com/p/breaks/source/browse/trunk/Docs/6502/PLA.txt?spec=svn2&amp;r=2">PLA dump</a></li>
+  <li><a href="http://www.oxyron.de/html/opcodes02.html">6502 opcodes</a></li>
+  <li><a href="http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes">6502 extra opcodes</a></li>
+</ul>
+</article>
+
+      
+      <div class="blog-tags">
+        <span>Tagy:</span>
+        
+        <a href="/tags#6502">6502</a>
+        
+      </div>
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Jak+funguj%C3%AD+nedokumentovan%C3%A9+instrukce+6502%3F&url=http%3A%2F%2Flocalhost%3A4000%2Fjak-funguji-nedokumentovane-instrukce-6502%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjak-funguji-nedokumentovane-instrukce-6502%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjak-funguji-nedokumentovane-instrukce-6502%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/msx/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="MSX"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/vy-jste-mi-tu-jeste-chybeli/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Vy jste mi tu ještě chyběli!"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>

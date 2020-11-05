@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+  <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Sám sobě programátorem EEPROM</title>
+
+  
+
+  <meta name="description" content="(Kapitola, co se do Portů bajtů… nevešla) U všech konstrukcí OMEN jsem v zapojení paměti EEPROM navrhl jumper / přepínač, většinou nazvaný WREN – WRite ENable, a zároveň jsem psal, že při práci by měl být zapojený tak, aby na vstupu /WE byla stále logická 1. Tak proč tam tedy je?...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  <meta property="og:title" content="Sám sobě programátorem EEPROM">
+  <meta property="og:description" content="(Kapitola, co se do Portů bajtů… nevešla) U všech konstrukcí OMEN jsem v zapojení paměti EEPROM navrhl jumper / přepínač, většinou nazvaný WREN – WRite ENable, a zároveň jsem psal, že při práci by měl být zapojený tak, aby na vstupu /WE byla stále logická 1. Tak proč tam tedy je?...">
+
+  
+  <meta property="og:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="">
+  <meta property="og:article:published_time" content="2020-08-14T17:22:23+02:00">
+  <meta property="og:url" content="http://localhost:4000/sam-sobe-programatorem-eeprom/">
+  <link rel="canonical" href="http://localhost:4000/sam-sobe-programatorem-eeprom/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@retrocip">
+  <meta name="twitter:creator" content="@retrocip">
+
+  <meta property="twitter:title" content="Sám sobě programátorem EEPROM">
+  <meta property="twitter:description" content="(Kapitola, co se do Portů bajtů… nevešla) U všech konstrukcí OMEN jsem v zapojení paměti EEPROM navrhl jumper / přepínač, většinou nazvaný WREN – WRite ENable, a zároveň jsem psal, že při práci by měl být zapojený tak, aby na vstupu /WE byla stále logická 1. Tak proč tam tedy je?...">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/wp-content/uploads/sites/6/favicon/retrocip.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://deanattali.com">Author's home</a>
+          </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/wp-content/uploads/sites/6/favicon/retrocip.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+ <!-- TODO this file has become a mess, refactor it -->
+<!-- prettier-ignore -->
+
+  
+
+
+
+<header class="header-section ">
+  
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            <h1>
+              Sám sobě programátorem EEPROM
+            </h1>
+             
+            <span class="post-meta"
+              >Vydáno 14. 8. 2020</span
+            >
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <article role="main" class="blog-post"><p>(Kapitola, co se do Portů bajtů… nevešla)</p>
+
+<p>U všech konstrukcí <a href="https://omenmicro.eu/">OMEN</a> jsem v zapojení paměti EEPROM navrhl jumper / přepínač, většinou nazvaný WREN – WRite ENable, a zároveň jsem psal, že při práci by měl být zapojený tak, aby na vstupu /WE byla stále logická 1.</p>
+
+<p>Tak proč tam tedy je? Proč jsem ho nepřipojil přímo na +5 voltů?</p>
+
+<p>Když je vstup /WE u paměti EEPROM připojený na logickou 1, je zakázaný zápis. A to je dobře, tak to má být a tak to chceme. Většinou chceme z paměti (EEP)ROM jen číst. Pokud do ní nějaký kód zapisuje, je to většinou omylem, a kdyby se zapisovat mohlo, přineslo by to spíš mrzení, než užitek.</p>
+
+<div class="wp-block-image">
+  <figure class="alignright size-large is-resized"><img loading="lazy" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3.jpg" alt="" class="wp-image-1185" width="244" height="244" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3.jpg 360w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3-150x150.jpg 150w" sizes="(max-width: 244px) 100vw, 244px" /></figure>
+</div>
+
+<p>Ale existují i situace, kdy je dobré zápis povolit. Například tehdy, kdy chcete aktualizovat firmware, obslužný program, nebo do EEPROM přidat nějaké rozšíření. Což jsou věci, které čas od času mohou být k užitku, proto je dobré je nějakým způsobem umožnit, ale zároveň je člověk nepoužívá denně a rutinně, tak nevadí, když jejich povolení je trochu netriviální. Pokud možno tak složité, aby k němu nemohlo dojít náhodou. Ideální je proto použít takzvaný pin header, neboli tři kovové kolíčky, a věc, které se říká „shunt“ nebo též „jumper“, a která vodivě spojí vývody 1-2, nebo 2-3.</p>
+
+<p>Na této ukázce ze schématu OMEN Alpha je zmíněný přepínač zakreslený s označením JP5. Pokud jsou spojené vývody 1 a 2, je na vstup /WE přivedeno napájecí napětí. Pokud jsou spojené vývody 2 a 3, je na tento vstup přiveden signál /WR od procesoru. Podobné zapojení je i u Brava a Echa, protože princip práce je stále stejný.<figure class="wp-block-image size-large"></figure></p>
+
+<p><img loading="lazy" width="972" height="1024" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-972x1024.png" alt="" class="wp-image-1186" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-972x1024.png 972w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-617x650.png 617w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-768x809.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-1457x1536.png 1457w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren.png 1557w" sizes="(max-width: 972px) 100vw, 972px" /> &lt;/figure&gt;</p>
+
+<p>Asi tušíte, že v zápisu do paměti EEPROM bude nějaký háček, a tušíte správně. Asi ten hlavní háček, přímo hák, je ten, že se něco nepovede. Data se zapíšou špatně, program bude mít chyby, přepíšete si základní programové vybavení, a po restartu budete mít zařízení ve stavu „brick“, tedy funkční obdobu cihly.</p>
+
+<p>Druhý háček vyplývá ze samotného principu zápisu dat do paměti EEPROM. Z hlediska připojení se taková paměť neliší od RAM: přivedete data na datovou sběrnici, adresu na adresní, aktivujete signály /CS a /WE, a je to! Jenže EEPROM je přeci jen primárně ROM, tedy paměť pouze ke čtení, a ačkoli máme možnost přepsat data, má to své záludnosti. Třeba to, že zápis trvá docela dlouho, a po tu dobu by paměť neměla být rušena, a už vůbec by po ní neměl někdo chtít nějaká data.</p>
+
+<p>Většina pamětí EEPROM, a platí to i pro oba typy, co v konstrukcích používáme, tedy AT28C64 a AT28C256, umí zapsat data buď po jednotlivých bajtech, nebo po celých blocích, ale poté, co zapíšeme data, respektive celý blok, musíme čekat. U těchto pamětí je čekací doba až 10 milisekund; u jejich rychlejších variant, třeba 28C256F, to jsou 3 milisekundy.</p>
+
+<blockquote class="wp-block-quote">
+  <p>
+    To fakt není žádná super rychlost. Kdybychom zapisovali bajt po bajtu do paměti OMEN Alpha, což je 32 kB, tak to bude trvat 32768&nbsp;x 10 ms = 327,68 s, což je něco přes pět minut. Pokud využijeme zápisu po blocích 64 bytů, zvládneme to za pět sekund.
+  </p>
+</blockquote>
+
+<p>Důsledkem tohoto omezení je, že program, který zapisuje do EEPROM, nemůže být v této EEPROM zároveň spuštěný. Po zápisu bajtu by procesor přistupoval k téže paměti. Paměť by to brala jako znamení, že má začít zapisovat, na 10 milisekund by se odmlčela, ale procesor by během těch deseti milisekund z téže paměti četl instrukce. Jenže po dobu zápisu paměť posílá na datovou sběrnici informace o tom, že zapisuje, resp. že už zápis skončil, takže by se místo instrukcí četly nesmysly, program by okamžitě zhavaroval, a <em>brick</em> by nastal dřív, než stačíte říct „RESET!“</p>
+
+<p>Takže dvě zlatá pravidla:</p>
+
+<ol type="1">
+  <li>
+    Program, který zapisuje do EEPROM, musí celý kompletně běžet v&nbsp;RAM a musí zajistit, že během zápisového cyklu se na sběrnici neobjeví žádná adresa, která by aktivovala paměť EEPROM.
+  </li>
+  <li>
+    Program, který přepisuje EEPROM, musí být trojnásob opatrný než běžný program. Všechna data zkontrolujte dřív, než je prohlásíte za zapsaná, raději pomaleji, ale bezpečně, nezapomeňte zakázat všechna přerušení a modlete se, aby odněkud nepřišlo nemaskovatelné přerušení.
+  </li>
+</ol>
+
+<h2 id="jak-zapsat-do-eeprom">Jak zapsat do EEPROM?</h2>
+
+<p>Samotný zápis je úplně stejný jako při zápisu do RAM. Použijte jakoukoli instrukci, která zapisuje do paměti, a pokud bude adresa odpovídat EEPROM a předtím povolíte zápis do EEPROM (hardwarovým přepínačem, viz výše), paměť začne ukládat zapsaný bajt na zadanou adresu. Během zápisu z paměti nelze číst data, namísto toho načítáte stavové informace.</p>
+
+<p>Blokový zápis umožňuje zapsat až 64 po sobě jdoucích bajtů najednou. Pro zápis bloku není potřeba žádná speciální instrukce, prostě zapisujete na adresu a, a+1, a+2, … Stačí dodržet dvě prostá pravidla:</p>
+
+<ul>
+  <li>Mezi zapsanými daty nesmí uplynout víc než 150 mikrosekund, což není většinou problém; u Alphy to vychází na 276 hodinových taktů, během té doby stačíme spolehlivě připravit nový bajt a zapsat ho.</li>
+  <li>Všechny adresy v bloku musejí mít stejnou hodnotu v bitech A6 – A14 (u 28C256; u paměti 28C64 to jsou bity A6 – A12). Při zápisu bloků můžete měnit pouze bity A0 – A5, tedy nejnižších 6 bitů adresy.</li>
+</ul>
+
+<p>Jakmile tato pravidla nedodržíte, tj. nastane větší časová prodleva nebo další adresa překročí hranici bloku 64 bajtů, paměť další data zahodí a spustí interní zápisový cyklus.</p>
+
+<p>Po spuštění interního zápisového cyklu paměť další požadavky na zápis ignoruje. Tento cyklus může trvat až 10 milisekund, jak jsme si už řekli. Během této doby paměť informuje o tom, že se zapisují data, prostřednictvím dvou mechanismů, /DATA Polling a Toggle bit.</p>
+
+<p>/DATA Polling spočívá v tom, že program čte data ze stejné adresy, kam naposledy zapisoval. Dokud trvá zápis, je v nejvyšším bitu D7 invertovaná hodnota zapisované hodnoty. Tedy pokud jste jako poslední hodnotu zapsali například 0x55 (což je binárně 01010101) na adresu 0xAAA, budete při čtení z téže adresy načítat hodnotu, která má v nejvyšším bitu 1. Jakmile cyklus zápisu skončí, bude načtená hodnota odpovídat tomu, co jste do paměti zapsali.</p>
+
+<p>Druhá metoda kontroly je bit toggling – během cyklu zápisu se při čtení bude hodnota bitu D6 pravidelně měnit 0 – 1 – 0 – 1 atd. Když cyklus zápisu skončí, hodnota D6 se měnit přestane.</p>
+
+<p>Obě tyto metody můžete použít k určení, zda je bezpečné zapisovat další data. Alternativní postup je prostě vyčkat deklarovaných 10 milisekund. Ale reálná kontrola stavu pomocí technik /DATA polling nebo toggle bit je nejjistější.</p>
+
+<p>Můžete se inspirovat malým ukázkovým programem (pro OMEN Alpha), kde je použita právě technika /DATA polling: <a href="https://8bt.cz/eepw">https://8bt.cz/eepw</a></p>
+</article>
+
+         <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=S%C3%A1m+sob%C4%9B+program%C3%A1torem+EEPROM&url=http%3A%2F%2Flocalhost%3A4000%2Fsam-sobe-programatorem-eeprom%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fsam-sobe-programatorem-eeprom%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fsam-sobe-programatorem-eeprom%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+ 
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/nad-dotazy-ctenaru/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Nad dotazy čtenářů"
+            >&larr; Předchozí</a
+          >
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/krystalove-oscilatory/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Krystalové oscilátory"
+            >Následující &rarr;</a
+          >
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:retrocip@maly.cz" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/martin.maly" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/maly" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/retrocip" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2020
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">Retročip.cz</a>
+        </span>
+      
+
+      
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>
