@@ -4,7 +4,7 @@ title: Spectristický časopis 2014
 date: 2014-12-29T20:46:53+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=477
+guid: https://retrocip.uelectronics.info/?p=477
 permalink: /spectristicky-casopis-2014/
 xyz_lnap:
   - "1"
@@ -97,7 +97,7 @@ Dnes na téma &#8222;Kouzlíme s LDIR&#8220;. (\*\\*\* sem vložíme text, až h
 
 Ze zahraničního zdroje, konkrétně od Spectristů z Maďarska, jsme získali toto skvělé schéma, které zde bez dalších řečí otiskujeme!
 
-<img loading="lazy" class="aligncenter size-medium wp-image-478" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-650x492.jpg" alt="TennisForTwoSchematic" width="650" height="492" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-650x492.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-1024x775.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+<img loading="lazy" class="aligncenter size-medium wp-image-478" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-650x492.jpg" alt="TennisForTwoSchematic" width="650" height="492" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-650x492.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/12/TennisForTwoSchematic-1024x775.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
 
 Pokud si toto jednoduché zařízení ke svému Speccy postavíte, získáte tak rozšíření paměti na 387 kB. Nebo interface pro tiskárnu. Možná. Taky by to ještě mohlo být rozhraní IDE. On ten popis v originále je lehce zavádějící. Každopádně jestli to někdo postavíte a připojíte ke svému Speccy, napište nám do redakce své zkušenosti.
 

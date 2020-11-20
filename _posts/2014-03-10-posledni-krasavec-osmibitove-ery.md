@@ -4,7 +4,7 @@ title: Poslední krasavec osmibitové éry
 date: 2014-03-10T11:44:59+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=138
+guid: https://retrocip.uelectronics.info/?p=138
 permalink: /posledni-krasavec-osmibitove-ery/
 dsq_thread_id:
   - "2399858523"
@@ -60,17 +60,17 @@ Nejznámější osmibitové počítače &#8222;osmibitové éry&#8220; tedy vzni
 
 Zilog Z80 byl představen v roce 1976. Velmi vyspělý a komplexní mikroprocesor se stal základem spousty populárních počítačů. Mezi čtenáři není jistě mnoho těch, co by pochybovali o tom, že tahle přepracovaná a silně vylepšená &#8222;osmdesát osmdesátka&#8220; patří do pomyslné síně slávy.
 
-Ale jak jsem už naznačil v [minulém článku o klonech](http://retrocip.uelectronics.info/klony-a-procesory/ "Klony a procesory"): Z80 mi v 80. letech učarovala. Byl to první procesor, se kterým jsem opravdu pracoval a byl jsem z něj nadšený (Slavo Labsky aka Busysoft v jednom svém demu pro ZX Spectrum dokonce Z80 opěvoval jako &#8222;vlastně šestnáctibitový procesor&#8220;).
+Ale jak jsem už naznačil v [minulém článku o klonech](https://retrocip.uelectronics.info/klony-a-procesory/ "Klony a procesory"): Z80 mi v 80. letech učarovala. Byl to první procesor, se kterým jsem opravdu pracoval a byl jsem z něj nadšený (Slavo Labsky aka Busysoft v jednom svém demu pro ZX Spectrum dokonce Z80 opěvoval jako &#8222;vlastně šestnáctibitový procesor&#8220;).
 
 Když jsem si pak pořídil Atari ST, musel jsem se naučit assembler procesoru 68000 a byl jsem unešen. Ortogonální instrukční sada, spousta adresních módů, prostě paráda! Ale měl jsem zato, že to je možné až u šestnáctibitů. Z mého omylu mě vyvedly dva procesory: 8086, který byl sice šestnáctibitový, ale ve srovnání s 68k to byla tragédie, a pak 6809.
 
-[<img loading="lazy" class="aligncenter size-medium wp-image-139" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg" alt="6809" width="650" height="328" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-1024x518.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809.jpg 1476w" sizes="(max-width: 650px) 100vw, 650px" />](http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809.jpg)
+[<img loading="lazy" class="aligncenter size-medium wp-image-139" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg" alt="6809" width="650" height="328" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-1024x518.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809.jpg 1476w" sizes="(max-width: 650px) 100vw, 650px" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809.jpg)
 
 ## <span id="6809">6809</span>
 
 Motorola po 6800 samozřejmě neusnula na vavřínech a připravila několik variant téhož procesoru (s integrovanou pamětí, s omezenější sadou atd.) Zároveň se ale připravovala i na věci příští, a tak vyvíjela vhodného nástupce. Bylo jasné, že musí vyvinout šestnáctibit, ale zároveň nechtěla opustit osmibitový trh, protože pro osmibity bylo ještě mnoho let uplatnění. Proto začaly vznikat v laboratořích Motoroly dva procesory naráz. Jedním z nich byl 68000 &#8211; šestnáctibitový procesor, který byl ale navržen jako plně 32bitový s 16bitovou sběrnicí (model 68008 dokonce s osmibitovou &#8211; v té době znamenalo rozšíření datové sběrnice na dvojnásobek neúnosné zdražení celého systému). A druhým byl právě 6809.
 
-V časopise Byte vyšel svého času [článek od dvou návrhářů 6809](http://retro.co.za/6809/documents/Byte_6809_Articles.pdf), takže dodneška víme, proč byl procesor navržen právě tak, jak byl navržen. Dnes je to cenný historický materiál, který popisuje tehdejší stav vývoje a mikroelektroniky. Pojďme se podívat na &#8222;design decisions&#8220;, které návrháři udělali.
+V časopise Byte vyšel svého času [článek od dvou návrhářů 6809](https://retro.co.za/6809/documents/Byte_6809_Articles.pdf), takže dodneška víme, proč byl procesor navržen právě tak, jak byl navržen. Dnes je to cenný historický materiál, který popisuje tehdejší stav vývoje a mikroelektroniky. Pojďme se podívat na &#8222;design decisions&#8220;, které návrháři udělali.
 
 V první řadě bylo jasné, že nelze zahodit kompatibilitu s existujícím software pro 6800. Nakonec padlo rozhodnutí obětovat binární kompatibilitu (tu má třeba Z80 s 8080), ale zachovat kompatibilitu na úrovni zdrojového kódu. Tedy tak, aby programy v assembleru 6800 šly přeložit pro nový procesor ve funkčně ekvivalentní podobě. Instrukce se tedy jmenovaly stejně, i když se překládaly na jiné operační kódy.
 
@@ -88,7 +88,7 @@ Registr DP souvisí s adresováním. Procesory Motorola (i odvozený MOS 6502) m
 
 ### <span id="Adresni_mody_a_indexy">Adresní módy a indexy</span>
 
-Adresní módy zůstaly tytéž, jaké [známe z procesoru 6800](http://strojak.cz/procesory-a-procesory/). Výrazně byly rozšířeny možnosti indexace. Instrukce, které používají indexovanou adresaci, obsahují (minimálně) o jeden bajt navíc. V tomto bajtu, zvaném &#8222;post byte&#8220;, je uložena informace o tom, jak se indexuje a s jakými registry.
+Adresní módy zůstaly tytéž, jaké [známe z procesoru 6800](https://strojak.cz/procesory-a-procesory/). Výrazně byly rozšířeny možnosti indexace. Instrukce, které používají indexovanou adresaci, obsahují (minimálně) o jeden bajt navíc. V tomto bajtu, zvaném &#8222;post byte&#8220;, je uložena informace o tom, jak se indexuje a s jakými registry.
 
 Obecně lze pro indexování použít indexové registry X a Y, ukazatele zásobníku S a U, a s určitými omezeními i ukazatel PC. Co máme tedy na výběr?
 
@@ -136,18 +136,18 @@ Podmíněné skoky testují nejen čtyři základní příznakové bity, ale i j
 
 Většina instrukcí je velmi rychlá, zabírá jen pár taktů. Na rozdíl od procesorů z rodiny 8080/Z80, které třeba pro načtení operačního kódu a jeho dekódování zaberou čtyři takty, u 6809 je vše mnohem rychlejší: NOP dva takty, podmíněný relativní skok 3 takty, aritmetické či logické operace 6 taktů, násobení 11 taktů (6809 totiž obsahuje hardwarovou násobičku 8&#215;8 bitů). Samozřejmě pokud je potřeba pracovat s indexovaným adresním módem a načítat post byte, prefix či offset, musíte si patřičný počet taktů přičíst&#8230;
 
-[Další podrobnosti o instrukční sadě.](http://koti.mbnet.fi/~atjs/mc6809/Information/6809Instructions.txt)
+[Další podrobnosti o instrukční sadě.](https://koti.mbnet.fi/~atjs/mc6809/Information/6809Instructions.txt)
 
 ### <span id="Kam_s_nim">Kam s ním?</span>
 
 6809 přišel na trh na konci 70. let, čtyři roky po Z80. Mohly tyhle čtyři roky znamenat, že 6809 už nijak výrazně do osmibitové éry nepromluvil? Dost možná ano. I když všechna ta Spectra a Atari přišla až začátkem 80. let, měl 6809 smůlu. Pravděpodobným důvodem byla cena, a pak další náklady na přepsání software nebo učení nové instrukční sady.
 
-A tak vlastně jediný &#8222;známější&#8220; počítač, který používal 6809, byl TRS-80 CoCo, neboli &#8222;Tandy/RadioShack Color Computer&#8220;, který přišel na trh v roce 1980. (Číslice 80 v označení TRS-80 odkazuje na předchozí model tohoto počítače, který používal Z80.) Postupně vznikly tři verze, v Británii se vyráběly klony tohoto počítače pod označením Dragon 32 / Dragon 64. Z dalších osmibitů používaly 6809 francouzské počítače Thomson MO5 / TO7 / TO8, japonské FM7 a FM8 od Fujitsu, nebo počítač [Aamber Pegasus](http://www.neoncluster.com/aamber_pegasus/aamber_pegasus.html) (1981), který svým minimalistickým návrhem připomínal trochu ZX80/ZX81. _Všimněte si, že počítače s 6809 byly na trhu dřív než třeba Sinclairovy geniální stroje se Z80. Na chvíli se zasním a představím si, jak by vypadalo Spectrum s 6809&#8230; Možná si na to napíšu emulátor. 😉_
+A tak vlastně jediný &#8222;známější&#8220; počítač, který používal 6809, byl TRS-80 CoCo, neboli &#8222;Tandy/RadioShack Color Computer&#8220;, který přišel na trh v roce 1980. (Číslice 80 v označení TRS-80 odkazuje na předchozí model tohoto počítače, který používal Z80.) Postupně vznikly tři verze, v Británii se vyráběly klony tohoto počítače pod označením Dragon 32 / Dragon 64. Z dalších osmibitů používaly 6809 francouzské počítače Thomson MO5 / TO7 / TO8, japonské FM7 a FM8 od Fujitsu, nebo počítač [Aamber Pegasus](https://www.neoncluster.com/aamber_pegasus/aamber_pegasus.html) (1981), který svým minimalistickým návrhem připomínal trochu ZX80/ZX81. _Všimněte si, že počítače s 6809 byly na trhu dřív než třeba Sinclairovy geniální stroje se Z80. Na chvíli se zasním a představím si, jak by vypadalo Spectrum s 6809&#8230; Možná si na to napíšu emulátor. 😉_
 
-Pro 6809 vznikl i zajímavý software. Kromě FORTHu nebo operačního systému OS-9 (později upraven jako [NitrOS-9](http://sourceforge.net/apps/mediawiki/nitros9/index.php?title=Main_Page)) to byl třeba i Microsoft BASIC &#8211; ten ještě v době, kdy Bill Gates psal sám programy.  Gates později v [rozhovoru](http://americanhistory.si.edu/comphist/gates.htm) označil 6809 za nejlepší osmibitový procesor vůbec.
+Pro 6809 vznikl i zajímavý software. Kromě FORTHu nebo operačního systému OS-9 (později upraven jako [NitrOS-9](https://sourceforge.net/apps/mediawiki/nitros9/index.php?title=Main_Page)) to byl třeba i Microsoft BASIC &#8211; ten ještě v době, kdy Bill Gates psal sám programy.  Gates později v [rozhovoru](https://americanhistory.si.edu/comphist/gates.htm) označil 6809 za nejlepší osmibitový procesor vůbec.
 
 A já v tomhle s Billem souhlasím.
 
-Škoda jen, že přišel (asi) pozdě. Sice bylo možné pomocí transpileru přeložit zdrojové programy 6809 pro mikroprocesor 68000, ale to už byla spíš jen labutí píseň, stejně jako procesor [Hitachi HD6309](http://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"), [o kterém jsem se zmiňoval minule](http://retrocip.uelectronics.info/klony-a-procesory/ "Klony a procesory"). Ostatně [6309 si zaslouží ještě samostatný díl](http://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"), protože jeho historie je taky zajímavá. Příště&#8230;
+Škoda jen, že přišel (asi) pozdě. Sice bylo možné pomocí transpileru přeložit zdrojové programy 6809 pro mikroprocesor 68000, ale to už byla spíš jen labutí píseň, stejně jako procesor [Hitachi HD6309](https://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"), [o kterém jsem se zmiňoval minule](https://retrocip.uelectronics.info/klony-a-procesory/ "Klony a procesory"). Ostatně [6309 si zaslouží ještě samostatný díl](https://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"), protože jeho historie je taky zajímavá. Příště&#8230;
 
 _Poznámka: Při pátrání v archivech mě zarazilo, jak obtížné je najít dnes informace o tom, kdy byl který procesor uveden na trh. V datasheetech tyto informace nejsou, a krom vyložených procesorových legend, u nichž jsou data notoricky známá, jsou informace zmatené a neúplné, u spousty z nich to je například &#8222;v 70. letech&#8220;, u procesoru HD6309 jsem rok uvedení na trh například nedohledal vůbec._ [sc:ebay item=MC6809]

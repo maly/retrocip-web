@@ -4,7 +4,7 @@ title: Pravidelný přehled
 date: 2016-05-10T11:36:51+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=809
+guid: https://retrocip.uelectronics.info/?p=809
 permalink: /pravidelny-prehled/
 xyz_lnap:
   - "1"
@@ -21,7 +21,7 @@ Přátelé, mám toho dost.
 
 Teda ne že bych byl jako že úplně hotovej, jak se říká, ale že mám hodně věcí, kterým se věnuji. Třeba píšu pro Lupu, což dělám zčásti pro peníze a zčásti z ryzí zlomyslnosti, když si představím, jak tamní komentátoři nadskakují. Ale je pravda, že elektroniku jsem teď nějaký čas kvůli pracovnímu vytížení zanedbával&#8230; Respektive jsem se jí nevěnoval tak intenzivně, jak by si zasloužila. Pojďme to napravit.
 
-Náš [výukový shield](http://retrocip.uelectronics.info/vyukovy-shield-pro-arduino-dil-druhy/) už existuje v dvou prototypech. Jeden mám já, druhý má Štěpán, a dokonce už i otestoval fungování shieldu s Ethernet shieldem. Fungují! Takže jupí! Včera navíc přišly termistory, tak můžu udělat třetí kus, tentokrát už s kompletní výbavou, a jet ho ukázat přátelům v CZ.NIC.
+Náš [výukový shield](https://retrocip.uelectronics.info/vyukovy-shield-pro-arduino-dil-druhy/) už existuje v dvou prototypech. Jeden mám já, druhý má Štěpán, a dokonce už i otestoval fungování shieldu s Ethernet shieldem. Fungují! Takže jupí! Včera navíc přišly termistory, tak můžu udělat třetí kus, tentokrát už s kompletní výbavou, a jet ho ukázat přátelům v CZ.NIC.
 
 Do toho tu testuju Smarteverything, Loru a nejnovější přírustek, Arduino Uno Wifi. Ale protože je času málo, tak to jde jak psovi pastva.
 

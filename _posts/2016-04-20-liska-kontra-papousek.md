@@ -4,7 +4,7 @@ title: Liška kontra papoušek
 date: 2016-04-20T20:37:42+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=791
+guid: https://retrocip.uelectronics.info/?p=791
 permalink: /liska-kontra-papousek/
 xyz_lnap:
   - "1"
@@ -17,4 +17,4 @@ tags:
   - LoRaWAN
   - Sigfox
 ---
-([Přesunuto na Iotta.cz](http://iotta.cz/liska-kontra-papousek/))
+([Přesunuto na Iotta.cz](https://iotta.cz/liska-kontra-papousek/))

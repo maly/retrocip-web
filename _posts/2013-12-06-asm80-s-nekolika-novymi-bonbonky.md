@@ -4,7 +4,7 @@ title: ASM80 s několika novými bonbónky
 date: 2013-12-06T21:53:52+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=58
+guid: https://retrocip.uelectronics.info/?p=58
 permalink: /asm80-s-nekolika-novymi-bonbonky/
 dsq_thread_id:
   - "2030994659"
@@ -15,7 +15,7 @@ categories:
 tags:
   - ASM80
 ---
-Pár drobností jsem do [IDE](http://www.asm80.com) přidal, ať si nedělám ostudu, až vyjde článek na Zdrojáku 🙂
+Pár drobností jsem do [IDE](https://www.asm80.com) přidal, ať si nedělám ostudu, až vyjde článek na Zdrojáku 🙂
 
 <!--more-->
 

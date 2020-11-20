@@ -4,11 +4,11 @@ title: Arduino pro naprosté debily (?)
 date: 2015-09-18T13:24:47+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=705
+guid: https://retrocip.uelectronics.info/?p=705
 permalink: /arduino-pro-naproste-debily/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301-1140x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2015/08/IMG_20150822_102301-1140x198.jpg
 categories:
   - Hardware
 tags:
@@ -20,15 +20,15 @@ V tomto článku bych rád vytyčil pevný bod pro další diskuse, a definitivn
 
 <!--more-->
 
-Před časem jsem [citoval z článku Phila Torrona o Arduinu](http://kcc.misantrop.info/2015/05/21/jednoduche/). Phil zmiňuje odpor a pohrdání, jaké Arduino vzbuzuje u těch, co se považují za odborníky. &#8222;Žvatlavé programování pro zhulence&#8220;, v originále &#8222;baby-talk programming for pothead&#8220;, je docela roztomilý výrok. Psal jsem, že i u nás je mnohem víc diskusí, kde se podobní &#8222;odborníci&#8220; exponují, než míst, kde se s Arduinem něco rozumného dělá, což je škoda.
+Před časem jsem [citoval z článku Phila Torrona o Arduinu](https://kcc.misantrop.info/2015/05/21/jednoduche/). Phil zmiňuje odpor a pohrdání, jaké Arduino vzbuzuje u těch, co se považují za odborníky. &#8222;Žvatlavé programování pro zhulence&#8220;, v originále &#8222;baby-talk programming for pothead&#8220;, je docela roztomilý výrok. Psal jsem, že i u nás je mnohem víc diskusí, kde se podobní &#8222;odborníci&#8220; exponují, než míst, kde se s Arduinem něco rozumného dělá, což je škoda.
 
-Nemusel jsem ani dlouho čekat. Stačilo zmínit, že se Štěpánem děláme [workshop o Arduinu](http://arduino101.cz), a dozvěděli jsme se, jaký nesmysl to je. Tentokrát to neproběhlo na obvyklých místech (Root, Lupa), ale na ABC Linuxu, což je takový Root v bledě modrém. V [diskusi](http://www.abclinuxu.cz/zpravicky/workshop-arduino-101-v-brne) se tam projevilo hned několik znalců, kteří o Arduinu vědí zjevně kulové, zato si tím jsou naprosto jisti a jsou ochotní se kdykoli zhádat.
+Nemusel jsem ani dlouho čekat. Stačilo zmínit, že se Štěpánem děláme [workshop o Arduinu](https://arduino101.cz), a dozvěděli jsme se, jaký nesmysl to je. Tentokrát to neproběhlo na obvyklých místech (Root, Lupa), ale na ABC Linuxu, což je takový Root v bledě modrém. V [diskusi](https://www.abclinuxu.cz/zpravicky/workshop-arduino-101-v-brne) se tam projevilo hned několik znalců, kteří o Arduinu vědí zjevně kulové, zato si tím jsou naprosto jisti a jsou ochotní se kdykoli zhádat.
 
 Diskuse samozřejmě graduje přesně ve stylu každé podobné diskuse: _Arduino je úplně špatné, protože je příliš jednoduché_, během deseti příspěvků se diskutuje o tom, jestli čtyřjádro nebo dvoujádro, co má pomalý či rychlý přístup na NAS, jak tam funguje Ethernet&#8230; zkrátka zase diskuse, ze které se nedozvíte nic užitečného, pokud si zrovna nejdete poměřovat nerdození.
 
 Některá tvrzení naprosto přesně ukazují, že dotyčný o Arduinu neví ale zhola nic, pouze si _něco myslí_. Pojďme si jich pár dát:
 
-> protože arduino vychovává lidi k demenci (např. místo toho, aby byli lidi učeni nakreslit poctivé schéma, jsou jim předkládány [debilní čmáranice jak pro pomocnou školu](http://2.bp.blogspot.com/-yaibZo6IhvE/TzA7XA_TQBI/AAAAAAAAA2I/EU-fPE-YEDk/s1600/Pneumatic-Servo-Schematic_bb.png). A to nemluvím o opomíjení základních technik při návrhu elektronických obvodů, jakými je např. užití blokovacích kondenzátorů, atd, atd.)
+> protože arduino vychovává lidi k demenci (např. místo toho, aby byli lidi učeni nakreslit poctivé schéma, jsou jim předkládány [debilní čmáranice jak pro pomocnou školu](https://2.bp.blogspot.com/-yaibZo6IhvE/TzA7XA_TQBI/AAAAAAAAA2I/EU-fPE-YEDk/s1600/Pneumatic-Servo-Schematic_bb.png). A to nemluvím o opomíjení základních technik při návrhu elektronických obvodů, jakými je např. užití blokovacích kondenzátorů, atd, atd.)
 
 Schémata jsou samozřejmě všude, s nimi není problém. &#8222;Debilní čmáranice&#8220; je featura nástroje zvaného Fritzing, který jaksi není ani součást Arduina, ani podmínka používání Arduina, ale je to jen nástroj pro vizualizaci schématů pro lidi, kteří schémata neumějí číst. Ano, i takoví jsou, a i takoví mají právo si něco postavit. Oni si postaví jednu věc, druhou, a pak se schémata naučí. Když je nepustíte k elektronice a nenecháte je na nic sáhnout, DOKUD se to všechno nenaučí, tak utečou. Je to výukový nástroj pro lidi, kteří se teprve učí! A pro ně je Arduino skvělé: mohou si s elektronikou začít hrát dřív, než je podobní _strážci kultu_ otráví teorií!
 
@@ -44,7 +44,7 @@ Keil, IAR, GNU&#8230; jeden debil vedle druhého. Všichni ti vývojáři z velk
 
 > nelíbí se mi, že je bundlován hardware se softwarem a s vývojovým prostředím. Už jen proto, že to vysává potenciál, aby někdo např. pro stejný harware přišel s úplně jiným konceptem psaní SW.
 
-No, a mně se zase nelíbí, když lidé píšou podobné nesmysly, aniž by se byť jen trošku namáhali zjistit stav věcí. Totiž: Nic není s ničím bundlováno, pro Arduino lze psát klidně v Eclipse a překládat si to assemblerem a nahrávat přes avrdude, nebo v AVR Studiu, nebo asi ve třiceti dalších různých prostředích, nástrojích a přístupech. BASIC je, Java je, máme [Céu](http://arduino.cc/forum/index.php/topic,90129.0.html), FORTH, Python, máme online IDE Codebender, máme vizuální nástroje, vycházející ze Scratche (ArduBlock, ModKit, Minibloq)&#8230; Takže efekt &#8222;vysávání potenciálu, aby někdo např. pro stejný hardware přišel s úplně jiným konceptem psaní SW&#8220; spíš nepozorujeme, než pozorujeme&#8230;
+No, a mně se zase nelíbí, když lidé píšou podobné nesmysly, aniž by se byť jen trošku namáhali zjistit stav věcí. Totiž: Nic není s ničím bundlováno, pro Arduino lze psát klidně v Eclipse a překládat si to assemblerem a nahrávat přes avrdude, nebo v AVR Studiu, nebo asi ve třiceti dalších různých prostředích, nástrojích a přístupech. BASIC je, Java je, máme [Céu](https://arduino.cc/forum/index.php/topic,90129.0.html), FORTH, Python, máme online IDE Codebender, máme vizuální nástroje, vycházející ze Scratche (ArduBlock, ModKit, Minibloq)&#8230; Takže efekt &#8222;vysávání potenciálu, aby někdo např. pro stejný hardware přišel s úplně jiným konceptem psaní SW&#8220; spíš nepozorujeme, než pozorujeme&#8230;
 
 
 

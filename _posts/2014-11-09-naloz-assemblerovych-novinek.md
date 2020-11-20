@@ -4,7 +4,7 @@ title: Nálož assemblerových novinek
 date: 2014-11-09T14:53:56+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=440
+guid: https://retrocip.uelectronics.info/?p=440
 permalink: /naloz-assemblerovych-novinek/
 xyz_lnap:
   - "1"
@@ -21,11 +21,11 @@ Dlouho jsem se nehlásil s novinkami ze světa ASM80.com. Tedy, hlavní důvod b
   * Další direktiva **.pragma html** způsobí, že listing nebude textový, ale bude ve formátu HTML. Tedy například odkazy na subrutiny budou fungovat jako odkazy atd.
   * Direktivu **.incbin** si vymohla další dnešní novinka, ke které se ještě dostanu. Takže teď už funguje vkládání binárních souborů napřímo pomocí incbin.
   * Díky Jirkovi jsem se rozhoupal a napsal **assembler pro procesor Motorola 6800**. No a když už jsem byl v tom, tak jsem napsal i debugger, a chystám se na emulátor HeathKitu, ve kterém je tento procesor použitý.
-  * O [jednostránkových překladačích](http://retrocip.uelectronics.info/uplne-miniaturni-update-asm80/ "Úplně miniaturní update ASM80") jsem už psal. Jsou to HTML stránky se zabudovaným překladačem, které si můžete uložit na disk, otevřít v prohlížeči a překládat zdrojáky pomocí copy a paste.
+  * O [jednostránkových překladačích](https://retrocip.uelectronics.info/uplne-miniaturni-update-asm80/ "Úplně miniaturní update ASM80") jsem už psal. Jsou to HTML stránky se zabudovaným překladačem, které si můžete uložit na disk, otevřít v prohlížeči a překládat zdrojáky pomocí copy a paste.
   * [Zdrojový kód překladače](https://github.com/maly/asm80) je na GitHubu. Licencováno jako MIT, _source available, no whining_. Kromě toho tam mám i [pár dalších JS kousků,](https://github.com/maly?tab=repositories) jako emulaci procesorů nebo ACIA.
-  * No a protože ne samým onlinem živ je člověk, připravil jsem jednak verzi překladače pro příkazovou řádku (zatím testuju na Windows), a pak [IDE80](http://www.ide80.com).
+  * No a protože ne samým onlinem živ je člověk, připravil jsem jednak verzi překladače pro příkazovou řádku (zatím testuju na Windows), a pak [IDE80](https://www.ide80.com).
 
-IDE80 je desktopová verze toho online prostředí. Zatím je to alfaverze pro Windows, jakmile doladím detaily a přidám ještě pár uvažovaných vylepšení, pustím to ven jako ostrou verzi. Už teď ale můžete [stahovat a testovat](http://www.ide80.com). (Pokud si ho stáhnete a nainstalujete, tak se může stát, že vám v nějaké situaci nahlásí chybu. Chyby a připomínky hlašte na _asm80@maly.cz_. Děkuji, pomůže mi to při ladění.)
+IDE80 je desktopová verze toho online prostředí. Zatím je to alfaverze pro Windows, jakmile doladím detaily a přidám ještě pár uvažovaných vylepšení, pustím to ven jako ostrou verzi. Už teď ale můžete [stahovat a testovat](https://www.ide80.com). (Pokud si ho stáhnete a nainstalujete, tak se může stát, že vám v nějaké situaci nahlásí chybu. Chyby a připomínky hlašte na _asm80@maly.cz_. Děkuji, pomůže mi to při ladění.)
 
 IDE80 obsahuje i emulátory PMD-85, PMI-80, ZX Spectra a počítačů Granta Searla. Do budoucna by mělo IDE80 umět všechno to, co umí online verze, a především by měla být naportovaná i pro Mac OS X a Linux. _Stay tuned_.
 

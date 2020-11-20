@@ -4,7 +4,7 @@ title: Odpor k LEDce
 date: 2016-05-01T19:44:12+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=800
+guid: https://retrocip.uelectronics.info/?p=800
 permalink: /odpor-k-ledce/
 xyz_lnap:
   - "1"
@@ -30,7 +30,7 @@ Tady je dobré vědět, že k LEDce není &#8222;povinný rezistor&#8220;, ale &
 
 Maximální proud je kupodivu na spoustě různých míst. Například na výstupech a vstupech jednočipů. Nebo tam, kde se budí pomocí PWM. Například si představte takový displej, složený ze čtyř sedmisegmentovek, a jeho buzení pomocí jednočipu. Na porty připojím rovnou anody a katody, protože vím, že budím postupně jednu pozici po druhé, tedy každá LED je vlastně buzena PWM se střídou 1/4. Navíc vím, že jednočip má omezený proud per pin, takže nehrozí nebezpečí, že by tekly velké proudy. A proto vím, že v tomto případě není nutné použít rezistor.
 
-Ale obávám se, že do finální verze [shieldu](http://retrocip.uelectronics.info/vyukovy-shield-pro-arduino-dil-druhy/) jich asi budu muset osm strčit. Sice jsou ty LEDky připojený mezi vývody ATtiny2313 a jsou buzené přes PWM, ale asi bych neměl na to vysvětlovat stále dokola to, co jsem napsal tady, každému, kdo se naučil mantru o LEDkách v té blbé verzi (tedy s rezistorem místo té verze s proudem)!
+Ale obávám se, že do finální verze [shieldu](https://retrocip.uelectronics.info/vyukovy-shield-pro-arduino-dil-druhy/) jich asi budu muset osm strčit. Sice jsou ty LEDky připojený mezi vývody ATtiny2313 a jsou buzené přes PWM, ale asi bych neměl na to vysvětlovat stále dokola to, co jsem napsal tady, každému, kdo se naučil mantru o LEDkách v té blbé verzi (tedy s rezistorem místo té verze s proudem)!
 
 Já to na jednu stranu chápu: Začátečníkovi je lepší říct, že &#8222;k LEDce patří rezistor&#8220;, tím začátečník nic nezkazí&#8230; Jenže pak je taky dobré mu říct, proč to dělá, a dbát na to, aby to pochopil. Jinak se to naučí jak Ohmův zákon a bude to naprosto mechanicky aplikovat pořád, všude, a co hůř: bude se chodit hádat do diskusí&#8230;
 

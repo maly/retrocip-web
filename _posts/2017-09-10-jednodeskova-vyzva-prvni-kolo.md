@@ -10,7 +10,7 @@ xyz_lnap:
   - "1"
 dsq_thread_id:
   - "6132744985"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2017/09/800px-MOS_KIM-1_IMG_4211_cropped_scale-800x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2017/09/800px-MOS_KIM-1_IMG_4211_cropped_scale-800x198.jpg
 categories:
   - Emulace
   - Hardware

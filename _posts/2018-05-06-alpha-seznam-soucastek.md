@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=1045
 permalink: /alpha-seznam-soucastek/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31437534_10155719197772496_3802059806680809472_n-960x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31437534_10155719197772496_3802059806680809472_n-960x198.jpg
 categories:
   - Hardware
 tags:

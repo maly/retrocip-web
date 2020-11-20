@@ -4,13 +4,13 @@ title: O objektu, struktuře a gotu
 date: 2016-06-22T23:46:04+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=818
+guid: https://retrocip.uelectronics.info/?p=818
 permalink: /o-objektu-strukture-a-gotu/
 xyz_lnap:
   - "1"
 dsq_thread_id:
   - "4931548188"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2014/06/120px-NAND_ANSI_Labelled.svg_.png
+image: https://retrocip.cz/wp-content/uploads/sites/6/2014/06/120px-NAND_ANSI_Labelled.svg_.png
 categories:
   - Jen tak
   - Software

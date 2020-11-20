@@ -4,7 +4,7 @@ title: Soutěž v programování mikrořadičů
 date: 2016-06-26T23:15:59+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=822
+guid: https://retrocip.uelectronics.info/?p=822
 permalink: /soutez-v-programovani-mikroradicu/
 xyz_lnap:
   - "1"

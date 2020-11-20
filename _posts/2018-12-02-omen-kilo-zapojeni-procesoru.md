@@ -23,7 +23,7 @@ tags:
 
 Čím jiným začít, než fyzickým zapojením procesoru 6809&#8230;<figure class="wp-block-image">
 
-<img loading="lazy" width="7536" height="3000" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png" alt="" class="wp-image-1127" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png 7536w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-650x259.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-768x306.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-1024x408.png 1024w" sizes="(max-width: 7536px) 100vw, 7536px" /> </figure> 
+<img loading="lazy" width="7536" height="3000" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png" alt="" class="wp-image-1127" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png 7536w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-650x259.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-768x306.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-1024x408.png 1024w" sizes="(max-width: 7536px) 100vw, 7536px" /> </figure> 
 
 Možná nepřekvapí jistá podobnost s&nbsp;procesorem 6502. Je to logické, protože, jak jsme si už několikrát řekli, 6502 i 6809 vycházejí ideově z&nbsp;téhož předchůdce, 6800.
 

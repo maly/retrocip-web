@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=1071
 permalink: /alpha-seriove-rozhrani/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31489558_10155719197727496_6371426628899176448_n-960x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31489558_10155719197727496_6371426628899176448_n-960x198.jpg
 categories:
   - ASM80.com
   - Hardware
@@ -58,7 +58,7 @@ Použijeme obvod 6850, přesněji verzi 68B50 (verze B umí pracovat i na frekve
 
 > Při testech se ukázalo, že i verze MC6850, tedy bez &#8222;B&#8220;, zvládne provoz touto rychlostí, ale může se to lišit kus odkusu&#8230;
 
-## <span id="ACIA_6850">ACIA 6850<a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1072" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-609x650.png" alt="" width="609" height="650" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-609x650.png 609w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-768x819.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-960x1024.png 960w" sizes="(max-width: 609px) 100vw, 609px" /></a></span>
+## <span id="ACIA_6850">ACIA 6850<a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1072" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-609x650.png" alt="" width="609" height="650" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-609x650.png 609w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-768x819.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/MC6850-pinout-960x1024.png 960w" sizes="(max-width: 609px) 100vw, 609px" /></a></span>
 
 Obvod 6850 je sériový komunikační obvod. Jeho hlavním úkolem je převést zaslaný bajt na sériový signál (tj. správně odvysílat start bit, datové bity, případně paritní bit, a nakonec stop bit) a opačně, tj. načíst správně časovaný sériový signál a připravit ho k předání procesoru.
 
@@ -153,7 +153,7 @@ Osmibitový registr CR řídí čtyři funkce obvodu:
     
     Vývody RXDATA (vstup) a TXDATA (výstup) jsou už to sériové rozhraní&#8230; připojte je k převodníku USB-to-UART, samosebou kříženě (TxD na vstup RXDATA, RxD na výstup TXDATA). Počítač je připraven komunikovat, stačí ho jen naprogramovat!
     
-    <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1073" src="http://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-650x393.png" alt="" width="650" height="393" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-650x393.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-768x465.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-1024x619.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+    <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1073" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-650x393.png" alt="" width="650" height="393" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-650x393.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-768x465.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-acia-1024x619.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a>
     
     ## <span id="Jak_pracovat_s_6850">Jak pracovat s 6850?</span>
     

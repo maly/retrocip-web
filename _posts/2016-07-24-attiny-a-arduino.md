@@ -4,7 +4,7 @@ title: ATtiny a Arduino
 date: 2016-07-24T12:40:32+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=851
+guid: https://retrocip.uelectronics.info/?p=851
 permalink: /attiny-a-arduino/
 xyz_lnap:
   - "1"
@@ -16,4 +16,4 @@ tags:
   - arduino
   - ATTiny2313
 ---
-([Přesunuto na Iotta.cz](http://iotta.cz/attiny-a-arduino/))
+([Přesunuto na Iotta.cz](https://iotta.cz/attiny-a-arduino/))

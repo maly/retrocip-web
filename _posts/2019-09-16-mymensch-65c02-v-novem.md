@@ -9,7 +9,7 @@ guid: https://retrocip.cz/?p=1164
 permalink: /mymensch-65c02-v-novem/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2019/09/mymensch1024-1024x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2019/09/mymensch1024-1024x198.jpg
 categories:
   - Emulace
   - Hardware
@@ -29,11 +29,11 @@ Ke všem procesorům mají i vývojové desky, [můžete se mrknout](https://www
 
 Mimochodem, za necelých 20 USD nabízejí [MENSCH Microcomputer](https://www.tindie.com/products/wdc/menschtm-microcomputer/), což je vlastně W65C816, 16bitový následovník slavné 65C02, zabalený spolu s několika periferiemi do podoby jednočipu (W65C265). Na desce toho o moc víc není, ale máte většinu pinů vyvedenou, a je to taková dobře použitelná varianta, když chcete nasadit 65C816 a zároveň ušetřit za periferie.
 
-Ale zpátky k FPGA: Ve WDC samozřejmě už delší dobu nabízejí svoje procesory jako IP (Intellectual Property) pro syntézu obvodů v logických polích. Teď se rozhodli nabízet vlastní &#8222;nový&#8220; procesor, opět jako IP, ale tentokrát připravili i vývojovou desku [W65Cx65MMC](http://westerndesigncenter.com/wdc/documentation/w65cx65mmc.pdf), familiárně zvanou MyMensch.
+Ale zpátky k FPGA: Ve WDC samozřejmě už delší dobu nabízejí svoje procesory jako IP (Intellectual Property) pro syntézu obvodů v logických polích. Teď se rozhodli nabízet vlastní &#8222;nový&#8220; procesor, opět jako IP, ale tentokrát připravili i vývojovou desku [W65Cx65MMC](https://westerndesigncenter.com/wdc/documentation/w65cx65mmc.pdf), familiárně zvanou MyMensch.
 
 Deska obsahuje kromě USB převodníku, spousty pinů, tlačítek RESET a NMI, osmi LEDek a JTAG rozhraní hlavně prostor pro FPGA řady MAX10 v provedení BGA.
 
-Mají připraveno několik variant, ta první ([Rev-A](https://www.tindie.com/products/wdc/mymensch-rev-a/)), která je dostupná na trhu a kterou po mém dotazu [dali do prodeje i na Tindie, kde není omezení pro zasílání do ČR](https://www.tindie.com/products/wdc/mymensch-rev-a/), obsahuje FPGA MAX10M08SC, ve kterém je &#8222;nahraný&#8220; obvod [W65C02i1M08SC](http://www.westerndesigncenter.com/wdc/fpga/W65C02i1M08SC.pdf).
+Mají připraveno několik variant, ta první ([Rev-A](https://www.tindie.com/products/wdc/mymensch-rev-a/)), která je dostupná na trhu a kterou po mém dotazu [dali do prodeje i na Tindie, kde není omezení pro zasílání do ČR](https://www.tindie.com/products/wdc/mymensch-rev-a/), obsahuje FPGA MAX10M08SC, ve kterém je &#8222;nahraný&#8220; obvod [W65C02i1M08SC](https://www.westerndesigncenter.com/wdc/fpga/W65C02i1M08SC.pdf).
 
 Že jste o něm nikdy neslyšeli? Nedivím se, je to úplná novinka. Jak název napovídá, je tam W65C02 a je to v MAX10M08SC. Ale kromě samotného jádra 65C02 zaintegrovali i:
 
@@ -58,6 +58,6 @@ Celé to běží na 14.7456 MHz, ACIA mají 1.8432 MHz (tedy maximální komunik
 
 Pokud si chcete hrát s 65C02, i když ne s tou úplně originální, a chcete k tomu použít hotový systém s mnoha a mnoha možnostmi, dokonce i s modernější 3.3V logikou, zkuste třeba právě [MyMensch](https://www.tindie.com/products/wdc/mymensch-rev-a/). 
 
-Mimochodem, WDC na téhle technologii provozuje i nějaké [gadgety pro Internet věcí](http://wdc65xx.com/Demo)&#8230;
+Mimochodem, WDC na téhle technologii provozuje i nějaké [gadgety pro Internet věcí](https://wdc65xx.com/Demo)&#8230;
 
 (Předpokládám, že můžete FPGA sami naprogramovat a použít tak desku jako běžný FPGA devkit, ale obávám se, že původní obsah už nezískáte&#8230;)

@@ -4,13 +4,13 @@ title: Exkurze mezi jedničky a nuly
 date: 2014-06-21T13:50:18+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=333
+guid: https://retrocip.uelectronics.info/?p=333
 permalink: /exkurze-mezi-jednicky-a-nuly/
 dsq_thread_id:
   - "2783802966"
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-600x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-600x198.jpg
 categories:
   - Hardware
 tags:
@@ -59,7 +59,7 @@ Pojďte se podívat, jak se stane, že procesor procesuje!
 
 <!--more-->
 
-Před nedávnem jsem dostal milý mail. Poslal ho Dave de Sade, známý [nespokojený hráč](http://angryplayer.blogspot.cz/), a psal v něm:
+Před nedávnem jsem dostal milý mail. Poslal ho Dave de Sade, známý [nespokojený hráč](https://angryplayer.blogspot.cz/), a psal v něm:
 
 > (&#8230;) dříve jsem psal slušně v BASICu, hrál jsem si s assemblerem na Didaktiku, ale s příchodem QBasicu a modernějších jazyků mi totálně ujel vlak. Co ale vím je to, že programování je o analýze zadání a pak o rozkouskování na co nejjednodušší kroky, které se vyjádří programovacím jazykem. Jako laik vidím návaznost závislostí asi takto:
 > 
@@ -187,8 +187,8 @@ Když tedy autorovi mailu odpovím: Ano, v zásadě je to tak, jak píšeš. Pro
 
 Není to nic magického a záhadného, princip je poměrně jednoduchý, ale suma potřebných znalostí není zas tak úplně malá. Každopádně je to fascinující kus techniky a já doufám, že alespoň část z té fascinace jste zažili i vy! (A pokud budete mít zájem, můžeme se k technice na téhle úrovni ještě někdy vrátit, takže se neostýchejte zeptat.)
 
-PS: Podrobněji tuto oblast probral Pavel Tišnovský na [začátku seriálu o počítačích](http://www.root.cz/serialy/co-se-deje-v-pocitaci/?pi=6) na Root.cz. A jestli chcete míň vědecké, zato ale poutavější předvedení, tak si pusťte [Visual 6502](http://www.visual6502.org/JSSim/index.html) &#8211; vizualizaci toho, jak běhají elektrony v procesoru 6502.
+PS: Podrobněji tuto oblast probral Pavel Tišnovský na [začátku seriálu o počítačích](https://www.root.cz/serialy/co-se-deje-v-pocitaci/?pi=6) na Root.cz. A jestli chcete míň vědecké, zato ale poutavější předvedení, tak si pusťte [Visual 6502](https://www.visual6502.org/JSSim/index.html) &#8211; vizualizaci toho, jak běhají elektrony v procesoru 6502.
 
-PPS: Obrázky pocházejí z Wikipedie a jsou pod licencí Public Domain; [animace RS obvodu](http://en.wikipedia.org/wiki/File:R-S_mk2.gif) je pod CC-BY, autorem je Napalm Llama.
+PPS: Obrázky pocházejí z Wikipedie a jsou pod licencí Public Domain; [animace RS obvodu](https://en.wikipedia.org/wiki/File:R-S_mk2.gif) je pod CC-BY, autorem je Napalm Llama.
 
-_Aktualizace_: Dan v komentářích doporučuje knihu [Code: The Hidden Language of Computer Hardware](http://www.amazon.com/gp/product/0735611319/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0735611319&linkCode=as2&tag=dein-20&linkId=OB2TQEVYR5I62567) (odkaz vede na Amazon), takže pokud vládnete angličtinou, podívejte se do ní. Já si pamatuju na podobnou knížku v češtině &#8211; tedy ta nešla úplně k procesorům, ale z tranzistorů skládala hradla a z hradel různé konstrukce&#8230; pamatuju si jen příjmení autora: &#8222;Drozen&#8220;.
+_Aktualizace_: Dan v komentářích doporučuje knihu [Code: The Hidden Language of Computer Hardware](https://www.amazon.com/gp/product/0735611319/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0735611319&linkCode=as2&tag=dein-20&linkId=OB2TQEVYR5I62567) (odkaz vede na Amazon), takže pokud vládnete angličtinou, podívejte se do ní. Já si pamatuju na podobnou knížku v češtině &#8211; tedy ta nešla úplně k procesorům, ale z tranzistorů skládala hradla a z hradel různé konstrukce&#8230; pamatuju si jen příjmení autora: &#8222;Drozen&#8220;.

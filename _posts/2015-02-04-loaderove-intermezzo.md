@@ -4,7 +4,7 @@ title: Loaderové intermezzo
 date: 2015-02-04T10:46:22+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=500
+guid: https://retrocip.uelectronics.info/?p=500
 permalink: /loaderove-intermezzo/
 xyz_lnap:
   - "1"
@@ -23,7 +23,7 @@ Trošku nečekaně se mi v mém plánu na články o loaderech objevil jeden hez
 
 <!--more-->
 
-Zatímco se jinde často jde od teorie k praxi, zde to zkusím obráceně a začnu rovnou praxí. Tady máte [jeden .tzx soubor](http://retrocip.cz/zxs/games/loader.tzx), zkuste si ho v emulátoru spustit&#8230;
+Zatímco se jinde často jde od teorie k praxi, zde to zkusím obráceně a začnu rovnou praxí. Tady máte [jeden .tzx soubor](https://retrocip.cz/zxs/games/loader.tzx), zkuste si ho v emulátoru spustit&#8230;
 
 (nezbytná pauza na stažení, spuštění emulátoru, spuštění nahrávání&#8230; čekáme&#8230; aha&#8230; aha&#8230; hmm&#8230; a co to jako je, to je všechno?)
 
@@ -31,7 +31,7 @@ Nojo, to je všechno. Prostě se jen nahrávají obrazovky z pásku. Já vám to
 
 No vidíte, že to šlo!
 
-V [minulém článku](http://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1") jsem frajersky tvrdil, že Digisynth při nahrávání data rozbaloval. _Tyjo, opravdu? Nezdálo se mi to? Paměť mám děravou&#8230;_ Tak jsem stáhnul Digisynth, chvíli brejlil do kódu a pak jsem zahlédl povědomou pasáž: Ne, nezdálo! Dobrý, chtěl jsem to pustit z hlavy, ale znáte to&#8230; V metru mi to začalo vrtat: Vždyť nemůže být složité ten loader rekonstruovat a udělat k němu i packer&#8230; Huffmanova komprese je jednoduchá&#8230;
+V [minulém článku](https://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1") jsem frajersky tvrdil, že Digisynth při nahrávání data rozbaloval. _Tyjo, opravdu? Nezdálo se mi to? Paměť mám děravou&#8230;_ Tak jsem stáhnul Digisynth, chvíli brejlil do kódu a pak jsem zahlédl povědomou pasáž: Ne, nezdálo! Dobrý, chtěl jsem to pustit z hlavy, ale znáte to&#8230; V metru mi to začalo vrtat: Vždyť nemůže být složité ten loader rekonstruovat a udělat k němu i packer&#8230; Huffmanova komprese je jednoduchá&#8230;
 
 ## Hufmannova komprese
 
@@ -41,7 +41,7 @@ Nejjednodušší kompresní metody jsou takové, které eliminují dlouhé sekve
 
 Lepší kompresní metody využívají toho, že se některé sekvence často opakují. Vytváří si proto slovník opakujících se sekvencí, a ty nahrazují kratším kódem. Proto se jim říká &#8222;slovníkové metody&#8220;. Vycházejí z pramáti slovníkových algoritmů, totiž LZ (Lempel-Ziv).
 
-Jiný přístup zvolil pan Huffman a navrhl [kompresi](http://cs.wikipedia.org/wiki/Huffmanovo_k%C3%B3dov%C3%A1n%C3%AD), založenou nikoli na sekvencích, ale na četnosti výskytu určitých hodnot. Zkrátka vezme všechny hodnoty v souboru (třeba bajty, takže 0 až 255) a spočítá, kolikrát se jaká hodnota ve vstupním souboru vyskytne. Pomocí téhle informace vytvoří pro každou hodnotu kód (sekvenci bitů), který má tu vlastnost, že čím je hodnota častější, tím je sekvence kratší. Například u těch obrazovek se velmi často vyskytuje nula. Pokud je tam opravdu velmi často, je zakódována klidně jako dva bity. V extrémním případě i jako jeden. Ano, na druhou stranu ty málo používané hodnoty jsou delší, zaberou klidně dvanáct, patnáct bitů. Ale tuhle ztrátu bohatě vynahradí úspora u těch častých.
+Jiný přístup zvolil pan Huffman a navrhl [kompresi](https://cs.wikipedia.org/wiki/Huffmanovo_k%C3%B3dov%C3%A1n%C3%AD), založenou nikoli na sekvencích, ale na četnosti výskytu určitých hodnot. Zkrátka vezme všechny hodnoty v souboru (třeba bajty, takže 0 až 255) a spočítá, kolikrát se jaká hodnota ve vstupním souboru vyskytne. Pomocí téhle informace vytvoří pro každou hodnotu kód (sekvenci bitů), který má tu vlastnost, že čím je hodnota častější, tím je sekvence kratší. Například u těch obrazovek se velmi často vyskytuje nula. Pokud je tam opravdu velmi často, je zakódována klidně jako dva bity. V extrémním případě i jako jeden. Ano, na druhou stranu ty málo používané hodnoty jsou delší, zaberou klidně dvanáct, patnáct bitů. Ale tuhle ztrátu bohatě vynahradí úspora u těch častých.
 
 Pokud jsou ve vstupním souboru různé hodnoty, a všechny přibližně stejněkrát, tak se Huffmanova komprese stane neefektivní, ale pro běžné soubory má výsledky dobré. Často se také používá pro komprimaci hodnot ze slovníkové komprese LZ (LZHUF). Je použita i v algoritmu JPEG&#8230;
 
@@ -84,7 +84,7 @@ Dejme tomu, že budou chodit bity 0, 1, 0, 0, 1, 1, 0, &#8230; Co se bude dít?
 
 ## Implementace
 
-Kompresní algoritmus jsem si napsal v JavaScriptu. [Můžete ho použít i vy](http://retrocip.cz/zxs/games/huffman.html), je to normální HTML stránka, kam pomocí drag a drop přenesete soubor, který chcete zkomprimovat, a stáhne se vám .tap soubor s výsledkem, vhodným k načtení loaderem. _Upozornění: Na vašem Pentiu MMX s prohlížečem IE3 to pravděpodobně fungovat nebude. Ani s novým IE to nefunguje. Použijte Chrome nebo Firefox, díky._
+Kompresní algoritmus jsem si napsal v JavaScriptu. [Můžete ho použít i vy](https://retrocip.cz/zxs/games/huffman.html), je to normální HTML stránka, kam pomocí drag a drop přenesete soubor, který chcete zkomprimovat, a stáhne se vám .tap soubor s výsledkem, vhodným k načtení loaderem. _Upozornění: Na vašem Pentiu MMX s prohlížečem IE3 to pravděpodobně fungovat nebude. Ani s novým IE to nefunguje. Použijte Chrome nebo Firefox, díky._
 
 Výsledný soubor má následující formát:
 
@@ -96,7 +96,7 @@ Výsledný soubor má následující formát:
   6. Zkompresovaný soubor jako bitový tok
   7. Zarovnání počtu bitů na celou osmici, aby nebyly problémy při kopírování souboru
 
-Vlastní loader na začátku kopíruje standardní ROMkový loader, jak byl popsán [minule](http://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1"). Pro načtení celého bajtu používám lehce upravenou rutinu LD\_8\_BITS, která neskládá výsledek do registru L, ale do registru E. LD_EDGE nejsou součástí rutiny, volám ty z ROMky (protože nedělám žádný speciální efekt, navíc s tím takto líp pracují emulátory a dovolí i různé zrychlené nahrávání).
+Vlastní loader na začátku kopíruje standardní ROMkový loader, jak byl popsán [minule](https://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1"). Pro načtení celého bajtu používám lehce upravenou rutinu LD\_8\_BITS, která neskládá výsledek do registru L, ale do registru E. LD_EDGE nejsou součástí rutiny, volám ty z ROMky (protože nedělám žádný speciální efekt, navíc s tím takto líp pracují emulátory a dovolí i různé zrychlené nahrávání).
 
 Pro dekompresní tabulku je potřeba najít 1kB místa od adresy, která je zarovnaná na hodnotu $400. Já zvolil $FC00, ale můžete zvolit i jinou. Při ukládání je příznak hodnota/odkaz uložen do paměti jako celý byte (00/FF), testování je pak jednodušší (prostou rotací se zkopíruje do CY jednička nebo nula).
 
@@ -108,7 +108,7 @@ Jo a ještě: Pokud chcete, můžete ji použít pro svoje výtvory, je pod lice
 
 Samozřejmě by šlo vylepšit kompresi, odstranit opakované sekvence, předkomprimovat, čímž by se výsledný kompresní poměr ještě zlepšil. Mým cílem nebylo představit nadupaný kompresor, ale ukázat, jak se dá do loaderu zakomponovat zajímavá funkcionalita.
 
-PS: [Manic Miner v Huffmanově podání](http://retrocip.cz/zxs/games/hmanic.tzx)
+PS: [Manic Miner v Huffmanově podání](https://retrocip.cz/zxs/games/hmanic.tzx)
 
 <pre class="lang:default decode:true ">.ORG    $f000 ;61440
           .ENGINE zxs 

@@ -4,7 +4,7 @@ title: Testovací kód pro 8080 a peklo s DAA
 date: 2013-11-24T20:43:16+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=29
+guid: https://retrocip.uelectronics.info/?p=29
 permalink: /testovaci-kod-pro-8080-a-peklo-s-daa/
 dsq_thread_id:
   - "1995730616"
@@ -21,7 +21,7 @@ Ti, co sledují můj Twitter, to už vědí: V pátek v noci jsem napsal emulát
 
 Jak ji najít? Nejlepší je použít nějaký &#8222;instrukční pangram&#8220;:
 
-> **Pangram** (z [řeckého](http://cs.wikipedia.org/wiki/%C5%98e%C4%8Dtina "Řečtina") _pan gramma_, „každé písmeno“) je [věta](http://cs.wikipedia.org/wiki/V%C4%9Bta_(lingvistika) "Věta (lingvistika)") či úsek textu obsahující všechna písmena [abecedy](http://cs.wikipedia.org/wiki/Abeceda "Abeceda"). Jedná se zpravidla o slovní hříčku, cílem je zpravidla vytvořit co nejkratší, popř. vtipný či jinak zajímavý text s touto vlastností.
+> **Pangram** (z [řeckého](https://cs.wikipedia.org/wiki/%C5%98e%C4%8Dtina "Řečtina") _pan gramma_, „každé písmeno“) je [věta](https://cs.wikipedia.org/wiki/V%C4%9Bta_(lingvistika) "Věta (lingvistika)") či úsek textu obsahující všechna písmena [abecedy](https://cs.wikipedia.org/wiki/Abeceda "Abeceda"). Jedná se zpravidla o slovní hříčku, cílem je zpravidla vytvořit co nejkratší, popř. vtipný či jinak zajímavý text s touto vlastností.
 
 Tedy kód, který obsahuje všechny instrukce a otestuje, jestli dělají co mají a jestli jsou příznaky nastavené tak jak by měly být apod. Pro procesor 8080 je takových testů několik, já použil takzvaný [Kelly Smith Test](https://github.com/begoon/i8080-core/blob/master/TEST.ASM) (Microcosm test). Po pár krocích bylo jasno: špatně se počítá paritní bit! Upravil jsem tedy emulační jádro, a test začal fungovat&#8230;
 
@@ -51,6 +51,6 @@ Jo a taky se &#8222;zázračně&#8220; rozběhalo PMD.
 
 Odkazy:
 
-  * [Další test 8080/8085](http://www.idb.me.uk/sunhillow/8080.html)
-  * [Diskuse o DAA (IanB)](http://www.motherboardpoint.com/8080-daa-opcode-t163192.html)
-  * [Autor VHDL emulátoru 8080 o DAA](http://opencores.org/project,light8080,demos)
+  * [Další test 8080/8085](https://www.idb.me.uk/sunhillow/8080.html)
+  * [Diskuse o DAA (IanB)](https://www.motherboardpoint.com/8080-daa-opcode-t163192.html)
+  * [Autor VHDL emulátoru 8080 o DAA](https://opencores.org/project,light8080,demos)

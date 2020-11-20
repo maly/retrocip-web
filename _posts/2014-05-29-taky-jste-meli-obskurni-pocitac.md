@@ -4,7 +4,7 @@ title: Taky jste měli podivný počítač?
 date: 2014-05-29T16:28:16+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=309
+guid: https://retrocip.uelectronics.info/?p=309
 permalink: /taky-jste-meli-obskurni-pocitac/
 dsq_thread_id:
   - "2721503596"
@@ -26,7 +26,7 @@ Já ne, já měl Spectrum, ale co jste měli vy? Majitelé podivných typů podi
 
 Jeden můj známý, jehož jméno nebudu uvádět, mi napsal:
 
-<img loading="lazy" class="aligncenter size-full wp-image-310" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/laser210_1.jpg" alt="" width="320" height="240" /> 
+<img loading="lazy" class="aligncenter size-full wp-image-310" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/laser210_1.jpg" alt="" width="320" height="240" /> 
 
 > <span style="color: #262626;">Cywe, mně nešťastnému tatík koupil za šílený prachy na Černé louce v Ostravě Laser 210, bylo to levnější než Commodore nebo Atari. Natáhl ho tam nějaký výřečný kšeftař a ve mně pak dlouho bylo, že to stálo takové šílené prachy, takže mám být vděčný, ale je to takový drek, že měl přihodit pár stovek aspoň na Commodora. </span><br style="color: #262626;" /><span style="color: #262626;">Měl jsem k tomu jenom německý návod, německy neumím, na straně 176 byl program na přeiterování přes všechny barvy, to jsem tam několikrát natláskal, strašná klávesnice gumák aaargh, donutil jsem všechny v okolí to poobdivovat a pak už jsem byl jenom smutný, protože hry jsem měl slíbené od strejdy jednoho spolužáka, mám pocit, že je i dotáhl &#8211; nejely. Známí s normálníma kompama se mi smáli. (redakčně upraveno)</span>
 

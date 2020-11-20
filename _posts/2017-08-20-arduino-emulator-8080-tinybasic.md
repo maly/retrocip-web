@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=966
 permalink: /arduino-emulator-8080-tinybasic/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-820x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-820x198.jpg
 categories:
   - ASM80.com
   - Emulace
@@ -33,7 +33,7 @@ Za čtvrté: Otestujete si, jak to běhá, jednoduchým příkladem ve strojáku
 
 Za páté: Přidáte obsluhu portů. Port 1 budiž sériový port, port 0xFE bude ovládat LEDku na Arduinu. Jen tak, pro radost. Stgrojákem ověříte, že to šlape.
 
-Za šesté: Popadne vás _pejcha_ a řeknete si: Však proč nepoužít [Tiny BASIC](https://en.wikipedia.org/wiki/Tiny_BASIC)? Je to jednoduché, stačí implementovat jen čtení ze sériové linky a zápis do ní. [Zdrojáky jsou&#8230;](http://www.autometer.de/unix4fun/z80pack/ftp/altair/)
+Za šesté: Popadne vás _pejcha_ a řeknete si: Však proč nepoužít [Tiny BASIC](https://en.wikipedia.org/wiki/Tiny_BASIC)? Je to jednoduché, stačí implementovat jen čtení ze sériové linky a zápis do ní. [Zdrojáky jsou&#8230;](https://www.autometer.de/unix4fun/z80pack/ftp/altair/)
 
 Za sedmé: Celé si to přeložíte [vlastním online assemblerem](https://www.asm80.com/). Stačilo jen upravit syntax makra a na několika místech změnit apostrofy na uvozovky (_DB &#8218;,&#8216;_ na _DB &#8222;,&#8220;_).
 
@@ -41,10 +41,10 @@ Za osmé: převedete výsledný HEX na sérii čísel, kterou includnete do toho
 
 Za deváté: Sebevědomě to celé přeložíte, spustíte &#8211; a ono to funguje!
 
-<a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-967" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg" alt="" width="650" height="460" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-768x544.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg 819w" sizes="(max-width: 650px) 100vw, 650px" /></a>Přiznávám, že kdyby to nefungovalo, tak by mi to asi sebralo trochu elánu, ale ono to fungovalo.
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-967" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg" alt="" width="650" height="460" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-768x544.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg 819w" sizes="(max-width: 650px) 100vw, 650px" /></a>Přiznávám, že kdyby to nefungovalo, tak by mi to asi sebralo trochu elánu, ale ono to fungovalo.
 
 Za desáté: Zkusíte si přeložit i TinyBASIC verze 2. Nefunguje na první dobrou, protože musíte ještě změnit komunikační porty, ale pokud to uděláte stejně jako ve verzi 1, tak se to zase rozeběhne.
 
-<a href="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-968" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg" alt="" width="650" height="515" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-768x609.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg 820w" sizes="(max-width: 650px) 100vw, 650px" /></a>Nakonec z toho celého uděláte [balíček a publikujete na GitHubu](https://github.com/maly/arduino8080basic).
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-968" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg" alt="" width="650" height="515" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-768x609.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg 820w" sizes="(max-width: 650px) 100vw, 650px" /></a>Nakonec z toho celého uděláte [balíček a publikujete na GitHubu](https://github.com/maly/arduino8080basic).
 
 Dejte si taky!

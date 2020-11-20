@@ -4,7 +4,7 @@ title: Jsem obskurnější tvůrce her
 date: 2014-06-05T20:48:30+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=318
+guid: https://retrocip.uelectronics.info/?p=318
 permalink: /jsem-obskurnejsi-tvurce-her/
 dsq_thread_id:
   - "2739622985"
@@ -21,11 +21,11 @@ To jsem takhle tuhle hledal nějakou zmínku o Piškworks. Kdysi dávno je pro Z
 
 Práce je to zajímavá, určitě si ji přečtěte. Já se do ní začetl, čtu, čtu, až jsem došel k textovkám, které mě tehdy zajímaly, pročítám si to, a najednou:
 
-<img loading="lazy" class="aligncenter size-medium wp-image-319" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg" alt="obskurni" width="650" height="108" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-1024x171.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni.jpg 1130w" sizes="(max-width: 650px) 100vw, 650px" /> 
+<img loading="lazy" class="aligncenter size-medium wp-image-319" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg" alt="obskurni" width="650" height="108" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-1024x171.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni.jpg 1130w" sizes="(max-width: 650px) 100vw, 650px" /> 
 
 Tak samozřejmě že mě to potěšilo. Člověka vždycky potěší, když si na něj v akademické práci vzpomenou, a když ho navíc označí za &#8222;obskurnějšího tvůrce&#8220;, cítí se polichocen&#8230; Tvůrce her, to si na vizitku může napsat kdejaký hejhula, ale _obskurnější_, to zní, pane! (Jako když v novinové recenzi napsali, že &#8222;výkon Joeyho Tribbianiho byl obskurní&#8220;.)
 
-Nemůžu se na autora zlobit, protože vím, že mé tehdejší hry byly opravdu [velmi obskurní textovky](http://www.oldplayer.cz/hrichy-mladi/). A tak to beru s nadhledem.
+Nemůžu se na autora zlobit, protože vím, že mé tehdejší hry byly opravdu [velmi obskurní textovky](https://www.oldplayer.cz/hrichy-mladi/). A tak to beru s nadhledem.
 
 Druhé věc je, že se mi konečně podařilo sehnat kazetový přehrávač, a tak jsem jen tak z dlouhé chvíle začal digitalizovat svoje staré kazety. Až mě překvapilo, že to šlo docela slušně. Vzal jsem tedy &#8222;kazetu 22&#8220;, na které bylo napsáno, že tam jsou nějaké moje textovky &#8211; a opravdu, podařilo se mi zdigitalizovat tři kousky, na které jsem si ani nevzpomněl, že jsem je napsal! (A jsou neuvěřitelně obskurní!)
 
@@ -48,6 +48,6 @@ Jenže teď jsem koukal, a já to tehdy dodělal. Opravdu. Ta hra má:
 
 A protože veřejný tlak naléhá, abych tyhle perly ducha zveřejnil, tak mu vyjdu vstříc. Ne, textovky budu ještě chvilku vstřebávat, ale Q-Berta vám pustím!
 
-Prosím, tady je ke stažení jako [qbert.tap](http://retrocip.cz/zxs/games/qbert.tap).
+Prosím, tady je ke stažení jako [qbert.tap](https://retrocip.cz/zxs/games/qbert.tap).
 
-(Samozřejmě to kvůli té ochraně vyžaduje hodně věrný emulátor &#8211; já použil [Zer0](http://ramtop.wordpress.com/), tam to šlape. **Pokud vám to ve FUSE nefunguje, vypněte si všechny &#8222;fast load&#8220;, &#8222;accelerate loaders&#8220; a podobné vymoženosti!** S nimi vám to fakt fungovat nebude, nemluvě o tom, že přijdete o ten _feeeeeling!_)
+(Samozřejmě to kvůli té ochraně vyžaduje hodně věrný emulátor &#8211; já použil [Zer0](https://ramtop.wordpress.com/), tam to šlape. **Pokud vám to ve FUSE nefunguje, vypněte si všechny &#8222;fast load&#8220;, &#8222;accelerate loaders&#8220; a podobné vymoženosti!** S nimi vám to fakt fungovat nebude, nemluvě o tom, že přijdete o ten _feeeeeling!_)

@@ -10,7 +10,7 @@ xyz_lnap:
   - "1"
 dsq_thread_id:
   - "6679595327"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2017/01/image004-800x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2017/01/image004-800x198.jpg
 categories:
   - Hardware
   - Software

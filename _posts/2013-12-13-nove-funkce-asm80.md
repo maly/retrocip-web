@@ -4,7 +4,7 @@ title: Nové funkce ASM80
 date: 2013-12-13T13:36:41+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=64
+guid: https://retrocip.uelectronics.info/?p=64
 permalink: /nove-funkce-asm80/
 dsq_thread_id:
   - "2047960178"
@@ -27,7 +27,7 @@ Opravil jsem chybu parsování argumentů, takže už funguje DB s řetězcem, v
 
 V pravém sloupci je konverzní nástroj z binárních souborů na DB (což není databáze, ale instrukce DB). Fungování je prosté: Nastavte si v editoru kurzor do místa, kam chcete vložit binární data, a pak přetáhněte soubor z počítače do této oblasti.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-65" alt="asm1" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg" width="218" height="86" />](http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg)
+[<img loading="lazy" class="aligncenter size-full wp-image-65" alt="asm1" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg" width="218" height="86" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg)
 
 &nbsp;
 
@@ -74,4 +74,4 @@ Vhodnou knihovnu si můžete najít vlevo, v záložce &#8222;Libraries&#8220;.
 
 &#8212;
 
-Další chystané novinky: zveřejňování celých programů (ne jen knihoven) a jejich import do vlastních workspaces. No a určitě přibude i nějaký nový emulátor českého počítače. O tom, jaký to bude, [můžete rozhodnout i vy](http://twtpoll.com/l53s2lh6wprq1i8). Zatím to vypadá, že nejvíc fanoušků má IQ-151. _Pámbu s námi! 🙂_
+Další chystané novinky: zveřejňování celých programů (ne jen knihoven) a jejich import do vlastních workspaces. No a určitě přibude i nějaký nový emulátor českého počítače. O tom, jaký to bude, [můžete rozhodnout i vy](https://twtpoll.com/l53s2lh6wprq1i8). Zatím to vypadá, že nejvíc fanoušků má IQ-151. _Pámbu s námi! 🙂_

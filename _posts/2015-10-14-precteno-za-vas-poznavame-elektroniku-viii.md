@@ -4,7 +4,7 @@ title: 'Přečteno za vás: Poznáváme elektroniku VIII'
 date: 2015-10-14T12:51:19+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=725
+guid: https://retrocip.uelectronics.info/?p=725
 permalink: /precteno-za-vas-poznavame-elektroniku-viii/
 xyz_lnap:
   - "1"
@@ -21,15 +21,15 @@ Odpověď na otázku: &#8222;Mohl bys některou knihu doporučit? Pro začáteč
 
 <!--more-->
 
-U [článku o výuce elektroniky](http://kcc.misantrop.info/2015/05/22/didaktika/) se rozvinula pěkná diskuse na téma, které jsem naznačil v perexu, totiž jakou knihu by si měl zájemce přečíst. Sešlo se mi několik tipů, které jsem sepsal do toho článku, ale bohužel jsem nemohl říct nic bližšího, než to, že jsem je nečetl, ale že se je pokusím sehnat a kdyžtak doporučit.
+U [článku o výuce elektroniky](https://kcc.misantrop.info/2015/05/22/didaktika/) se rozvinula pěkná diskuse na téma, které jsem naznačil v perexu, totiž jakou knihu by si měl zájemce přečíst. Sešlo se mi několik tipů, které jsem sepsal do toho článku, ale bohužel jsem nemohl říct nic bližšího, než to, že jsem je nečetl, ale že se je pokusím sehnat a kdyžtak doporučit.
 
 Sháněl jsem je nejdřív v antikvariátu (přišlo mi hloupé kupovat knihu, kterou rozhodně nepotřebuju), ale nepochodil jsem. Pak jsem si všimnul, že je má v nabídce Martinus. Tohle nakladatelství a knihkupectví má velmi dobrou pověst a já si pamatuju, že před časem sami nabízeli recenzní výtisky, tak jsem se poptal známé, která v Martinusu pracuje, a dostal jsem kontakt na slečnu, na kterou se mám obrátit. Napsal jsem tedy mail, kdo jsem, co dělám a co bych rád, a nedostal jsem naprosto žádnou odpověď. Ani příslovečné Ň. Ani &#8222;trhni si nohou&#8220;, ani &#8222;děkujeme za mail, bohužel takovou službu neposkytujeme&#8230;&#8220; Hm. Dobře. Budu si to pamatovat, a tady si to takhle poznamenám, abych věděl.
 
-Náhoda tomu chtěla, že v tu samou dobu se na mne obrátili z [Megaknihy.cz](http://www.megaknihy.cz) s nabídkou, jestli nechci napsat nějakou recenzi, nebo na ně odkázat tam, kde píšu o knížkách. Hodilo se mi to, tak jsem je rovnou požádal, a za pár dnů knížka přišla.
+Náhoda tomu chtěla, že v tu samou dobu se na mne obrátili z [Megaknihy.cz](https://www.megaknihy.cz) s nabídkou, jestli nechci napsat nějakou recenzi, nebo na ně odkázat tam, kde píšu o knížkách. Hodilo se mi to, tak jsem je rovnou požádal, a za pár dnů knížka přišla.
 
-<img loading="lazy" class="aligncenter size-full wp-image-727" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/10/poznavame-elektroniku-viii.jpg" alt="" width="333" height="466" /> 
+<img loading="lazy" class="aligncenter size-full wp-image-727" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/10/poznavame-elektroniku-viii.jpg" alt="" width="333" height="466" /> 
 
-Jako první knížku jsem si vybral [osmý díl ze série &#8222;Poznáváme elektroniku&#8220; od Václava Maliny](http://www.megaknihy.cz/elektrotechnika-energetika/34390-poznavame-elektroniku-viii.html) (na e-shopu uveden pod krycím jménem Luboš Vinš, pravděpodobně chyba). Kniha je sice už starší (2006), ale zrovna v základech digitální techniky se za posledních deset let moc dramatických změn neodehrálo, takže to není vůbec na závadu, v tomto ohledu je kniha aktuální.
+Jako první knížku jsem si vybral [osmý díl ze série &#8222;Poznáváme elektroniku&#8220; od Václava Maliny](https://www.megaknihy.cz/elektrotechnika-energetika/34390-poznavame-elektroniku-viii.html) (na e-shopu uveden pod krycím jménem Luboš Vinš, pravděpodobně chyba). Kniha je sice už starší (2006), ale zrovna v základech digitální techniky se za posledních deset let moc dramatických změn neodehrálo, takže to není vůbec na závadu, v tomto ohledu je kniha aktuální.
 
 Kniha má únosný rozsah 430 stran, takže není přehnaně stručná, ale zase nemáte ani pocit, že &#8222;to nikdy nezvládnete&#8220;. Zvládnete, nebojte.
 
@@ -51,6 +51,6 @@ Na závěr tradiční výtka k redakční práci, která mi místy přišla hodn
 
 Doporučil bych tedy tuto knihu začátečníkovi? Asi ano, doporučil, ale s nutným vysvětlením: _Nebojte se toho, ono to ze začátku vypadá hrozně nezáživně, nudně, suše, něco mezi matematikou a básničkou nazpaměť, ale pak to najednou začne dávat smysl. Nečekejte, že budete umět navrhovat obvody, to asi ne, i když budete mít po přečtení dostatek informací. Jen vám nesepnou dohromady. Hlavně se nenechte na začátku znudit, klidně přeskakujte, pak se k tomu vrátíte, až vás ty otázky samotné napadnou taky._
 
-Za zapůjčení děkuji obchodu Megaknihy.cz. Recenzovanou knihu si u nich můžete zakoupit zde: [Poznáváme elektroniku VIII](http://www.megaknihy.cz/elektrotechnika-energetika/34390-poznavame-elektroniku-viii.html)
+Za zapůjčení děkuji obchodu Megaknihy.cz. Recenzovanou knihu si u nich můžete zakoupit zde: [Poznáváme elektroniku VIII](https://www.megaknihy.cz/elektrotechnika-energetika/34390-poznavame-elektroniku-viii.html)
 
 &nbsp;

@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=1149
 permalink: /zapiste-si-do-kalendaru-patnacteho-kvetna-vychazi-porty-bajty-osmibity/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280-1140x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280-1140x198.jpg
 categories:
   - ASM80.com
   - Hardware
@@ -97,7 +97,7 @@ Rozhodl jsem se, když už jsme u toho tématu, vydávat Dodatky postupně. Veř
   </p>
 </blockquote>
 
-Za měsíc se můžete těšit. A abych vám to těšení ještě trochu vylepšil, můžete se předzásobit součástkami pro jednotlivé konstrukce ze svých oblíbených čínských e-shopů. Do té doby nezapomeňte navštívit web a přihlásit se třeba [k odběru newsletteru](http://eepurl.com/glG_cr):
+Za měsíc se můžete těšit. A abych vám to těšení ještě trochu vylepšil, můžete se předzásobit součástkami pro jednotlivé konstrukce ze svých oblíbených čínských e-shopů. Do té doby nezapomeňte navštívit web a přihlásit se třeba [k odběru newsletteru](https://eepurl.com/glG_cr):
 
 #### <span id="Porty_bajty_osmibity"><a href="https://www.osmibity.cz/">Porty, bajty, osmibity</a></span>
 
@@ -105,7 +105,7 @@ Za měsíc se můžete těšit. A abych vám to těšení ještě trochu vylepš
 
 #### <span id="eBay">eBay</span>
 
-[Seznam jako eBay watch list](http:// http://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630210142019)
+[Seznam jako eBay watch list](https:// https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630210142019)
 
   * [CPU M5L8085AP](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1-5PCS-M5L8085AP-5L8085AP-40PINS-5L8085-8-Bit-Microprocessor-INTEGRATED-CIRCUIT%2F183292574281%3Fhash%3Ditem2aad16ba49%3Am%3AmiMay3w1OwwK5FAGzE6N4xg)
   * [PIO D8255AC](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1PCS-D8255AC-2-NEC-DIP40-IC-NEW-GOOD-QUALITY-Z10%2F301724711932%3Fhash%3Ditem464031bbfc%3Ag%3AgTYAAOSwDN1UMfRu)
@@ -121,22 +121,22 @@ Za měsíc se můžete těšit. A abych vám to těšení ještě trochu vylepš
 
 #### <span id="AliExpress">AliExpress</span>
 
-  * [CPU M5L8085AP](http://s.click.aliexpress.com/e/GiBVflA)
-  * [PIO D8255AC](http://s.click.aliexpress.com/e/cXImQMay)
-  * [ACIA MC68B50P](http://s.click.aliexpress.com/e/cd996bMU)
-  * [SRAM HM62256ALP](http://s.click.aliexpress.com/e/fNotdZQ)
-  * [EEPROM CAT28C256](http://s.click.aliexpress.com/e/bbFTfAOc)
-  * [Latch 74HC573N](http://s.click.aliexpress.com/e/Q6aYm3W)
-  * [Buffer/driver 74HC245N](http://s.click.aliexpress.com/e/MJnsn4G)
-  * [Decoder 5PCS 74HC138N](http://s.click.aliexpress.com/e/bHu36DBS)
-  * [NAND 74HC00N](http://s.click.aliexpress.com/e/bMPgbeJW)
-  * [100PCS Ceramic capacitor 50V 100nF](http://s.click.aliexpress.com/e/boLxr4LW)
+  * [CPU M5L8085AP](https://s.click.aliexpress.com/e/GiBVflA)
+  * [PIO D8255AC](https://s.click.aliexpress.com/e/cXImQMay)
+  * [ACIA MC68B50P](https://s.click.aliexpress.com/e/cd996bMU)
+  * [SRAM HM62256ALP](https://s.click.aliexpress.com/e/fNotdZQ)
+  * [EEPROM CAT28C256](https://s.click.aliexpress.com/e/bbFTfAOc)
+  * [Latch 74HC573N](https://s.click.aliexpress.com/e/Q6aYm3W)
+  * [Buffer/driver 74HC245N](https://s.click.aliexpress.com/e/MJnsn4G)
+  * [Decoder 5PCS 74HC138N](https://s.click.aliexpress.com/e/bHu36DBS)
+  * [NAND 74HC00N](https://s.click.aliexpress.com/e/bMPgbeJW)
+  * [100PCS Ceramic capacitor 50V 100nF](https://s.click.aliexpress.com/e/boLxr4LW)
 
 ### <span id="OMEN_Bravo">OMEN Bravo</span>
 
 #### <span id="eBay-2">eBay</span>
 
-Seznam jako [eBay watch list](http://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630361876019)
+Seznam jako [eBay watch list](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630361876019)
 
   * [CPU R65C02](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1PCS-5PCS-R65C02P4-R65C02P4E-40PINS-MICROPROCESSORS-CPU-IC-65C02P%2F183346251261%3Fhash%3Ditem2ab049c5fd%3Am%3AmDD3b1cLiRWFUI6xQPQd_lQ)
   * [VIA 65C22](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1PCS-R65C22P4-PDIP-40-Versatile-Interface-Adapter-VIA%2F372248977366%3Fhash%3Ditem56abc49fd6%3Ag%3AAgEAAOSwklxcg~HX)
@@ -150,20 +150,20 @@ Seznam jako [eBay watch list](http://rover.ebay.com/rover/1/711-53200-19255-0/1?
 
 #### <span id="AliExpress-2">AliExpress</span>
 
-  * [CPU 65C02](http://s.click.aliexpress.com/e/kKS9Ql2)
-  * [VIA 6522](http://s.click.aliexpress.com/e/cHsfjMuo)
-  * [ACIA 6551](http://s.click.aliexpress.com/e/bWz7EJLa)
-  * [SRAM HM62256ALP](http://s.click.aliexpress.com/e/fNotdZQ)
-  * [EEPROM AT28C64](http://s.click.aliexpress.com/e/btLc7HCM)
-  * [Decoder 5PCS 74HC138N](http://s.click.aliexpress.com/e/bHu36DBS)
-  * [NAND 74HC00N](http://s.click.aliexpress.com/e/bMPgbeJW)
-  * [100PCS Ceramic capacitor 50V 100nF](http://s.click.aliexpress.com/e/boLxr4LW)
+  * [CPU 65C02](https://s.click.aliexpress.com/e/kKS9Ql2)
+  * [VIA 6522](https://s.click.aliexpress.com/e/cHsfjMuo)
+  * [ACIA 6551](https://s.click.aliexpress.com/e/bWz7EJLa)
+  * [SRAM HM62256ALP](https://s.click.aliexpress.com/e/fNotdZQ)
+  * [EEPROM AT28C64](https://s.click.aliexpress.com/e/btLc7HCM)
+  * [Decoder 5PCS 74HC138N](https://s.click.aliexpress.com/e/bHu36DBS)
+  * [NAND 74HC00N](https://s.click.aliexpress.com/e/bMPgbeJW)
+  * [100PCS Ceramic capacitor 50V 100nF](https://s.click.aliexpress.com/e/boLxr4LW)
 
 ### <span id="OMEN_Kilo">OMEN Kilo</span>
 
 #### <span id="eBay-3">eBay</span>
 
-Seznam jako [eBay watch list](http://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630361888019)
+Seznam jako [eBay watch list](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575085282&toolid=10001&campid=5338390149&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fmyb%2FWatchList%3Fcustom_list_id%3D630361888019)
 
   * [CPU MC6809](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1pcs-MC68B09P-MC68B09-MOTOROLA-DIP-40%2F281812800412%3Fepid%3D170019433%26hash%3Ditem419d5a139c%3Ag%3AVuUAAOSwFnFWCjUK)
   * [PIA 6821](https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575085282&campid=5338390149&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1pcs-MC6821P-MC6821-Peripheral-Interface-Adapters-DIP-40%2F272044654920%3Fhash%3Ditem3f57200148%3Ag%3AnJUAAOSwpDdVGk3n)
@@ -177,11 +177,11 @@ Seznam jako [eBay watch list](http://rover.ebay.com/rover/1/711-53200-19255-0/1?
 
 #### <span id="AliExpress-3">AliExpress</span>
 
-  * [CPU MC68B09](http://s.click.aliexpress.com/e/ZHKM5Uy)
-  * [PIA 6821](http://s.click.aliexpress.com/e/bXTrOhfS)
-  * [ACIA MC68B50P](http://s.click.aliexpress.com/e/cd996bMU)
-  * [SRAM HM62256ALP](http://s.click.aliexpress.com/e/fNotdZQ)
-  * [EEPROM AT28C64](http://s.click.aliexpress.com/e/btLc7HCM)
-  * [Decoder 5PCS 74HC138N](http://s.click.aliexpress.com/e/bHu36DBS)
-  * [NAND 74HC00N](http://s.click.aliexpress.com/e/bMPgbeJW)
-  * [100PCS Ceramic capacitor 50V 100nF](http://s.click.aliexpress.com/e/boLxr4LW)
+  * [CPU MC68B09](https://s.click.aliexpress.com/e/ZHKM5Uy)
+  * [PIA 6821](https://s.click.aliexpress.com/e/bXTrOhfS)
+  * [ACIA MC68B50P](https://s.click.aliexpress.com/e/cd996bMU)
+  * [SRAM HM62256ALP](https://s.click.aliexpress.com/e/fNotdZQ)
+  * [EEPROM AT28C64](https://s.click.aliexpress.com/e/btLc7HCM)
+  * [Decoder 5PCS 74HC138N](https://s.click.aliexpress.com/e/bHu36DBS)
+  * [NAND 74HC00N](https://s.click.aliexpress.com/e/bMPgbeJW)
+  * [100PCS Ceramic capacitor 50V 100nF](https://s.click.aliexpress.com/e/boLxr4LW)

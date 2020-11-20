@@ -4,7 +4,7 @@ title: Nového psa starým trikům nenaučíš
 date: 2014-12-06T12:16:28+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=463
+guid: https://retrocip.uelectronics.info/?p=463
 permalink: /noveho-psa-starym-trikum-nenaucis/
 xyz_lnap:
   - "1"
@@ -24,7 +24,7 @@ Ptal se mě tuhle jeden čtenář na to, jestli bych někde nevyštrachal svou k
 
 <!--more-->
 
-[Tento článek vyšel před rokem [původně na mém zápisníku](http://www.misantrop.info/noveho-psa-starym-trikum-nenaucis/), ovšem zaměřením patří jednoznačně sem, takže jsem ho přenesl&#8230;]
+[Tento článek vyšel před rokem [původně na mém zápisníku](https://www.misantrop.info/noveho-psa-starym-trikum-nenaucis/), ovšem zaměřením patří jednoznačně sem, takže jsem ho přenesl&#8230;]
 
 Doba osmibitová byla plná hrdinských činů, kdy mužové s očima rozedřenýma do krve od mihotavého světla mizerných přesvícených televizí ohýbali křemík až na samé hranice jeho možností. Měl jsem v té době ZX Spectrum a rád jsem se hrabal ve zdrojácích, abych viděl, jak pracují ti lepší a přiučil se od nich. Jo, tehdy optimalizace ještě něco znamenala a ušetřit sto bajtů (zhruba tak prostor, který zabírá text perexu tohoto článku) znamenalo mít možnost do nich naprat novou funkci. Stejně tak ušetřit pár taktů uvnitř cyklu&#8230; A tak se používaly nejrůznější triky.
 

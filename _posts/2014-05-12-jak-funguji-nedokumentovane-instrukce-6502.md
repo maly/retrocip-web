@@ -4,7 +4,7 @@ title: Jak fungují nedokumentované instrukce 6502?
 date: 2014-05-12T08:05:26+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=283
+guid: https://retrocip.uelectronics.info/?p=283
 permalink: /jak-funguji-nedokumentovane-instrukce-6502/
 dsq_thread_id:
   - "2678634537"
@@ -30,7 +30,7 @@ Kupříkladu taková instrukce TAS. Ta má tvar TAS $nnnn, Y &#8211; tedy opera�
 
 Vzbuzuje to několik otázek. Například: Jak na to, proboha, někdo mohl přijít? Nebo: K čemu to je? Nebo: Proč?
 
-Na tu poslední si odpovíme právě v tomto článku. Budu vycházet z famózního [How MOS 6502 Illegal Opcodes really work](http://www.pagetable.com/?p=39) a přidám drobné úpravy.
+Na tu poslední si odpovíme právě v tomto článku. Budu vycházet z famózního [How MOS 6502 Illegal Opcodes really work](https://www.pagetable.com/?p=39) a přidám drobné úpravy.
 
 ## Jak 6502 dekóduje instrukce?
 
@@ -172,7 +172,7 @@ Pokud všechny bity, na kterých záleží, odpovídají dané hodnotě, a pokud
 
 ## Skládání instrukcí
 
-Ve skutečnosti je v PLA uloženo pouze šest ON bitů a šest OFF bitů pro bity 2-7. Hodnoty bitů 0 a 1 se kódují trochu jinak, pomocí trojice signálů G1, G2 a G3. G1 platí, pokud je nastavený bit 0, G2 pro nastavený bit 1 a G3 pro oba bity nulové. Vidíte, že logika není úplná, že chybí ošetření stavu pro oba bity nastavené. A je to opravdu tak, při pohledu do [tabulky instrukcí](http://www.oxyron.de/html/opcodes02.html) vidíme, že instrukce, které mají nastavené oba nejnižší bity (tj. končí na x3, x7, xB a xF) jsou &#8222;ilegální&#8220;. Ve skutečnosti takové instrukce spustí řádky s G1 i s G2 a fungují tak jako kombinace dvou předchozích instrukcí.
+Ve skutečnosti je v PLA uloženo pouze šest ON bitů a šest OFF bitů pro bity 2-7. Hodnoty bitů 0 a 1 se kódují trochu jinak, pomocí trojice signálů G1, G2 a G3. G1 platí, pokud je nastavený bit 0, G2 pro nastavený bit 1 a G3 pro oba bity nulové. Vidíte, že logika není úplná, že chybí ošetření stavu pro oba bity nastavené. A je to opravdu tak, při pohledu do [tabulky instrukcí](https://www.oxyron.de/html/opcodes02.html) vidíme, že instrukce, které mají nastavené oba nejnižší bity (tj. končí na x3, x7, xB a xF) jsou &#8222;ilegální&#8220;. Ve skutečnosti takové instrukce spustí řádky s G1 i s G2 a fungují tak jako kombinace dvou předchozích instrukcí.
 
 (Když se ponoříte do [výpisu PLA](https://code.google.com/p/breaks/source/browse/trunk/Docs/6502/PLA.txt?spec=svn2&r=2), zjistíte, že jsou bity v naprosto odlišném pořadí, proto opakuju: výše zmíněné je pouze ilustrační!)
 
@@ -190,8 +190,8 @@ Některé kódy nedělají nic (NOP). Některé NOPy ještě předtím načtou j
 
 K dalšímu studiu doporučuju:
 
-  * [Decode ROM](http://visual6502.org/wiki/index.php?title=6507_Decode_ROM)
-  * [How MOS 6502 Illegal Opcodes really work](http://www.pagetable.com/?p=39)
+  * [Decode ROM](https://visual6502.org/wiki/index.php?title=6507_Decode_ROM)
+  * [How MOS 6502 Illegal Opcodes really work](https://www.pagetable.com/?p=39)
   * [PLA dump](https://code.google.com/p/breaks/source/browse/trunk/Docs/6502/PLA.txt?spec=svn2&r=2)
-  * [6502 opcodes](http://www.oxyron.de/html/opcodes02.html)
-  * [6502 extra opcodes](http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes)
+  * [6502 opcodes](https://www.oxyron.de/html/opcodes02.html)
+  * [6502 extra opcodes](https://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes)

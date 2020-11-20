@@ -10,7 +10,7 @@ xyz_lnap:
   - "1"
 dsq_thread_id:
   - "6662597759"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-960x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/05/31403931_10155719197497496_8190272174116831232_n-960x198.jpg
 categories:
   - ASM80.com
   - Hardware
@@ -97,7 +97,7 @@ Smyčka DLOOP začíná snížením hodnoty v dvojici registrů D a E &#8211; DC
 
 A teď otázka za sto bodů: Jak dlouho ta smyčka bude probíhat? Jasně, záleží to na té konstantě a bude to přímo úměrné. Ale kolik to bude? Dalo by se to spočítat?
 
-Inu, dalo. Vezměte si k ruce [tabulku s instrukcemi a jejich trváním](http://ee.sharif.edu/~sakhtar3/articles/8080-8085/8085%20Instruction%20Set.pdf) a napište si, kolik která instrukce zabere taktů:
+Inu, dalo. Vezměte si k ruce [tabulku s instrukcemi a jejich trváním](https://ee.sharif.edu/~sakhtar3/articles/8080-8085/8085%20Instruction%20Set.pdf) a napište si, kolik která instrukce zabere taktů:
 
     DELAY:              
                 LXI     D, KONSTANTA ; 10 T

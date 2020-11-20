@@ -4,7 +4,7 @@ title: Úplně miniaturní update ASM80
 date: 2014-10-07T20:55:15+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=408
+guid: https://retrocip.uelectronics.info/?p=408
 permalink: /uplne-miniaturni-update-asm80/
 xyz_lnap:
   - "1"
@@ -15,7 +15,7 @@ categories:
 tags:
   - ASM80
 ---
-Udělal jsem takový &#8222;pobočný&#8220; projekt od svého [ASM80.com](http://www.asm80.com) &#8211; jednostránkové jednoduché překladače pro jednotlivé procesory.
+Udělal jsem takový &#8222;pobočný&#8220; projekt od svého [ASM80.com](https://www.asm80.com) &#8211; jednostránkové jednoduché překladače pro jednotlivé procesory.
 
 <!--more-->
 
@@ -23,8 +23,8 @@ Udělal jsem takový &#8222;pobočný&#8220; projekt od svého [ASM80.com](http:
 
 Jak to funguje?
 
-Vlezte na [asm8080](http://www.asm80.com/onepage/asm8080.html), [asm6502](http://www.asm80.com/onepage/asm6502.html), [asm6809](http://www.asm80.com/onepage/asm6809.html) nebo [asmZ80](http://www.asm80.com/onepage/asmz80.html). Stránku si můžete uložit na disk pomocí Ctrl-S (anebo kliknout pravým tlačítkem myši na odkaz a dát Uložit jako&#8230;, majitelé Maců si poradí po svém). Pak ji stačí otevřít v prohlížeči (buď z webu, nebo klidně i tu lokální kopii z disku), pomocí Copy a Paste vložit (nebo napsat) zdroják do příslušného okna a kliknout na Compile.
+Vlezte na [asm8080](https://www.asm80.com/onepage/asm8080.html), [asm6502](https://www.asm80.com/onepage/asm6502.html), [asm6809](https://www.asm80.com/onepage/asm6809.html) nebo [asmZ80](https://www.asm80.com/onepage/asmz80.html). Stránku si můžete uložit na disk pomocí Ctrl-S (anebo kliknout pravým tlačítkem myši na odkaz a dát Uložit jako&#8230;, majitelé Maců si poradí po svém). Pak ji stačí otevřít v prohlížeči (buď z webu, nebo klidně i tu lokální kopii z disku), pomocí Copy a Paste vložit (nebo napsat) zdroják do příslušného okna a kliknout na Compile.
 
-Funkce to nabízí stejné jako [plná verze ASM80](http://retrocip.uelectronics.info/manual-asm80/ "Manuál ASM80") (kromě include) a výsledkem jsou soubory HEX a LST.
+Funkce to nabízí stejné jako [plná verze ASM80](https://retrocip.uelectronics.info/manual-asm80/ "Manuál ASM80") (kromě include) a výsledkem jsou soubory HEX a LST.
 
 Další vylepšení, co mám v plánu, jsou lepší listingy a podpora pro procesor 6800.

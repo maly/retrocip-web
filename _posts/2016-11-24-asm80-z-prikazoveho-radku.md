@@ -4,7 +4,7 @@ title: ASM80 z příkazového řádku
 date: 2016-11-24T20:08:13+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=925
+guid: https://retrocip.uelectronics.info/?p=925
 permalink: /asm80-z-prikazoveho-radku/
 xyz_lnap:
   - "1"
@@ -22,7 +22,7 @@ tags:
   - Utility
   - Z80
 ---
-Čtenáři jistě znají [ASM80](http://www.asm80.com) &#8211; online assembler / IDE pro osmibitové procesory. Udělal jsem i několik odvozených verzí, třeba single page překladače, embedded verzi překladače (použil jsem ji v tutoriálu [Stroják.cz](http://strojak.cz)), nebo třeba [stand alone IDE](http://www.ide80.com). Logickým pokračováním je tedy stará dobrá utilita pro překlad z příkazového řádku.
+Čtenáři jistě znají [ASM80](https://www.asm80.com) &#8211; online assembler / IDE pro osmibitové procesory. Udělal jsem i několik odvozených verzí, třeba single page překladače, embedded verzi překladače (použil jsem ji v tutoriálu [Stroják.cz](https://strojak.cz)), nebo třeba [stand alone IDE](https://www.ide80.com). Logickým pokračováním je tedy stará dobrá utilita pro překlad z příkazového řádku.
 
 Předpokladem je mít funkční prostředí Node. Není to nic složitého, existuje pro všechny hlavní platformy, a stáhnout si ho můžete zde: [nodejs.org](https://nodejs.org/en/download/). Při instalaci se nainstaluje i správce balíčků, zvaný _npm_.
 

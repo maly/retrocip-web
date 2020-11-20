@@ -4,7 +4,7 @@ title: Dva přírůstky do archivu
 date: 2014-01-18T19:15:55+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=114
+guid: https://retrocip.uelectronics.info/?p=114
 permalink: /dva-prirustky-do-archivu/
 dsq_thread_id:
   - "2140344274"
@@ -28,19 +28,19 @@ Sharp MZ-800. A k němu stoh dokumentace, originální i všelijaké &#8222;Shar
 <div id='gallery-3' class='gallery galleryid-114 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption111'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption111'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption113'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption113'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption112'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption112'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -48,39 +48,39 @@ Sharp MZ-800. A k němu stoh dokumentace, originální i všelijaké &#8222;Shar
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption115'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption115'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption116'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption116'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <br style='clear: both' />
 </div>
 
-Na 8bity je [o Sharp MZ pěkné povídání](http://www.8bity.cz/muzeum/sharp/), a tak začnu asi tam. Unikarta mě docela zaujala a říkám si, že něco takového by tenhle stroj zasloužil. Zatím se jen nahrává BASIC z kazety.
+Na 8bity je [o Sharp MZ pěkné povídání](https://www.8bity.cz/muzeum/sharp/), a tak začnu asi tam. Unikarta mě docela zaujala a říkám si, že něco takového by tenhle stroj zasloužil. Zatím se jen nahrává BASIC z kazety.
 
 No a druhý stroj je taková reminiscence na jeden z počítačů, co jsem měl. Počítač s nejlepším šestnáctibitovým procesorem, počítač, oblíbený hudebníky, ovšem neoblíbený u tvůrců her. Jeden z posledních modelů kdysi hrdé značky. Atari 1040ST.
 
 <div id='gallery-4' class='gallery galleryid-114 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption110'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption110'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption109'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption109'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption108'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption108'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -88,7 +88,7 @@ No a druhý stroj je taková reminiscence na jeden z počítačů, co jsem měl.
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption107'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption107'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -97,4 +97,4 @@ No a druhý stroj je taková reminiscence na jeden z počítačů, co jsem měl.
 
 Teď jen přemýšlím, kde najdu 3,5&#8243; diskety DD&#8230;
 
-A aby toho nebylo málo, tak jsem si v kapse přivezl &#8211; ale ten jen půjčený &#8211; [Sharp PC 1245](http://pocket.free.fr/html/sharp/pc-1245_e.html). Kapesní počítač, který ani nemá svou stránku na Wikipedii, jak je unikátní! 🙂 Ne, opravdu to není programovatelná kalkulačka &#8211; má to plnou QWERTY klávesnici, má to znakový displej, má to BASIC. Krásná věc. (Plus perlička na závěr: majitel tohoto konkrétního kusu byl ing. Kratochvíl, autor legendárního [BOB-85](http://www.nostalcomp.cz/bob85.php).)
+A aby toho nebylo málo, tak jsem si v kapse přivezl &#8211; ale ten jen půjčený &#8211; [Sharp PC 1245](https://pocket.free.fr/html/sharp/pc-1245_e.html). Kapesní počítač, který ani nemá svou stránku na Wikipedii, jak je unikátní! 🙂 Ne, opravdu to není programovatelná kalkulačka &#8211; má to plnou QWERTY klávesnici, má to znakový displej, má to BASIC. Krásná věc. (Plus perlička na závěr: majitel tohoto konkrétního kusu byl ing. Kratochvíl, autor legendárního [BOB-85](https://www.nostalcomp.cz/bob85.php).)

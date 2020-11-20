@@ -4,7 +4,7 @@ title: 'Zpracovávám data z MQTT&#8230;'
 date: 2016-08-28T14:12:31+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=879
+guid: https://retrocip.uelectronics.info/?p=879
 permalink: /zpracovavam-data-z-mqtt/
 xyz_lnap:
   - "1"
@@ -19,4 +19,4 @@ tags:
   - MQTT
   - Thingspeak
 ---
-([Přesunuto na Iotta.cz](http://iotta.cz/zpracovavam-data-z-mqtt/))
+([Přesunuto na Iotta.cz](https://iotta.cz/zpracovavam-data-z-mqtt/))

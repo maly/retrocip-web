@@ -4,7 +4,7 @@ title: Retro duch
 date: 2014-01-30T19:36:19+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=121
+guid: https://retrocip.uelectronics.info/?p=121
 permalink: /retro-duch/
 dsq_thread_id:
   - "2196347659"
@@ -21,7 +21,7 @@ Ale ne, vážně. _Bylo mi vyčiněno_ (tomuto obratu se říká &#8222;zdvoři
 
 S čímž souhlasím. Kdo jste viděl způsob, jakým ZX-80 a ZX-81 zobrazuje znaky na obrazovce, tak víte, o čem mluvím. Ano, bylo to úžasné a fascinující, a to je ten retroduch. Fajn.
 
-Respektuju a obdivuju cestu, kterou jdou například pánové [Jirka](http://www.nostalcomp.cz/) nebo [Martin](http://8bity.cz/). Vytahují a oprašují starý hardware, rekonstruují ho, rozšiřují pomocí nových technologií, popřípadě zcela přestavují, překreslují staré plošňáky, mění zapojení tak, aby zachovali tehdejší minimalismus s dnešními možnostmi&#8230; Rád si jejich články čtu. Stejně jako Dexe, [Logouta](http://blog.i-logout.cz/) a další, kteří v podstatě pracují s veterány.
+Respektuju a obdivuju cestu, kterou jdou například pánové [Jirka](https://www.nostalcomp.cz/) nebo [Martin](https://8bity.cz/). Vytahují a oprašují starý hardware, rekonstruují ho, rozšiřují pomocí nových technologií, popřípadě zcela přestavují, překreslují staré plošňáky, mění zapojení tak, aby zachovali tehdejší minimalismus s dnešními možnostmi&#8230; Rád si jejich články čtu. Stejně jako Dexe, [Logouta](https://blog.i-logout.cz/) a další, kteří v podstatě pracují s veterány.
 
 Trošku se rozcházíme u pohledu na novou techniku. Zůstanu u toho automobilového přirovnání: chápu milovníka veteránů, co si opatruje své klenoty a všude s nimi jezdí. Rád si poslechnu jeho vyprávění o tom, jak to tehdy byla _poctivá kovařina a strojařina_. Vím, že svoje stroje zná do posledního šroubku. Chápavě pokývám, když bude nadávat na ty moderní auta, kde není prostor pro tvůrčí rozlet, kde opravář umí akorát připojit sondu a vyměnit pak celý kus něčeho, kde je všechno řízené jedním počítačem a _nazdar bazar_, kde nejde jemně tohle přiohnout, tamto natáhnout a semhle přivařit, aby to jezdilo rychleji. Furt OK. Ale pak sednu do svého vozu z roku 2007 a odjedu s ním. A tady je ten bod zlomu.
 
@@ -39,4 +39,4 @@ Duch retra je pro mne až vevnitř. Až v tom, co si pro emulátor napíšu. Tam
 
 Rigidnímu retro duchu by odpovídalo, kdybych vzal pájku a spájel si vlastní počítač (což je, že předbíhám, samozřejmě v plánu, stejně jako rozšíření a vylepšení mé osmibitové sbírky &#8211; zrovna poslední přírůstek je Zilogat0rův divIDE). A na něm se vyřádím, možná ho vezmu někdy na nějaký sraz majitelů starých počítačů, ale do té doby si to klidně budu celé emulovat v JavaScriptu v prohlížeči, protože v tomhle směru nejsem purista. Mně stačí, když emulátor pípá, zelenají se písmena _a ty pražce drncaj dú dá dú dá dú dá&#8230;_
 
-_Aktualizace: Z druhé strany barikády [komentuje technomorous Logout](http://blog.i-logout.cz/duch-technomorouse.php)._
+_Aktualizace: Z druhé strany barikády [komentuje technomorous Logout](https://blog.i-logout.cz/duch-technomorouse.php)._

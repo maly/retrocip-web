@@ -4,7 +4,7 @@ title: 'ZX Spectrum a loadery &#8211; 1'
 date: 2015-02-02T13:22:28+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=493
+guid: https://retrocip.uelectronics.info/?p=493
 permalink: /zx-spectrum-a-loadery-1/
 xyz_lnap:
   - "1"
@@ -446,7 +446,7 @@ Efekty s borderem jsou většinou prosté a dostatečně rychlé, takže je sem 
 
 ### <span id="Jednoduche_efekty_s_nactenym_obsahem">Jednoduché efekty s načteným obsahem</span>
 
-Během nahrávání stihneme určitě i jednodušší operace s načtenými daty, buď na úrovni bitů, nebo na úrovni bajtů. Loader u [dema Digisynth](https://www.youtube.com/watch?v=2DZNnLInGwo) dokázal v reálném čase provádět rozbalování dat pomocí Huffmanova dekompresního algoritmu (Huffman se k tomu hodí docela dobře, stačí mít uložený dekomprimační strom a podle načteného bitu jím procházet). Pro zájemce jsem připravil [rekonstrukci tohoto loaderu](http://retrocip.uelectronics.info/loaderove-intermezzo/ "Loaderové intermezzo"). My se ale podíváme na jiný případ, a tím bude známý [Mad Load](http://www.worldofspectrum.org/infoseekid.cgi?id=0008381) &#8211; rutina, která nahrává obrázky po čtverečcích v nějakém pořadí. Na videu je jeho vylepšená verze.
+Během nahrávání stihneme určitě i jednodušší operace s načtenými daty, buď na úrovni bitů, nebo na úrovni bajtů. Loader u [dema Digisynth](https://www.youtube.com/watch?v=2DZNnLInGwo) dokázal v reálném čase provádět rozbalování dat pomocí Huffmanova dekompresního algoritmu (Huffman se k tomu hodí docela dobře, stačí mít uložený dekomprimační strom a podle načteného bitu jím procházet). Pro zájemce jsem připravil [rekonstrukci tohoto loaderu](https://retrocip.uelectronics.info/loaderove-intermezzo/ "Loaderové intermezzo"). My se ale podíváme na jiný případ, a tím bude známý [Mad Load](https://www.worldofspectrum.org/infoseekid.cgi?id=0008381) &#8211; rutina, která nahrává obrázky po čtverečcích v nějakém pořadí. Na videu je jeho vylepšená verze.
 
 
 

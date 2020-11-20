@@ -76,4 +76,4 @@ K dalšímu studiu:
   * <https://www.ecsxtal.com/store/pdf/Oscillation-Circut-Design-Considerations.pdf>
   * <https://www.eleccircuit.com/simple-crystal-oscillator-circuit/>
   * <https://www.eit.lth.se/fileadmin/eit/courses/edi021/PDF_files/oscillators.pdf>
-  * <http://www.z80.info/uexosc.htm>
+  * <https://www.z80.info/uexosc.htm>

@@ -4,7 +4,7 @@ title: 'ZX Spectrum a loadery &#8211; 2'
 date: 2015-02-08T12:58:33+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=514
+guid: https://retrocip.uelectronics.info/?p=514
 permalink: /zx-spectrum-a-loadery-2/
 xyz_lnap:
   - "1"
@@ -23,7 +23,7 @@ Pokračování článku o loaderech na ZX Spectru. Držte si klobouky a vytáhn�
 
 <!--more-->
 
-[Minule](http://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1") jsem skončil s tím, že příště bude potřeba počítat a vážit každý takt. Naším spojencem nejbližším bude tentokrát čekací smyčka v rutině LD\_EDGE\_1. Připomeňme si ji:
+[Minule](https://retrocip.uelectronics.info/zx-spectrum-a-loadery-1/ "ZX Spectrum a loadery – 1") jsem skončil s tím, že příště bude potřeba počítat a vážit každý takt. Naším spojencem nejbližším bude tentokrát čekací smyčka v rutině LD\_EDGE\_1. Připomeňme si ji:
 
 <pre class="lang:default decode:true">LD_EDGE_2:        
           CALL    LD_EDGE_1 ;Zde se v podstatě volá ještě jednou LD_EDGE_1 a
@@ -335,7 +335,7 @@ Když rozsekáte rutinu na kousky, máte dvě možnosti. Buď upravujete kód a 
 
 Když počítáte čas, je to složitější než počítat bajty. Musíte totiž buď počítat každý bit jinak (jedničkový je dvakrát tak delší než nulový), anebo využít přerušení (ano, přerušení v loaderu!)
 
-Hledal jsem ukázku toho prvního přístupu, ale než jsem ji stihnul okomentovat, ozval se mi Busy, že našel zdroják svého loaderu k [Overscanu](http://busy.speccy.cz/tvorba/overscan.htm), a jestli bych ho nechtěl publikovat. Takže s Busyho laskavým svolením: Overscan loader!
+Hledal jsem ukázku toho prvního přístupu, ale než jsem ji stihnul okomentovat, ozval se mi Busy, že našel zdroják svého loaderu k [Overscanu](https://busy.speccy.cz/tvorba/overscan.htm), a jestli bych ho nechtěl publikovat. Takže s Busyho laskavým svolením: Overscan loader!
 
 (Počítání času i grafické efekty jsou v ceně!)
 

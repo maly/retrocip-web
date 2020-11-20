@@ -4,7 +4,7 @@ title: Hrajeme si s emulátorem JPR-1
 date: 2014-01-12T10:57:45+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=92
+guid: https://retrocip.uelectronics.info/?p=92
 permalink: /hrajeme-si-s-emulatorem-jpr-1/
 dsq_thread_id:
   - "2111843551"
@@ -26,16 +26,16 @@ Začnu, s dovolením, osobní vzpomínkou. Když v roce 1983 vyšlo &#8222;legen
 
 Zanedlouho byl sešit popsaný &#8222;programy&#8220; na sčítání čísel, na výpočty objemů a obsahů a podobnými nikdy nevyzkoušenými perlami. První mikropočítač jsem na vlastní oči viděl až o dva roky později (a nebylo to JPR-1, tou dobou přejmenované už na SAPI), bylo to PMD. Ale JPR zůstalo jednoznačně prvním počítačem, na kterém jsem se naučil minimální základy programování, ačkoli jsem u něj nikdy neseděl.
 
-Další emulátor pro [ASM80.com](http://www.asm80.com/) je tedy [emulátor JPR-1](http://www.asm80.com/jpr.html) (nebo SAPI-1, jak chcete) právě s MIKRO BASICem. Je to alfaverze, neřešil jsem zrcadlení pamětí ani perfektní emulaci generátoru znaků (místo toho jsem použil nějaký obstojný font 5&#215;7). Chováním víceméně odpovídá téhle sestavě:
+Další emulátor pro [ASM80.com](https://www.asm80.com/) je tedy [emulátor JPR-1](https://www.asm80.com/jpr.html) (nebo SAPI-1, jak chcete) právě s MIKRO BASICem. Je to alfaverze, neřešil jsem zrcadlení pamětí ani perfektní emulaci generátoru znaků (místo toho jsem použil nějaký obstojný font 5&#215;7). Chováním víceméně odpovídá téhle sestavě:
 
-  * [JPR-1 ](http://www.sapi.cz/sapi/jpr-1.php)
-  * [AND-1](http://www.sapi.cz/sapi/and-1.php)
-  * [ANK-1](http://www.sapi.cz/sapi/ank-1.php)
-  * [REM-1](http://www.sapi.cz/sapi/rem-1.php)
-  * [DSM-1](http://www.sapi.cz/sapi/dsm-1.php) (jen dirty hack pro ukládání na pásku)
+  * [JPR-1 ](https://www.sapi.cz/sapi/jpr-1.php)
+  * [AND-1](https://www.sapi.cz/sapi/and-1.php)
+  * [ANK-1](https://www.sapi.cz/sapi/ank-1.php)
+  * [REM-1](https://www.sapi.cz/sapi/rem-1.php)
+  * [DSM-1](https://www.sapi.cz/sapi/dsm-1.php) (jen dirty hack pro ukládání na pásku)
 
-V emulované EPROM jsou uložené programy [MIKRO BASIC](http://www.sapi.cz/sapi/mikrobasic.php) a [HELP](http://www.sapi.cz/sapi/help.php).
+V emulované EPROM jsou uložené programy [MIKRO BASIC](https://www.sapi.cz/sapi/mikrobasic.php) a [HELP](https://www.sapi.cz/sapi/help.php).
 
 Bohužel nevím o tom, že by se dochovalo nějaké programové vybavení pro tuto sestavu (ani pro další s MIKOSem), takže to máte jen jako Opravdu Nostalgický Počítač k hraní a zkoumání.
 
-_Děkuji autorovi (snad jediných) stránek o [SAPI-1](http://www.sapi.cz/sapi/sapi.php) s přezdívkou EC1045 za to, že uchovává a dává veřejně k dispozici dokumentaci starých českých osmibitových počítačů. Z jeho stránek jsem při tvorbě tohoto emulátoru intenzivně čerpal. Díky._
+_Děkuji autorovi (snad jediných) stránek o [SAPI-1](https://www.sapi.cz/sapi/sapi.php) s přezdívkou EC1045 za to, že uchovává a dává veřejně k dispozici dokumentaci starých českých osmibitových počítačů. Z jeho stránek jsem při tvorbě tohoto emulátoru intenzivně čerpal. Díky._

@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=1141
 permalink: /omen-kilo-dil-2-dalsi-periferie/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280-1140x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280-1140x198.jpg
 categories:
   - Hardware
 tags:

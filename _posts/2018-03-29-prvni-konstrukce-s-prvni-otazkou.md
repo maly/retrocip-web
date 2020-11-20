@@ -8,7 +8,7 @@ guid: https://retrocip.cz/?p=1022
 permalink: /prvni-konstrukce-s-prvni-otazkou/
 xyz_lnap:
   - "1"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2018/03/MOS_6502AD_4585_top-790x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2018/03/MOS_6502AD_4585_top-790x198.jpg
 categories:
   - Hardware
 ---

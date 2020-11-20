@@ -4,7 +4,7 @@ title: 'Elektronika a Mac, díl první: Arduino'
 date: 2015-09-13T15:08:39+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=697
+guid: https://retrocip.uelectronics.info/?p=697
 permalink: /elektronika-a-mac-dil-prvni-arduino/
 xyz_lnap:
   - "1"
@@ -29,13 +29,13 @@ IDE jsem stáhnul [zde](https://www.arduino.cc/en/Main/Software): [Arduino IDE M
 
 Zapojil jsem Arduino do USB, chvilku počkal a v nabídce vybral možnost &#8222;cu.usbmodem621&#8220; (zkoušel jsem Arduino Due, na jiné verzi to může být jinak, netuším):
 
-<img loading="lazy" class="aligncenter size-full wp-image-698" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx2.jpg" alt="osx2" width="849" height="111" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2.jpg 849w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2-650x85.jpg 650w" sizes="(max-width: 849px) 100vw, 849px" /> 
+<img loading="lazy" class="aligncenter size-full wp-image-698" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx2.jpg" alt="osx2" width="849" height="111" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2.jpg 849w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx2-650x85.jpg 650w" sizes="(max-width: 849px) 100vw, 849px" /> 
 
 Překlad naprosto bez problémů, instalace knihoven taky, instalace jiných desek (v tomto případě Due) taky bez problémů.
 
-Jediný problém nastal s čínským klonem Arduina, který používá jiný obvod pro USB. V naprosté většině jde o typ CH340G. Ale nic, co by chvilka googlení nevyřešila: [ovladač CH340 pro Mac OS X máte zde](http://retrocip.cz/files/ch34x-install-osx.zip)! V nových OSX si nejprve spusťte Terminál a zadejte &#8222;sudo nvram boot-args=&#8220;kext-dev-mode=1&#8220; &#8211; tím povolíte nepodepsané ovladače. Pak už jen stačí rozbalit, spustit, a dokonce ani není potřeba přepisovat jméno zařízení, jak radí některé manuály. Po připojení takového Arduina se v nabídce objevila jen trochu jiná položka:
+Jediný problém nastal s čínským klonem Arduina, který používá jiný obvod pro USB. V naprosté většině jde o typ CH340G. Ale nic, co by chvilka googlení nevyřešila: [ovladač CH340 pro Mac OS X máte zde](https://retrocip.cz/files/ch34x-install-osx.zip)! V nových OSX si nejprve spusťte Terminál a zadejte &#8222;sudo nvram boot-args=&#8220;kext-dev-mode=1&#8220; &#8211; tím povolíte nepodepsané ovladače. Pak už jen stačí rozbalit, spustit, a dokonce ani není potřeba přepisovat jméno zařízení, jak radí některé manuály. Po připojení takového Arduina se v nabídce objevila jen trochu jiná položka:
 
-<img loading="lazy" class="aligncenter size-full wp-image-699" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx3.jpg" alt="osx3" width="795" height="284" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3.jpg 795w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3-650x232.jpg 650w" sizes="(max-width: 795px) 100vw, 795px" /> 
+<img loading="lazy" class="aligncenter size-full wp-image-699" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/osx3.jpg" alt="osx3" width="795" height="284" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3.jpg 795w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/osx3-650x232.jpg 650w" sizes="(max-width: 795px) 100vw, 795px" /> 
 
 Zvolil jsem &#8222;wchusbserial&#8220;, a zvolil jsem správně!
 

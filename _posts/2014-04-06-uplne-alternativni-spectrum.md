@@ -4,11 +4,11 @@ title: Úplně alternativní Spectrum
 date: 2014-04-06T14:25:43+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=153
+guid: https://retrocip.uelectronics.info/?p=153
 permalink: /uplne-alternativni-spectrum/
 dsq_thread_id:
   - "2590785574"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2014/04/ZXSpectrum48k-1140x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2014/04/ZXSpectrum48k-1140x198.jpg
 categories:
   - Hardware
 tags:
@@ -17,9 +17,9 @@ tags:
   - Z80
   - ZX
 ---
-Čímž tedy rozhodně nemyslím, že je alternativní jako třeba &#8222;alternativní medicína&#8220;, ale prostě že by bylo jiné. A počítám s tím, že mi budou skalní fandové lát a klnout, že znesvěcuju ducha, ale [to jsme si už vyřídili](http://retrocip.uelectronics.info/retro-duch/ "Retro duch"), teď se, prosím, soustředíme na to podstatné.
+Čímž tedy rozhodně nemyslím, že je alternativní jako třeba &#8222;alternativní medicína&#8220;, ale prostě že by bylo jiné. A počítám s tím, že mi budou skalní fandové lát a klnout, že znesvěcuju ducha, ale [to jsme si už vyřídili](https://retrocip.uelectronics.info/retro-duch/ "Retro duch"), teď se, prosím, soustředíme na to podstatné.
 
-<a href="http://retrocip.uelectronics.info/uplne-alternativni-spectrum/zxspectrum128/" rel="attachment wp-att-155"><img loading="lazy" class="aligncenter size-full wp-image-155" alt="" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/04/zx+spectrum+128.png" width="564" height="422" /></a>
+<a href="https://retrocip.uelectronics.info/uplne-alternativni-spectrum/zxspectrum128/" rel="attachment wp-att-155"><img loading="lazy" class="aligncenter size-full wp-image-155" alt="" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/04/zx+spectrum+128.png" width="564" height="422" /></a>
 
 <!--more-->Když Jirka Lamač (LEC) a pánové Troller s Císařem (Sinsoft) rozšiřovali paměť ZX Spectra proto, aby na něm mohli pouštět CP/M, bylo to znesvěcení retro ducha modernou, ale protože to probíhalo na konci 80. let, tak to vlastně ve skutečnosti byl pokrok. I když upřímně: CP/M v té době byl už docela letitý systém&#8230;
 
@@ -35,7 +35,7 @@ Zadruhé &#8211; supervizor režim. Jinak nebude možné ochránit paměť, izol
 
 No a zatřetí by šlo udělat virtuální procesor, takovou &#8222;Javu 80&#8220; (neplést s Jawou 50).
 
-O několik myšlenkových pochodů později mi to secvaklo: Vždyť já nemusím dělat experimentální hardware a bastlit vlastní počítač se Z80 ([hello, Grant](http://searle.hostei.com/grant/cpm/index.html)), já přeci můžu použít Spectrum, rozšířit mu paměť pro stránkování od $8000, využít všechno, co zařídí hardware a ULA (tj. klávesnici, displej a další) a tenhle systém napálit do ROMky, která bude od $0000, jak to Sir Clive mínil.
+O několik myšlenkových pochodů později mi to secvaklo: Vždyť já nemusím dělat experimentální hardware a bastlit vlastní počítač se Z80 ([hello, Grant](https://searle.hostei.com/grant/cpm/index.html)), já přeci můžu použít Spectrum, rozšířit mu paměť pro stránkování od $8000, využít všechno, co zařídí hardware a ULA (tj. klávesnici, displej a další) a tenhle systém napálit do ROMky, která bude od $0000, jak to Sir Clive mínil.
 
 A o jednu úvahu dál jsem viděl ZX Spectrum 128, které má to přepínání paměti už jaksi samo od sebe, sice od $C000, ale nešť. K tomu by stačila malá krabička s ROMkou a s nějakým udělátorem, co by dokázal komunikovat s CF nebo SD.
 
@@ -45,6 +45,6 @@ Nebudou pro to programy. Jasně, takže je můžu napsat sám! Budu jediný maji
 
 Jen bych vás, znalejší, poprosil: **Nevíte o nějaké takové úpravě**, která by využívala HW Spectra a přitom zahodila ROM a BASIC a implementovala vlastní systém? Všechny ROMky, co jsem našel, jsou především &#8222;vylepšené a opravené originální ROM&#8220;, tu s tokenizérem, támhle s novými funkcemi, ale taková divočina, jakou jsem si vysnil, tu jsem nikde neviděl.
 
-Aktualizace 7.4.: Díky Logoutovi za [odkaz na Matrix OS](http://clanky.1-2-8.net/2009/09/z-archivu-mb-maniax-matrix-os.html)!
+Aktualizace 7.4.: Díky Logoutovi za [odkaz na Matrix OS](https://clanky.1-2-8.net/2009/09/z-archivu-mb-maniax-matrix-os.html)!
 
-PS: Omlouvám se, zapomněl jsem, že některé _memy_ nejsou všeobecně známé. Ta citace &#8222;Kdybys radši dělal něco užitečného&#8230;&#8220; mě pronásleduje od dob Bloguje vlastně u každého projektu: &#8222;_Kdyby pan Malý svou energii raději věnoval do XXX a pomohl tím komunitě!_&#8220; Nojo, nepomohl jsem, ale bylo Bloguje a byly další věci. Takže pro jednoznačnost: to nebylo nic proti Spectristům&#8230; Ostatně viz [zde](http://www.misantrop.info/retrotyden/#comment-1139363855) a [zde](http://www.misantrop.info/mam-rad-proroctvi).
+PS: Omlouvám se, zapomněl jsem, že některé _memy_ nejsou všeobecně známé. Ta citace &#8222;Kdybys radši dělal něco užitečného&#8230;&#8220; mě pronásleduje od dob Bloguje vlastně u každého projektu: &#8222;_Kdyby pan Malý svou energii raději věnoval do XXX a pomohl tím komunitě!_&#8220; Nojo, nepomohl jsem, ale bylo Bloguje a byly další věci. Takže pro jednoznačnost: to nebylo nic proti Spectristům&#8230; Ostatně viz [zde](https://www.misantrop.info/retrotyden/#comment-1139363855) a [zde](https://www.misantrop.info/mam-rad-proroctvi).

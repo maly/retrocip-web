@@ -4,7 +4,7 @@ title: Arduino pro úplné začátečníky
 date: 2015-09-14T10:42:20+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=702
+guid: https://retrocip.uelectronics.info/?p=702
 permalink: /arduino-pro-uplne-zacatecniky/
 xyz_lnap:
   - "1"
@@ -26,7 +26,7 @@ Já vím, že to není úplně pro vás, věrné čtenáře a ostřílené harco
 
 Se Štěpánem Bechynským jsme taknějak přes léto vymýšleli (hlavně Štěpán, buďme upřímní), jak spojit naše koníčky a vytvořit něco užitečného. Tentokrát nemám na mysli zálibu ve vaření, ale ty další &#8211; zálibu v elektronice, programování a poučování.
 
-Jak už jsem naznačoval jinde, tak výsledkem je takový workshop, který jsme pojmenovali [Arduino 101](http://arduino101.cz). Pokud jste někdy zažili nějaký US kurz, tak víte, že ta první úvodní hodina se vždycky označuje jako &#8222;101&#8220; &#8211; a [Arduino 101](http://arduino101.cz) je právě ta &#8222;první hodina&#8220;.
+Jak už jsem naznačoval jinde, tak výsledkem je takový workshop, který jsme pojmenovali [Arduino 101](https://arduino101.cz). Pokud jste někdy zažili nějaký US kurz, tak víte, že ta první úvodní hodina se vždycky označuje jako &#8222;101&#8220; &#8211; a [Arduino 101](https://arduino101.cz) je právě ta &#8222;první hodina&#8220;.
 
 Ona to ve skutečnosti není první hodina, ono je toho klidně na celé dopoledne i kus odpoledne. Co to je?
 
@@ -48,4 +48,4 @@ a v zásadě jediné, co potřebujete znát předem, jsou základy programován�
 
 Pokud sníte o tom, že si někdy postavíte vlastního robota, nebo vás napadá, že by bylo fajn mít v lednici teploměr, nebo že byste chtěli mít něco, co by sledovalo, jak máte zalité kytky,  nebo pokud si chcete postavit kapesní světelný teremin, protože vás to baví, tak je to akce přímo pro vás! Ukážeme vám, kudy na to, naučíme vás nezbytné základy a všechno si budete moci rovnou vyzkoušet, ověřit, navrhnout&#8230;
 
-Několika akcí už jsme se zúčastnili ([nejbližší se koná v sobotu v brněnské Industře](https://www.facebook.com/events/975575232507582/)), a máme jich ještě pár v plánu stihnout, takže příležitost přijít určitě bude. A pokud Vám to nevyjde, sledujte stránky [Arduino 101](http://arduino101.cz), popřípadě nám napište (je tam na to formulář&#8230;), na jaké akci byste nás chtěli vidět.
+Několika akcí už jsme se zúčastnili ([nejbližší se koná v sobotu v brněnské Industře](https://www.facebook.com/events/975575232507582/)), a máme jich ještě pár v plánu stihnout, takže příležitost přijít určitě bude. A pokud Vám to nevyjde, sledujte stránky [Arduino 101](https://arduino101.cz), popřípadě nám napište (je tam na to formulář&#8230;), na jaké akci byste nás chtěli vidět.

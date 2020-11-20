@@ -4,7 +4,7 @@ title: Chcete se naučit assembler?
 date: 2013-12-23T12:13:59+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=72
+guid: https://retrocip.uelectronics.info/?p=72
 permalink: /chcete-se-naucit-assembler/
 dsq_thread_id:
   - "2068431722"
@@ -37,14 +37,14 @@ Zadruhé &#8211; procesor 8080 je přímým předchůdcem procesoru Z80 a &#8211
 
 Takže když se naučíte assembler 8080, máte jen krůček k Z80 (jen se naučíte jiné názvy instrukcí a doučíte se ty, co má Z80 navíc), nebo můžete ukročit na druhou stranu a vydat se cestou 8086, 80386, &#8230;
 
-Tak, tolik asi k motivaci, a teď do práce. Pokud se chcete naučit assembler těchto starých veteránů (8080, Z80, 6502, ale pokud bude zájem, tak nevylučuju časem ani AVR nebo PIC), tak jste vítáni na stránce [Stroják.cz](http://strojak.cz) (neplést se Zdroják.cz, což je _magazín o programování 63 úrovní nad strojovým kódem_). Postupně píšu další kapitoly a rád bych vám nabídnul něco, co jsem já, když jsem se učil assembler, neměl.
+Tak, tolik asi k motivaci, a teď do práce. Pokud se chcete naučit assembler těchto starých veteránů (8080, Z80, 6502, ale pokud bude zájem, tak nevylučuju časem ani AVR nebo PIC), tak jste vítáni na stránce [Stroják.cz](https://strojak.cz) (neplést se Zdroják.cz, což je _magazín o programování 63 úrovní nad strojovým kódem_). Postupně píšu další kapitoly a rád bych vám nabídnul něco, co jsem já, když jsem se učil assembler, neměl.
 
-Totiž, když jsem se já učil assembler (někdy v roce 1984&#8230; vidíte, napřesrok budu mít výročí!), měl jsem k tomu k dispozici tři, slovy tři materiály. Jednak instrukční sadu procesoru 8085, pak výpis monitoru počítače BOB-85 a pak výpis obsluhy klávesnice a displeje počítače JPR-1. O spoustě věcí (třeba fungování přerušení) se člověk nedozvěděl. O nějakou dobu později, už s reálným počítačem, jsem zkoušel, co se stane když&#8230; Na spoustu věcí jsem si musel přijít sám (víte třeba jak na procesoru, co umí akorát sčítat a odčítat, udělat násobení? Znáte aspoň tři způsoby?), ale většinu věcí jsem odhalil při nekonečném disassemblování cizích programů a zkoumání toho, jak to funguje. Když se mi dostal do ruky [Machine Code Tutor](http://www.worldofspectrum.org/infoseekid.cgi?id=0008031), už mě nic nového nenaučil.
+Totiž, když jsem se já učil assembler (někdy v roce 1984&#8230; vidíte, napřesrok budu mít výročí!), měl jsem k tomu k dispozici tři, slovy tři materiály. Jednak instrukční sadu procesoru 8085, pak výpis monitoru počítače BOB-85 a pak výpis obsluhy klávesnice a displeje počítače JPR-1. O spoustě věcí (třeba fungování přerušení) se člověk nedozvěděl. O nějakou dobu později, už s reálným počítačem, jsem zkoušel, co se stane když&#8230; Na spoustu věcí jsem si musel přijít sám (víte třeba jak na procesoru, co umí akorát sčítat a odčítat, udělat násobení? Znáte aspoň tři způsoby?), ale většinu věcí jsem odhalil při nekonečném disassemblování cizích programů a zkoumání toho, jak to funguje. Když se mi dostal do ruky [Machine Code Tutor](https://www.worldofspectrum.org/infoseekid.cgi?id=0008031), už mě nic nového nenaučil.
 
 Tehdy mi chyběly hlavně dvě věci: Možnost si naučené ihned vyzkoušet, a zjistit i něco víc než jen seznam instrukcí a jejich chování. Třeba právě to násobení. Nebo jak převést číslo na jeho desítkové vyjádření v ASCII kódech, a naopak.
 
 A právě tohle bych chtěl ve svém kurzu napravit. Zatím tedy probírám instrukce jednu po druhé, ale v každé lekci máte embedovaný editor + assembler + debugger, kde si můžete kód přeložit a otestovat jeho chování, popřípadě si ho poupravit, podívat se, jak se chová upravený, &#8230; No a v samotném textu dělám odbočky k různým algoritmům. Zatím jen nesmělé (ve chvíli, kdy píšu tenhle článek, jsem s výkladem těsně za instrukcema skoků), ale jak bude narůstat počet známých instrukcí, poroste i počet ukázek a algoritmů.
 
-Jste srdečně zváni na [Stroják.cz](http://strojak.cz)!
+Jste srdečně zváni na [Stroják.cz](https://strojak.cz)!
 
 (Komentáře, prosím, používejte vždy ve chvíli, kdy vám bude něco nejasného &#8211; já se tak budu moct ke kapitole vrátit a doplnit ji tak, aby byla srozumitelná.)

@@ -4,7 +4,7 @@ title: Na dlouhé zimní večery
 date: 2013-11-23T11:40:11+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=8
+guid: https://retrocip.uelectronics.info/?p=8
 permalink: /na-dlouhe-zimni-vecery/
 dsq_thread_id:
   - "1991822179"
@@ -20,19 +20,19 @@ Do sbírky úlovků přibyl nový kousek &#8211; tedy vlastně starý. Legendár
 <div id='gallery-1' class='gallery galleryid-8 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption13'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image001-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption13'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image001-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption11'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image003-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption11'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image003-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption12'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image002-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption12'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image002-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -40,7 +40,7 @@ Do sbírky úlovků přibyl nový kousek &#8211; tedy vlastně starý. Legendár
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image005.jpg" title="PMI-80" class="highslide" onclick="return hs.expand(this,{captionId:'caption9'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image005-150x150.jpg" width="150" height="150" alt="PMI-80" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image005.jpg" title="PMI-80" class="highslide" onclick="return hs.expand(this,{captionId:'caption9'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image005-150x150.jpg" width="150" height="150" alt="PMI-80" /></a>
     </dt>
     
     <dd class="gallery-caption" id="caption9">
@@ -50,7 +50,7 @@ Do sbírky úlovků přibyl nový kousek &#8211; tedy vlastně starý. Legendár
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption10'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2013/11/image004-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption10'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/image004-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   

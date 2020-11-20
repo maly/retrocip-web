@@ -34,19 +34,19 @@ Opravil jsem chyby, vynechal výběr banky  (Issue 3 a 4 už používají menš
 <div id='gallery-18' class='gallery galleryid-1092 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103913-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1097'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103913-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103913-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1097'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103913-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104048-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1105'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104048-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104048-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1105'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104048-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103935-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1096'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103935-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103935-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1096'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103935-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -54,19 +54,19 @@ Opravil jsem chyby, vynechal výběr banky  (Issue 3 a 4 už používají menš
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104029-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1093'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104029-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104029-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1093'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104029-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104015-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1094'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104015-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104015-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1094'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104015-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104004-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1095'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104004-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104004-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1095'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_104004-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -97,39 +97,19 @@ Pokud vám vrtá hlavou, k čemu že tam mám ten systémový konektor, tak věz
 <div id='gallery-19' class='gallery galleryid-1092 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103813-1280-1.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1107'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103813-1280-1-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103813-1280-1.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1107'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103813-1280-1-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1102'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1102'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103724-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103731-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1101'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103731-1280-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103835-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1099'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103835-1280-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103843-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1098'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103843-1280-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103653-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1104'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103653-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103731-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1101'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103731-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   
@@ -137,7 +117,27 @@ Pokud vám vrtá hlavou, k čemu že tam mám ten systémový konektor, tak věz
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1103'})"><img src="http://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103835-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1099'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103835-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103843-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1098'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103843-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103653-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1104'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103653-1280-150x150.jpg" width="150" height="150" alt="" /></a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1103'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/10/20181028_103705-1280-150x150.jpg" width="150" height="150" alt="" /></a>
     </dt>
   </dl>
   

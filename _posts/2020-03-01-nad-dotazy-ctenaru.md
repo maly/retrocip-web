@@ -6,7 +6,7 @@ author: Martin Maly
 layout: post
 guid: https://retrocip.cz/?p=1178
 permalink: /nad-dotazy-ctenaru/
-image: http://retrocip.cz/wp-content/uploads/sites/6/2017/11/s3-1140x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2017/11/s3-1140x198.jpg
 categories:
   - Hardware
   - Knihy
@@ -34,7 +34,7 @@ První dotaz poslal pan Tomáš:
   </p>
 </blockquote><figure class="wp-block-image size-large">
 
-<img loading="lazy" width="1024" height="576" src="http://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-1024x576.jpg" alt="" class="wp-image-997" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-1024x576.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-768x432.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o.jpg 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img loading="lazy" width="1024" height="576" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-1024x576.jpg" alt="" class="wp-image-997" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-1024x576.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o-768x432.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/11/23550861_10155203516922496_8283049223022676107_o.jpg 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 Odpověď je jednoduchá, ale nepotěší:
 
@@ -48,7 +48,7 @@ PAL monitor chce právě ten videosignál. Odstraňuje celý složitý řetězec
 
 Pro zájemce: Zde je [návod na vyvedení videa ze ZX81](https://www.classic-computers.org.nz/blog/2016-01-03-composite-video-for-zx81.htm), popřípadě [zde, pokud máte ZX80 či Timex](https://www.bytedelight.com/?page_id=3560). Je to o něco náročnější úprava, protože je potřeba videosignál trochu zesílit tranzistorem.
 
-U ZX Spectra se jednoduše odpojí modulátor a na anténní výstup se přivádí přímo videovýstup. Návod krok za krokem je třeba [tady (ZX Spectrum Composite Mod)](http://www.retrogamescollector.com/simple-zx-spectrum-composite-mod/), nebo [tady (ZXS 48k video)](https://spectrumforeveryone.com/technical/composite-mod-for-the-48k-range/). Sice je anténní vývod trochu jiný než standardní RCA konektor pro video (&#8222;CINCH&#8220;), ale použít ho lze. Nebo můžete druhý konektor prostě přidat:<figure class="wp-block-image size-large">
+U ZX Spectra se jednoduše odpojí modulátor a na anténní výstup se přivádí přímo videovýstup. Návod krok za krokem je třeba [tady (ZX Spectrum Composite Mod)](https://www.retrogamescollector.com/simple-zx-spectrum-composite-mod/), nebo [tady (ZXS 48k video)](https://spectrumforeveryone.com/technical/composite-mod-for-the-48k-range/). Sice je anténní vývod trochu jiný než standardní RCA konektor pro video (&#8222;CINCH&#8220;), ale použít ho lze. Nebo můžete druhý konektor prostě přidat:<figure class="wp-block-image size-large">
 
 <img loading="lazy" width="342" height="210" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/03/spectrum-video2.jpg" alt="" class="wp-image-1179" /> </figure> 
 

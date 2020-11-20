@@ -4,11 +4,11 @@ title: Klony a procesory
 date: 2014-03-07T16:11:24+01:00
 author: Martin Maly
 layout: post
-guid: http://retrocip.uelectronics.info/?p=128
+guid: https://retrocip.uelectronics.info/?p=128
 permalink: /klony-a-procesory/
 dsq_thread_id:
   - "2381067355"
-image: http://retrocip.cz/wp-content/uploads/sites/6/2014/03/Zilog_Z80-588x198.jpg
+image: https://retrocip.cz/wp-content/uploads/sites/6/2014/03/Zilog_Z80-588x198.jpg
 categories:
   - Hardware
 tags:
@@ -23,11 +23,11 @@ V šerém dávnověku mikroprocesorů byl i ten konkurenční boj takový jiný&
 
 <!--more-->
 
-V [kurzu assembleru](http://strojak.cz) jsem se dostal do bodu, kde začnu popisovat Z80. Nejjednodušší by bylo hezky po programátorsku odkázat na díly o procesoru 8080 a říct: &#8222;Přesně takhle, jen jiná syntaxe, a tohle je navíc!&#8220; Asi to nějak zmíním, ale instrukce přeci jen proberu trošku jinak.
+V [kurzu assembleru](https://strojak.cz) jsem se dostal do bodu, kde začnu popisovat Z80. Nejjednodušší by bylo hezky po programátorsku odkázat na díly o procesoru 8080 a říct: &#8222;Přesně takhle, jen jiná syntaxe, a tohle je navíc!&#8220; Asi to nějak zmíním, ale instrukce přeci jen proberu trošku jinak.
 
 Každopádně mě přemýšlení nad tím, jak popsat vznik Z80, přivedlo k zajímavé věci z historie procesorů a integrovaných obvodů, která dneska už může znít docela neobvykle.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-129" src="http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg" alt="Zilog_Z80" width="588" height="324" />](http://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg)
+[<img loading="lazy" class="aligncenter size-full wp-image-129" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg" alt="Zilog_Z80" width="588" height="324" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg)
 
 První mikroprocesor, a to je už notoricky známé, byl Intel 4004. Intel ho vyráběl ve třech verzích &#8211; tedy navenek. Uvnitř to byl stejný čip, lišilo se jen pouzdro &#8211; plastické, keramické, nebo plasto-keramické.
 
@@ -63,9 +63,9 @@ Toshiba integrovala některé periferie spolu s jádrem Z80 do jednoho pouzdra s
 
 Téměř shodná historie se odehrála i v &#8222;paralelní větvi mikroprocesorového vývoje&#8220;, tedy u Motoroly. První procesor 6800 měl rovněž několik &#8222;druhých zdrojů&#8220;. Historie s Fagginem se u Motoroly opakuje v podobě odchodu některých inženýrů do nově vzniklé firmy MOS Technology, kde vyvinuli procesor 6502. Ten není &#8222;rozšířenou variantou 6800&#8220;, ale spíš &#8222;sice nekompatibilní, ale levnou variantou&#8220;, díky čemuž se 6502 objevila ve spoustě garážových počítačů té doby. 6502 se vyrábí dodneška, a o jeho vylepšenou variantu 65C816, kombinující 8bitové a 16bitové jádro, se postarali vývojáři z WDC.
 
-Motorola nabídla několik variant 6800 (např. se zakomponovanou pamětí), a nakonec vyvinula [procesor 6809](http://retrocip.uelectronics.info/posledni-krasavec-osmibitove-ery/ "Poslední krasavec osmibitové éry"), který je jednoznačně vrcholem tehdejší osmibitové éry (dokonce i Bill Gates měl prohlásit, že to je &#8222;nejlépe navržený osmibitový procesor&#8220; &#8211; a ten by to měl vědět, protože pro něj psal BASIC). Tento procesor má mnoho komplexních adresních módů (například &#8222;přečti bajt z adresy, která je v registru X, a pak zvyš hodnotu X o 1&#8220;), nabízí dva akumulátory A a B (které se dohromady tváří jako 16bitový registr D), dva šestnáctibitové indexové registry X a Y, dva 16bitové ukazatele zásobníku U a S (to by se to implementoval FORTH, že?), nabízí (podobně jako 6800 nebo 6502) možnost adresovat paměť zkrácenou adresou v nulté stránce &#8211; ale tady nejsme omezeni na nultou stránku, protože si pomocí registru DP můžeme nastavit, se kterou stránkou se pracuje. Uvnitř je i hardwarová násobička 8&#215;8 bitů&#8230; Navíc je sada silně ortogonální (takže se nestává tak často, že by nějaká kombinace operandů &#8222;nešla použít&#8220;).
+Motorola nabídla několik variant 6800 (např. se zakomponovanou pamětí), a nakonec vyvinula [procesor 6809](https://retrocip.uelectronics.info/posledni-krasavec-osmibitove-ery/ "Poslední krasavec osmibitové éry"), který je jednoznačně vrcholem tehdejší osmibitové éry (dokonce i Bill Gates měl prohlásit, že to je &#8222;nejlépe navržený osmibitový procesor&#8220; &#8211; a ten by to měl vědět, protože pro něj psal BASIC). Tento procesor má mnoho komplexních adresních módů (například &#8222;přečti bajt z adresy, která je v registru X, a pak zvyš hodnotu X o 1&#8220;), nabízí dva akumulátory A a B (které se dohromady tváří jako 16bitový registr D), dva šestnáctibitové indexové registry X a Y, dva 16bitové ukazatele zásobníku U a S (to by se to implementoval FORTH, že?), nabízí (podobně jako 6800 nebo 6502) možnost adresovat paměť zkrácenou adresou v nulté stránce &#8211; ale tady nejsme omezeni na nultou stránku, protože si pomocí registru DP můžeme nastavit, se kterou stránkou se pracuje. Uvnitř je i hardwarová násobička 8&#215;8 bitů&#8230; Navíc je sada silně ortogonální (takže se nestává tak často, že by nějaká kombinace operandů &#8222;nešla použít&#8220;).
 
-Vlastní 6809 vyráběl opět Hitachi, a opět, jako v případě Z80, připravili japonští návrháři i vylepšenou variantu, která se vyrábí pod [označením 6309](http://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"). K vlastnostem 6809 přidává další dva akumulátory E a F, které dohromady tvoří další 16bitový akumulátor W&#8230; který spolu s akumulátorem D tvoří 32bitový akumulátor Q. Přibyl i &#8222;odkládací&#8220; 16bitový registr V, přibyl &#8222;registr 0&#8220;, v němž je vždycky 0 a který zjednodušuje nulování registrů &#8211; místo zapsání přímé hodnoty stačí jen přenést hodnotu z tohoto registru, přibyly nové instrukce, blokové operace, instrukce pro dělení a dlouhé násobení, instrukce pro aritmetiku, které výsledek neukládají do akumulátoru, ale do paměti&#8230;
+Vlastní 6809 vyráběl opět Hitachi, a opět, jako v případě Z80, připravili japonští návrháři i vylepšenou variantu, která se vyrábí pod [označením 6309](https://retrocip.uelectronics.info/6309-vse-je-neoficialni/ "6309: Vše je neoficiální!"). K vlastnostem 6809 přidává další dva akumulátory E a F, které dohromady tvoří další 16bitový akumulátor W&#8230; který spolu s akumulátorem D tvoří 32bitový akumulátor Q. Přibyl i &#8222;odkládací&#8220; 16bitový registr V, přibyl &#8222;registr 0&#8220;, v němž je vždycky 0 a který zjednodušuje nulování registrů &#8211; místo zapsání přímé hodnoty stačí jen přenést hodnotu z tohoto registru, přibyly nové instrukce, blokové operace, instrukce pro dělení a dlouhé násobení, instrukce pro aritmetiku, které výsledek neukládají do akumulátoru, ale do paměti&#8230;
 
 > Ano, kdyby bylo hlasování o nejzajímavější historický osmibit, tak sorry, Z80, jsi sice srdcovka, ale můj favorit je 6309!
 
@@ -83,4 +83,4 @@ Na jednu stranu se tím zjednodušil výběr platformy a kompatibilita, na druho
 
 Taky máte dojem, že je dneska ve světě procesorů už docela nuda? 🙂
 
-(Náhledový obrázek procesoru Z80 pochází z [Wikipedie](http://en.wikipedia.org/wiki/File:Zilog_Z80.jpg). Spousta encyklopedických informací o procesorech a jejich výrobcích je k dispozici na webu [CPU world](http://www.cpu-world.com/CPUs/CPU.html).)
+(Náhledový obrázek procesoru Z80 pochází z [Wikipedie](https://en.wikipedia.org/wiki/File:Zilog_Z80.jpg). Spousta encyklopedických informací o procesorech a jejich výrobcích je k dispozici na webu [CPU world](https://www.cpu-world.com/CPUs/CPU.html).)
