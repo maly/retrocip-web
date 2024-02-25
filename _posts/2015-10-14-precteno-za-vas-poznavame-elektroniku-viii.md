@@ -27,7 +27,7 @@ Sháněl jsem je nejdřív v antikvariátu (přišlo mi hloupé kupovat knihu, k
 
 Náhoda tomu chtěla, že v tu samou dobu se na mne obrátili z [Megaknihy.cz](https://www.megaknihy.cz) s nabídkou, jestli nechci napsat nějakou recenzi, nebo na ně odkázat tam, kde píšu o knížkách. Hodilo se mi to, tak jsem je rovnou požádal, a za pár dnů knížka přišla.
 
-<img loading="lazy" class="aligncenter size-full wp-image-727" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/10/poznavame-elektroniku-viii.jpg" alt="" width="333" height="466" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/10/poznavame-elektroniku-viii.jpg) 
 
 Jako první knížku jsem si vybral [osmý díl ze série &#8222;Poznáváme elektroniku&#8220; od Václava Maliny](https://www.megaknihy.cz/elektrotechnika-energetika/34390-poznavame-elektroniku-viii.html) (na e-shopu uveden pod krycím jménem Luboš Vinš, pravděpodobně chyba). Kniha je sice už starší (2006), ale zrovna v základech digitální techniky se za posledních deset let moc dramatických změn neodehrálo, takže to není vůbec na závadu, v tomto ohledu je kniha aktuální.
 

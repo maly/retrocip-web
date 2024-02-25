@@ -21,7 +21,7 @@ WDC vyrábí a dodává i devkity &#8211; asi nejrozumnější jsou ty řady SXB
 
 Já zvolil variantu W65C265SXB: tenhle mikrokontrolér má jádro 65C816, které samozřejmě funguje i v režimu 65C02, a k němu jsou připojené 4xUART, 8x časovač a RTC. Přivítal bych nějaké SPI/I2C, ale není. Nevadí. Na desce je 32kb SRAM, mapovaná v rozsahu 00:0000 až 00:7FFF, a je tam i patice na 128k FLASH. 65C816 má 24bitovou adresu, dokáže tedy přímo adresovat až 16MB paměti. Hezké je, že všechny vývody jsou vyvedené na pinové lišty.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172413.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-947" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172413.jpg" alt="" width="600" height="648" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172413.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172413.jpg)</a>
 
 Programování je jednoduché &#8211; přes USB. Uvnitř mikrokontroléru je &#8222;Mensch Monitor&#8220;, tedy klasický monitor, jak si jej pamatujeme. Využívá jednu ze sériových linek, připojenou k FTDI převodníku, takže vy potřebujete jen sériový terminál, a nastavit ho na 9600 Bd. Můžete si pak prohlížet paměť, měnit ji, spouštět programy, nahrávat soubory ve formátu S28 a tak&#8230;
 
@@ -31,4 +31,4 @@ Nakonec jsem použil TeraTerm, a ten šlapal bez problémů. Zkusil jsem si udě
 
 Jinak je to moc hezká destička a udělala mi radost. Až bude čas, udělám k ní nějaké příjemnější programovadlo, třeba jako Chrome plugin.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-949" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422-366x650.jpg" alt="" width="366" height="650" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422-366x650.jpg 366w, https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422-576x1024.jpg 576w, https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422.jpg 600w" sizes="(max-width: 366px) 100vw, 366px" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/02/20170208_172422-366x650.jpg)</a>

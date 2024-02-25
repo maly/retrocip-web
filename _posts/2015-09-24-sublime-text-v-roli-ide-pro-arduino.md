@@ -32,6 +32,6 @@ Instalace je prostá, jen je důležité předem odinstalovat &#8222;Arduino-lik
 
 Zbytek je podobný Arduinu, tedy musíte nastavit typ desky a port. Typ programátoru je &#8222;AVRISP mkII&#8220;. Všechno běhá jak po másle. Nezískám tím žádné nové funkce, ale mohu zdrojáky editovat v Sublime, na který jsem zvyklý a které má například i funkci &#8222;Více kurzorů&#8220;, co u Arduino IDE postrádám velmi bolestně.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-720" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/stino-650x368.jpg" alt="stino" width="650" height="368" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/09/stino-650x368.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/stino-1024x579.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2015/09/stino.jpg 1693w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/09/stino-650x368.jpg) 
 
 \[sc:ebay item=&#8220;arduino nano usb&#8220;\]\[sc:ebay item=&#8220;arduino uno USB&#8220;\]\[sc:ebay item=&#8220;arduino 2560 USB&#8220;\]\[sc:ebay item=&#8220;arduino due SAM3X8E&#8220;\]

@@ -22,7 +22,7 @@ Když jste měli v osmdesátých letech osmibit a k němu nějaký doplněk, mě
 
 Já si k historickému Atari 130 pořídil A/V kabel &#8211; na jedné straně pětikolík DIN, na druhé čtyři CINCHe, nějak takhle:
 
-<img loading="lazy" class="aligncenter size-medium wp-image-313" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/T2eC16RwsE9suwydzfBRtT7hTQ60_57-650x484.jpg" alt="" width="650" height="484" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/06/T2eC16RwsE9suwydzfBRtT7hTQ60_57-650x484.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/T2eC16RwsE9suwydzfBRtT7hTQ60_57-1024x762.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/T2eC16RwsE9suwydzfBRtT7hTQ60_57.jpg 1600w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/T2eC16RwsE9suwydzfBRtT7hTQ60_57-650x484.jpg) 
 
 Pro zájemce: Černá je audio (pin 3), bílá composite video (pin 4), červená chrominance (pin 5), žlutá luminance (pin 1).
 
@@ -32,7 +32,7 @@ Každopádně konektor jsem přepájel, zapnul, zjistil že nefunguje, chvíli j
 
 Střih. O týden později zapínám svůj nový [MSX](https://retrocip.uelectronics.info/msx/ "MSX") VG8020. Koukám se na zapojení jeho videokonektoru a špekuluju, jak to zapojit.
 
-<img loading="lazy" class="aligncenter size-full wp-image-314" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/vg8020_video.jpg" alt="" width="300" height="155" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/vg8020_video.jpg) 
 
 Osmikolík, hm, ten tu nemám, ale mám sedmikolík, ten použiju a&#8230; No, upřímně: pin 8 je prázdný, pin 7 taky, pin 6 je 12V, to ani nechci, takže by mi bohatě stačil pětikolík, ze kterého si vytáhnu audio na trojce a video na pětce. Jen nesmím do televize omylem pustit jedničku. Takže by to podle všeho měla být literární dvojice červený + černý.
 
@@ -40,7 +40,7 @@ Ještě jsem to celé pro jistotu proměřil, ověřil, že ani na červeném, a
 
 A když tak koukám na zapojení konektoru u C64, tak si říkám, že ten samý kabel budu moct použít i u něj. Kombinace 3-4, to by mělo být černý na audio, bílý na composite video.
 
-<img loading="lazy" class="aligncenter size-full wp-image-315" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/post-119-1053723058_thumb.png" alt="" width="201" height="250" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/post-119-1053723058_thumb.png) 
 
 Spectrum +2A na to nepůjde, ale to nevadí, pro něj mám SCART kabel&#8230;
 

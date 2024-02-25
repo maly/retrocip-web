@@ -28,7 +28,7 @@ Pokud si budete stavět samostatný krystalový oscilátor pro číslicová zař
 
 První zapojení, sériové, používá dva invertory TTL LS/ALS, mezi nimiž je zapojen vazební kondenzátor C1 (někdy bývá vynechán) s kapacitou jednotek či desítek nF. Jeho úkolem je odfiltrovat stejnosměrný proud. Oba invertory mají zapojené zpětnovazební rezistory, které je udržují v oblasti lineárního zesílení. Jejich hodnota není kritická, pro frekvence 1 – 4 MHz se doporučuje okolo 2k2. Jiné zdroje doporučují R2 spočítat jako 3000/f, kde f je frekvence v MHz.
 
-<img loading="lazy" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-1024x552.png" alt="" class="wp-image-1189" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-1024x552.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-650x350.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-768x414.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-1536x828.png 1536w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial.png 1830w" sizes="(max-width: 1024px) 100vw, 1024px" />
+![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/serial-1024x552.png)
 
 Kondenzátor C2 je již zmíněný zátěžový – většina krystalů pro naše frekvence počítá se zátěžovou kapacitou mezi 22 – 33 pF, ale jak už jsem psal: hodnota není zcela kritická.
 
@@ -44,7 +44,7 @@ Pomocí trimru C3 můžete kmitočet celého zapojení ještě jemně doladit, a
 
 Paralelní oscilátor používá pouze jeden jediný invertor TTL LS/ALS.
 
-<img src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls-908x1024.png" alt="" class="wp-image-1191" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls-908x1024.png 908w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls-576x650.png 576w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls-768x866.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls.png 1140w" sizes="(max-width: 908px) 100vw, 908px" />
+![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-ls-908x1024.png)
 
 Rezistory R1, R2 a kondenzátor C4 fungují jako zpětná vazba pro udržení invertoru v oblasti lineárního zesílení. R1 a R2 mají odpor 1k, kondenzátor C4 kapacitu okolo 250 nF.
 
@@ -58,7 +58,7 @@ Někde se můžete setkat s názorem, že to je proto, že CMOS obvody jsou př
 
 Proto se používá modifikované zapojení s&nbsp;rezistorem sériově zapojeným u krystalu.
 
-<img src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-1024x881.png" alt="" class="wp-image-1190" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-1024x881.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-650x559.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-768x661.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel.png 1140w" sizes="(max-width: 1024px) 100vw, 1024px" />
+![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/parallel-1024x881.png)
 
 Rezistor R1, který udržuje invertor v&nbsp;pracovní oblasti, může mít řádově stovky kiloohmů. Typicky se používá hodnota 180 k, která je pro CMOS invertory více než dostatečná. Ale můžete použít téměř cokoli od 47 k&nbsp;po 1&nbsp;M.
 

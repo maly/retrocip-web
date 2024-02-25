@@ -25,7 +25,7 @@ Ano, přátelé, je to tak. Po Didaktiku Kompakt a PMI-80 mám další kus do sb
 <div id='gallery-2' class='gallery galleryid-78 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image005.jpg" title="Sinclair Spectrum +2A" class="highslide" onclick="return hs.expand(this,{captionId:'caption83'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image005-150x150.jpg" width="150" height="150" alt="Sinclair Spectrum +2A" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image005.jpg" title="Sinclair Spectrum +2A" class="highslide" onclick="return hs.expand(this,{captionId:'caption83'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image005-150x150.jpg)</a>
     </dt>
     
     <dd class="gallery-caption" id="caption83">
@@ -35,33 +35,13 @@ Ano, přátelé, je to tak. Po Didaktiku Kompakt a PMI-80 mám další kus do sb
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption84'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image004-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption84'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image004-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption81'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image007-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption82'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image006-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption80'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image008-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption87'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image001-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption81'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image007-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -69,7 +49,27 @@ Ano, přátelé, je to tak. Po Didaktiku Kompakt a PMI-80 mám další kus do sb
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption79'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image009-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption82'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image006-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption80'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image008-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption87'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image001-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption79'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2013/12/image009-150x150.jpg)</a>
     </dt>
   </dl>
   

@@ -23,7 +23,7 @@ To jsem zase nasbíral spoustu odkazů a je mi líto se o ně nepodělit&#8230;
 
 Nejprve upozornění &#8211; [článek o jedničkách a nulách](https://retrocip.uelectronics.info/exkurze-mezi-jednicky-a-nuly/ "Exkurze mezi jedničky a nuly") bude mít pokračování, tentokrát zaměřené na prostor mezi &#8222;mám tranzistory&#8220; a &#8222;mám hradlo&#8220;, který není Dave de Sadovi jasný. Můžete se těšit na animovaná CMOS hradla a krásné dvouemitorové TTL tranzistory, po kterých už bude všechno všem jasné. Ale to až budu mít trochu volna.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-231" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140503_092218-650x365.jpg" alt="IMG_20140503_092218" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140503_092218-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140503_092218-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140503_092218-650x365.jpg) 
 
 Dnes: vypouštění rybníka s odkazy.
 

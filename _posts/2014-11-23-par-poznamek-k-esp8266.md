@@ -31,7 +31,7 @@ Tak zaprvé &#8211; dostal jsem ty moduly do ruky a trošku jsem si s nimi pohr�
   * Přijdete na to třeba tím, že uvidíte ESP8266 v seznamu dostupných wifi sítí na svém PC.
   * No a v neposlední řadě buďte připraveni, že AT+RST občas nedopadne dobře a pomůže jen vypnout/zapnout.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-454" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/11/IMG_20141123_121320-650x365.jpg" alt="IMG_20141123_121320" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/11/IMG_20141123_121320-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/11/IMG_20141123_121320-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/11/IMG_20141123_121320-650x365.jpg) 
 
 Tolik za mne. Co ostatní?
 

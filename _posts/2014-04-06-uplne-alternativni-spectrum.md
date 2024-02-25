@@ -19,7 +19,7 @@ tags:
 ---
 Čímž tedy rozhodně nemyslím, že je alternativní jako třeba &#8222;alternativní medicína&#8220;, ale prostě že by bylo jiné. A počítám s tím, že mi budou skalní fandové lát a klnout, že znesvěcuju ducha, ale [to jsme si už vyřídili](https://retrocip.uelectronics.info/retro-duch/ "Retro duch"), teď se, prosím, soustředíme na to podstatné.
 
-<a href="https://retrocip.uelectronics.info/uplne-alternativni-spectrum/zxspectrum128/" rel="attachment wp-att-155"><img loading="lazy" class="aligncenter size-full wp-image-155" alt="" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/04/zx+spectrum+128.png" width="564" height="422" /></a>
+<a href="https://retrocip.uelectronics.info/uplne-alternativni-spectrum/zxspectrum128/" rel="attachment wp-att-155">![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/04/zx+spectrum+128.png)</a>
 
 <!--more-->Když Jirka Lamač (LEC) a pánové Troller s Císařem (Sinsoft) rozšiřovali paměť ZX Spectra proto, aby na něm mohli pouštět CP/M, bylo to znesvěcení retro ducha modernou, ale protože to probíhalo na konci 80. let, tak to vlastně ve skutečnosti byl pokrok. I když upřímně: CP/M v té době byl už docela letitý systém&#8230;
 

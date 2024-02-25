@@ -115,13 +115,13 @@ S příchodem integrovaných obvodů a nástupem řady TTL se konvence ustálila
 
 ### <span id="Hradla">Hradla</span>
 
-Pomocí tranzistorů se skládají základní logické prvky, tedy invertor a hradlo. Tranzistor tu funguje jako spínač. Princip fungování TTL prvků už je příliš podrobný, stačí jen, když si řekneme, že několik tranzistorů dohromady dá zákaldní logický prvek. Invertor je prvek, co má jeden vstup a jeden výstup, a když je na vstupu 0, je na výstupu 1 a obráceně.<figure id="attachment\_335" aria-labelledby="figcaption\_attachment_335" class="wp-caption aligncenter" style="width: 130px">
+Pomocí tranzistorů se skládají základní logické prvky, tedy invertor a hradlo. Tranzistor tu funguje jako spínač. Princip fungování TTL prvků už je příliš podrobný, stačí jen, když si řekneme, že několik tranzistorů dohromady dá zákaldní logický prvek. Invertor je prvek, co má jeden vstup a jeden výstup, a když je na vstupu 0, je na výstupu 1 a obráceně.
 
-<img loading="lazy" class="size-full wp-image-335" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NOT_ANSI_Labelled.svg_.png" alt="" width="120" height="50" /> <figcaption id="figcaption\_attachment\_335" class="wp-caption-text">Invertor</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NOT_ANSI_Labelled.svg_.png) <figcaption id="figcaption\_attachment\_335" class="wp-caption-text">Invertor</figcaption> 
 
-Další základní logické prvky jsou hradla AND, OR, NAND (=Not AND, negovaný AND) a NOR (=Not OR). Ve skutečnosti stačí jediný typ, buď NAND, nebo NOR, z něhož se dají všechny ostatní typy složit (např. OR uděláme z NANDu tak, že na jeho vstupy přivedeme signál přes invertory, invertor z NANDu uděláme tak, že signál přivedeme na jeden vstup a na druhý zapojíme log. 1), ale vyrábějí se pro jistotu všechny, v různém provedení. Základní typ je dvouvstupové hradlo, ale existují třívstupová, čtyřvstupová, osmivstupová a ještě divnější&#8230;<figure id="attachment\_336" aria-labelledby="figcaption\_attachment_336" class="wp-caption aligncenter" style="width: 130px">
+Další základní logické prvky jsou hradla AND, OR, NAND (=Not AND, negovaný AND) a NOR (=Not OR). Ve skutečnosti stačí jediný typ, buď NAND, nebo NOR, z něhož se dají všechny ostatní typy složit (např. OR uděláme z NANDu tak, že na jeho vstupy přivedeme signál přes invertory, invertor z NANDu uděláme tak, že signál přivedeme na jeden vstup a na druhý zapojíme log. 1), ale vyrábějí se pro jistotu všechny, v různém provedení. Základní typ je dvouvstupové hradlo, ale existují třívstupová, čtyřvstupová, osmivstupová a ještě divnější&#8230;
 
-<img loading="lazy" class="wp-image-336 size-full" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-AND_ANSI_Labelled.svg_.png" alt="" width="120" height="50" /> <figcaption id="figcaption\_attachment\_336" class="wp-caption-text">Hradlo AND</figcaption></figure> <figure id="attachment\_337" aria-labelledby="figcaption\_attachment_337" class="wp-caption aligncenter" style="width: 130px"><img loading="lazy" class="size-full wp-image-337" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-OR_ANSI_Labelled.svg_.png" alt="" width="120" height="50" /><figcaption id="figcaption\_attachment\_337" class="wp-caption-text">Hradlo OR</figcaption></figure> <figure id="attachment\_338" aria-labelledby="figcaption\_attachment_338" class="wp-caption aligncenter" style="width: 130px"><img loading="lazy" class="size-full wp-image-338" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NAND_ANSI_Labelled.svg_.png" alt="" width="120" height="50" /><figcaption id="figcaption\_attachment\_338" class="wp-caption-text">Hradlo NAND</figcaption></figure> <figure id="attachment\_339" aria-labelledby="figcaption\_attachment_339" class="wp-caption aligncenter" style="width: 130px"><img loading="lazy" class="size-full wp-image-339" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NOR_ANSI_Labelled.svg_.png" alt="" width="120" height="50" /><figcaption id="figcaption\_attachment\_339" class="wp-caption-text">Hradlo NOR</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-AND_ANSI_Labelled.svg_.png) <figcaption id="figcaption\_attachment\_336" class="wp-caption-text">Hradlo AND</figcaption> ![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-OR_ANSI_Labelled.svg_.png)<figcaption id="figcaption\_attachment\_337" class="wp-caption-text">Hradlo OR</figcaption> ![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NAND_ANSI_Labelled.svg_.png)<figcaption id="figcaption\_attachment\_338" class="wp-caption-text">Hradlo NAND</figcaption> ![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/120px-NOR_ANSI_Labelled.svg_.png)<figcaption id="figcaption\_attachment\_339" class="wp-caption-text">Hradlo NOR</figcaption> 
 
 Schematické značky, co jsem tu použil, jsou podle normy ANSI. V ČSSR se koncem osmdesátých let začala prosazovat norma IEC, kde všechny vypadají jako obdélníčky se symbolem, setkáte se s oběma typy. Jedno mají společné: Negovaný vstup nebo výstup se značí kroužkem. Příklad: Hradlo AND má na výstupu logickou 1, pokud jsou oba vstupy v log. 1. Schematická značka hradla NAND vypadá úplně stejně, až na ten kroužek, a ten právě znamená, že je výstup negovaný: hradlo NAND má na výstupu logickou 0, pokud jsou oba vstupy v log. 1.
 
@@ -137,7 +137,7 @@ S kombinačními obvody není moc velká legrace. Na vstupy přivedete data, na 
 
 Představte si takovéhle zapojení:
 
-<img loading="lazy" class="aligncenter size-full wp-image-340" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/R-S_mk2.gif" alt="" width="500" height="365" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/R-S_mk2.gif) 
 
 Jedná se o dvě hradla NOR. Jeden vstup je vždy zvenčí (R, S), druhý vstup je vytažen z výstupu protilehlého hradla. No a celé tohle zapojení má taky dva výstupy, Q a /Q (tak se přepisuje ono Q s čárou nahoře, které neznamená nic jiného než NOT Q, tedy negované Q).
 
@@ -153,15 +153,15 @@ Když náhodou přivedu 1 na oba vstupy, obvod se rozkmitá na velmi vysoké fre
 
 ### <span id="Klopne_obvody">Klopné obvody</span>
 
-Když na vstupy R a S připojíme hradla AND následujícím způsobem, dostaneme synchronní klopný obvod RS, tedy takový, který je možné přepínat pouze tehdy, když je to povoleno (E = enable).<figure id="attachment\_343" aria-labelledby="figcaption\_attachment_343" class="wp-caption aligncenter" style="width: 310px">
+Když na vstupy R a S připojíme hradla AND následujícím způsobem, dostaneme synchronní klopný obvod RS, tedy takový, který je možné přepínat pouze tehdy, když je to povoleno (E = enable).
 
-<img loading="lazy" class="size-full wp-image-343" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/300px-SR_Clocked_Flip-flop_Diagram.svg_.png" alt="Klopný obvod RS s povolovacím vstupem" width="300" height="145" /> <figcaption id="figcaption\_attachment\_343" class="wp-caption-text">Klopný obvod RS s povolovacím vstupem</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/300px-SR_Clocked_Flip-flop_Diagram.svg_.png) <figcaption id="figcaption\_attachment\_343" class="wp-caption-text">Klopný obvod RS s povolovacím vstupem</figcaption> 
 
 Pokud je E=1, tak funguje jako standardní RS obvod, viz výše. Pokud je E=0, tak jsou oba vnitřní vstupy R a S stále ve stavu 0, tedy stav obvodu se nezmění, ať už na vstupy R a S přivedeme cokoli.
 
-Ale pořád tam jsou ty hazardní stavy, když je S i R=1. Co takhle přivést jen jeden vstup, připojit ho napřímo na S, a přes invertor na R? Tím bude na vstupech RS buď kombinace 01, nebo 10, takže nedojde k hazardu&#8230;<figure id="attachment\_345" aria-labelledby="figcaption\_attachment_345" class="wp-caption aligncenter" style="width: 310px">
+Ale pořád tam jsou ty hazardní stavy, když je S i R=1. Co takhle přivést jen jeden vstup, připojit ho napřímo na S, a přes invertor na R? Tím bude na vstupech RS buď kombinace 01, nebo 10, takže nedojde k hazardu&#8230;
 
-<img loading="lazy" class="size-full wp-image-345" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/300px-D-type_Transparent_Latch_NOR.svg_.png" alt="Klopný obvod D" width="300" height="150" /> <figcaption id="figcaption\_attachment\_345" class="wp-caption-text">Klopný obvod D</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/300px-D-type_Transparent_Latch_NOR.svg_.png) <figcaption id="figcaption\_attachment\_345" class="wp-caption-text">Klopný obvod D</figcaption> 
 
 Výsledkem je další klopný obvod, kterému se tentokrát říká D. Má vstup D (Data), na který se přivádí hodnota 0 nebo 1, a povolovací vstup E (Enable), který se častěji označuje C (Clock). Když je E ve stavu 0, je na výstupech Q a /Q stále to, co tam bylo předtím. Pokud přivedeme na vstup E logickou 1, bude se na výstup Q propisovat hodnota ze vstupu D (a na /Q bude jeho negace). Jakmile se E přepne zpátky do 0, zůstane klopný obvod v tom stavu, v jakém byl naposled.
 

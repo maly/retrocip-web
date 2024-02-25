@@ -31,7 +31,7 @@ Nejdůležitější faktor, který umožnil snížit cenu, bylo snížení počt
 
 ULA se dál starala především o zobrazování. V tom největším rozlišení, 640 x 256, 2 barvy, si obrazovka zabrala 20 kB (z celkových 32). Kromě videa a správy dynamické paměti se starala i o zvuk, komunikaci &#8211; zkrátka o všechno, co nebyl procesor 6502A. ULA byla ve čtvercovém pouzdru 30 x 30 milimetrů a měla 68 vývodů. Mimochodem, Curry zmiňuje právě obvody ULA jako hlavní důvod, proč nevznikly pirátské kopie těchto počítačů, jako se to stalo například Applu.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-303" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-650x365.jpg" alt="IMG_20140525_180702" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-650x365.jpg) 
 
 Uvedení počítače Acorn Electron na trh doprovázely problémy. Jednak cena byla vyšší než původně slibovaná, jednak kompatibilita nebyla stoprocentní, navíc byl počítač výrazně pomalejší než BBC Micro (důvodem byla už zmíněná organizace paměti). Přesto všechno zlé je, jak se říká, k něčemu dobré: Acorn měl problémy s dodanými obvody ULA, jeden z manažerů později uvedl, že &#8222;fungoval jeden z deseti&#8220;, což vedlo k jednání s firmou VLSI Technology o vytvoření CMOS ekvivalentu obvodu ULA.
 
@@ -41,19 +41,19 @@ Ale Archimedes, to už je jiný příběh&#8230;
 
 (Pro zájemce &#8211; [historie Electronu](https://www.theregister.co.uk/2013/08/23/acorn_electron_history_at_30/?page=1))
 
-<img loading="lazy" class="aligncenter size-medium wp-image-297" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-650x365.jpg" alt="Acorn Electron" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-650x365.jpg) 
 
 ## ORIC-1
 
 Zatímco Acorn jsme tu aspoň trošku znali, jméno Tangerine Computer Systems znělo povědomě snad jen těm největším fandům. Možná někdo někde zahlédl název ORIC, nebo fotografii&#8230;
 
-<img loading="lazy" class="aligncenter size-medium wp-image-291" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-650x365.jpg" alt="IMG_20140512_175155" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-650x365.jpg) 
 
 Přitom první počítač této firmy, nazvaný ORIC-1 a uvedený v roce 1983, rozhodně měl šanci zaujmout. Dodával se ve verzi s 16 kB RAM nebo s 48 kB RAM, uvnitř ho poháněl osvědčený 6502A, taktovaný na 1 MHz. Na rozdíl od Spectra 48 obsahoval speciální zvukový čip, kterým nebyl nikdo jiný než známý AY-3-8912 (později použitý ve Spectru 128). Samozřejmostí je zabudovaný BASIC&#8230;
 
-I v ORICu byl použit zákaznický obvod ULA, který se staral o zobrazování ve dvou grafických módech, LORES a HIRES. Grafika nepoužívala &#8222;atributy&#8220;, známé ze Spectra &#8211; byla svérázná jiným způsobem. Představte si, že máte textový displej 40 x 28, a jemu odpovídající oblast v paměti. Na každou pozici můžete zapsat buď znak v ASCII ($20-$7F), nebo jeho invertovanou podobu ($A0-$FF), anebo nějaký řídicí znak, například změnu barvy popředí ($00-$07), změnu barvy pozadí ($10-$17), změnu znakové sady ($08-$0F) nebo změnu grafického módu ($18-$1F). Což vede k mnoha zajímavým omezením, ale i k nečekaným možnostem (více viz [Oric Coding: Video display](https://www.defence-force.org/computing/oric/coding/part_7/index.htm)).<figure id="attachment\_293" aria-labelledby="figcaption\_attachment_293" class="wp-caption aligncenter" style="width: 660px">
+I v ORICu byl použit zákaznický obvod ULA, který se staral o zobrazování ve dvou grafických módech, LORES a HIRES. Grafika nepoužívala &#8222;atributy&#8220;, známé ze Spectra &#8211; byla svérázná jiným způsobem. Představte si, že máte textový displej 40 x 28, a jemu odpovídající oblast v paměti. Na každou pozici můžete zapsat buď znak v ASCII ($20-$7F), nebo jeho invertovanou podobu ($A0-$FF), anebo nějaký řídicí znak, například změnu barvy popředí ($00-$07), změnu barvy pozadí ($10-$17), změnu znakové sady ($08-$0F) nebo změnu grafického módu ($18-$1F). Což vede k mnoha zajímavým omezením, ale i k nečekaným možnostem (více viz [Oric Coding: Video display](https://www.defence-force.org/computing/oric/coding/part_7/index.htm)).
 
-<img loading="lazy" class="size-medium wp-image-293" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-650x365.jpg" alt="Všimněte si obalu kazety dole - výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> <figcaption id="figcaption\_attachment\_293" class="wp-caption-text">Všimněte si obalu kazety dole &#8211; výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-650x365.jpg) <figcaption id="figcaption\_attachment\_293" class="wp-caption-text">Všimněte si obalu kazety dole &#8211; výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?</figcaption> 
 
 Tangerine připravili vylepšené verze Atmos, Stratos a Telestratos, ale nakonec i je dostihl konec osmibitové éry. Jako zajímavý moment dodám, že firma vyvezla zhruba tisíc počítačů Atmos do tehdejší Jugoslávie, a že v Bulharsku vyráběli klon Atmosu pod označením Pravec 8D.
 
@@ -64,7 +64,7 @@ Každopádně jsem rád, že oba tyhle, v ČR poměrně unikátní, stroje mám.
 <div id='gallery-5' class='gallery galleryid-307 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180648.jpg" title="Acorn Electron" class="highslide" onclick="return hs.expand(this,{captionId:'caption304'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180648-150x150.jpg" width="150" height="150" alt="Acorn Electron" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180648.jpg" title="Acorn Electron" class="highslide" onclick="return hs.expand(this,{captionId:'caption304'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180648-150x150.jpg)</a>
     </dt>
     
     <dd class="gallery-caption" id="caption304">
@@ -74,33 +74,13 @@ Každopádně jsem rád, že oba tyhle, v ČR poměrně unikátní, stroje mám.
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption303'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption303'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180702-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181204.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption298'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181204-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180711.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption302'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180711-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180753.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption301'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180753-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181141.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption299'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181141-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181204.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption298'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181204-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -108,19 +88,19 @@ Každopádně jsem rád, že oba tyhle, v ČR poměrně unikátní, stroje mám.
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption297'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180711.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption302'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180711-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption291'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180753.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption301'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_180753-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175200.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption290'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175200-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181141.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption299'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181141-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -128,13 +108,33 @@ Každopádně jsem rád, že oba tyhle, v ČR poměrně unikátní, stroje mám.
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175210.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption292'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175210-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption297'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181308-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540.jpg" title="Všimněte si obalu kazety dole - výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?" class="highslide" onclick="return hs.expand(this,{captionId:'caption293'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-150x150.jpg" width="150" height="150" alt="Všimněte si obalu kazety dole - výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption291'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175155-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175200.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption290'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175200-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175210.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption292'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140512_175210-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540.jpg" title="Všimněte si obalu kazety dole - výrobce Durell. Pamatujete na úvodní hlášení v hrách téhle firmy?" class="highslide" onclick="return hs.expand(this,{captionId:'caption293'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/05/IMG_20140525_181540-150x150.jpg)</a>
     </dt>
     
     <dd class="gallery-caption" id="caption293">

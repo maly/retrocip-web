@@ -23,7 +23,7 @@ až do šestého kolene a třetího lokte. 🙂
 
 Začalo to bublinovým displejem.
 
-<img loading="lazy" class="aligncenter size-thumbnail wp-image-386" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/12710-01-150x150.jpg" alt="" width="150" height="150" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/08/12710-01-150x150.jpg 150w, https://retrocip.cz/wp-content/uploads/sites/6/2014/08/12710-01.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/12710-01-150x150.jpg) 
 
 Je to normální LED sedmisegmentovka, se čtyřma znakama, ale plastový kryt dělá takovou jako že čočku, takže ty pidiznaky (3 milimetry, jestli jsem se dobře koukal) jsou trošku zvětšené. Něco jako má PMI-80.
 
@@ -31,7 +31,7 @@ Což mi tedy vnuklo myšlenku jich pár vzít, když byly tak levný, a udělat 
 
 Když tedy zadávat, tak to musí mít nějakou klávesnici. Matici tlačítek, hmmm, musí to mít 16 tlačítek pro hexadecimální znaky, nějaký ten reset, pár funkčních tlačítek, šlo by to s 4&#215;5, ale 5&#215;5 bude lepší. A tak jsem koukal po eBay na klávesnici s maticí 5&#215;5. Nakonec jsem objevil doslova za lacino [klávesnici, která jako by vypadla z oka počítačům TNS](https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575085282&toolid=10001&campid=5337554641&customid=&icep_item=130541363513&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg). Takové velké hmatníky, které se dají rozebrat a strčit do toho papírek s popiskem, celé to je na kusu plechu&#8230;
 
-<img loading="lazy" class="aligncenter size-medium wp-image-387" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/1deska-650x365.jpg" alt="1deska" width="650" height="365" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/08/1deska-650x365.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/08/1deska.jpg 800w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/1deska-650x365.jpg) 
 
 Takže tím mám dvě hlavní komponenty z krku.
 
@@ -45,4 +45,4 @@ A pak mě osvítilo ještě víc: Vždyť já můžu tím AVRkem velmi dobře em
 
 Já vím, já vím&#8230; Před mým PMI to radši nebudu říkat nahlas&#8230;
 
-<img loading="lazy" class="aligncenter size-full wp-image-390" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/klav.jpg" alt="klav" width="600" height="338" />
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/klav.jpg)

@@ -20,14 +20,14 @@ Tak proč tam tedy je? Proč jsem ho nepřipojil přímo na +5 voltů?
 Když je vstup /WE u paměti EEPROM připojený na logickou 1, je zakázaný zápis. A to je dobře, tak to má být a tak to chceme. Většinou chceme z&nbsp;paměti (EEP)ROM jen číst. Pokud do ní nějaký kód zapisuje, je to většinou omylem, a kdyby se zapisovat mohlo, přineslo by to spíš mrzení, než užitek.
 
 <div class="wp-block-image">
-  <figure class="alignright size-large is-resized"><img loading="lazy" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3.jpg" alt="" class="wp-image-1185" width="244" height="244" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3.jpg 360w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3-150x150.jpg 150w" sizes="(max-width: 244px) 100vw, 244px" /></figure>
+  ![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/pinheader3.jpg)
 </div>
 
 Ale existují i situace, kdy je dobré zápis povolit. Například tehdy, kdy chcete aktualizovat firmware, obslužný program, nebo do EEPROM přidat nějaké rozšíření. Což jsou věci, které čas od času mohou být k&nbsp;užitku, proto je dobré je nějakým způsobem umožnit, ale zároveň je člověk nepoužívá denně a rutinně, tak nevadí, když jejich povolení je trochu netriviální. Pokud možno tak složité, aby k&nbsp;němu nemohlo dojít náhodou. Ideální je proto použít takzvaný pin header, neboli tři kovové kolíčky, a věc, které se říká „shunt“ nebo též „jumper“, a která vodivě spojí vývody 1-2, nebo 2-3.
 
-Na této ukázce ze schématu OMEN Alpha je zmíněný přepínač zakreslený s&nbsp;označením JP5. Pokud jsou spojené vývody 1 a 2, je na vstup /WE přivedeno napájecí napětí. Pokud jsou spojené vývody 2 a 3, je na tento vstup přiveden signál /WR od procesoru. Podobné zapojení je i u Brava a Echa, protože princip práce je stále stejný.<figure class="wp-block-image size-large">
+Na této ukázce ze schématu OMEN Alpha je zmíněný přepínač zakreslený s&nbsp;označením JP5. Pokud jsou spojené vývody 1 a 2, je na vstup /WE přivedeno napájecí napětí. Pokud jsou spojené vývody 2 a 3, je na tento vstup přiveden signál /WR od procesoru. Podobné zapojení je i u Brava a Echa, protože princip práce je stále stejný.
 
-<img loading="lazy" width="972" height="1024" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-972x1024.png" alt="" class="wp-image-1186" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-972x1024.png 972w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-617x650.png 617w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-768x809.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-1457x1536.png 1457w, https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren.png 1557w" sizes="(max-width: 972px) 100vw, 972px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/wren-972x1024.png)  
 
 Asi tušíte, že v&nbsp;zápisu do paměti EEPROM bude nějaký háček, a tušíte správně. Asi ten hlavní háček, přímo hák, je ten, že se něco nepovede. Data se zapíšou špatně, program bude mít chyby, přepíšete si základní programové vybavení, a po restartu budete mít zařízení ve stavu „brick“, tedy funkční obdobu cihly.
 

@@ -40,13 +40,13 @@ Já mám několik sad pro OMEN Kilo [připravených](https://www.tindie.com/prod
   * Patice pro IO
   * USB &#8211; TTL převodník pro sériovou komunikaci
 
-S procesorem je mrzení, pokud chcete koupit kusové množství. Já beru balení po deseti, ale i tak se ukáže, že třeba tři z nich jsou vadné. Proto je radši hned po doručení prověřím na nepájivém kontaktním poli jednoduchým zapojením s krystalem, zda na výstupech E a Q naměřím to, co tam má být, tj. hodinový signál. Stačí voltmetr a hledat napětí okolo 2.5 voltu. Jakmile tam je &#8222;skoro 0&#8220; nebo &#8222;skoro 5&#8220;, tak oscilátor nešlape a obvod směřuje do elektroodpadu.<figure class="wp-block-image">
+S procesorem je mrzení, pokud chcete koupit kusové množství. Já beru balení po deseti, ale i tak se ukáže, že třeba tři z nich jsou vadné. Proto je radši hned po doručení prověřím na nepájivém kontaktním poli jednoduchým zapojením s krystalem, zda na výstupech E a Q naměřím to, co tam má být, tj. hodinový signál. Stačí voltmetr a hledat napětí okolo 2.5 voltu. Jakmile tam je &#8222;skoro 0&#8220; nebo &#8222;skoro 5&#8220;, tak oscilátor nešlape a obvod směřuje do elektroodpadu.
 
-<img loading="lazy" width="876" height="810" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/11/6809tester_bb.png" alt="" class="wp-image-1123" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/11/6809tester_bb.png 876w, https://retrocip.cz/wp-content/uploads/sites/6/2018/11/6809tester_bb-650x601.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/11/6809tester_bb-768x710.png 768w" sizes="(max-width: 876px) 100vw, 876px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2018/11/6809tester_bb.png)  
 
 Druhá test, který dělám (ale vy zatím nemůžete&#8230;) je, že je strčím do ověřeného Kila. Když se počítač ohlásí, je vše OK a procesor mám za funkční.
 
-Když je to pak celé sestavené, funguje to nějak takto:<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+Když je to pak celé sestavené, funguje to nějak takto:
 
 <div class="wp-block-embed__wrapper">
-</div></figure>
+</div>

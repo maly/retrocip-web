@@ -21,7 +21,7 @@ To jsem takhle tuhle hledal nějakou zmínku o Piškworks. Kdysi dávno je pro Z
 
 Práce je to zajímavá, určitě si ji přečtěte. Já se do ní začetl, čtu, čtu, až jsem došel k textovkám, které mě tehdy zajímaly, pročítám si to, a najednou:
 
-<img loading="lazy" class="aligncenter size-medium wp-image-319" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg" alt="obskurni" width="650" height="108" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni-1024x171.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/06/obskurni.jpg 1130w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/06/obskurni-650x108.jpg) 
 
 Tak samozřejmě že mě to potěšilo. Člověka vždycky potěší, když si na něj v akademické práci vzpomenou, a když ho navíc označí za &#8222;obskurnějšího tvůrce&#8220;, cítí se polichocen&#8230; Tvůrce her, to si na vizitku může napsat kdejaký hejhula, ale _obskurnější_, to zní, pane! (Jako když v novinové recenzi napsali, že &#8222;výkon Joeyho Tribbianiho byl obskurní&#8220;.)
 

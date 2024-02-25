@@ -28,7 +28,7 @@ Výrobci takových &#8222;kopií&#8220; a &#8222;klonů&#8220; často vylepšili
 
 Stejný osud potkal i procesor 6809 od Motoroly, opět v rukou japonských vývojářů z Hitachi. Hitachi si licencoval od Motoroly výrobu 6809 a vyráběl ekvivalent s označením HD6809. Zároveň jej ale přepracovali (např. zavedli místo kombinační logiky mikroprogramy atd.) a přidali některé nové funkce. Takto upravený procesor ale licence neumožňovala prodávat pod označením 6809, takže jeho kód byl HD6309.
 
-<a href="https://retrocip.uelectronics.info/6309-vyse-lepe-radostneji/t2ec16vhjhffmoos6ibrzsj7cfw60_35/" rel="attachment wp-att-146"><img loading="lazy" class="aligncenter size-full wp-image-146" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/T2eC16VHJHFFmOoS6iBRzsj7cfw60_35.jpg" alt="" width="300" height="225" /></a>
+<a href="https://retrocip.uelectronics.info/6309-vyse-lepe-radostneji/t2ec16vhjhffmoos6ibrzsj7cfw60_35/" rel="attachment wp-att-146">![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/T2eC16VHJHFFmOoS6iBRzsj7cfw60_35.jpg)</a>
 
 Hitachi jej inzerovalo jako &#8222;přímou náhradu 6809&#8220;, rychlejší a optimalizovanou. Když se podíváte do originálního [datasheetu 6309](https://www.datasheetarchive.com/dl/Scans-031/ScansU9X30544.pdf), popisuje jeho vnitřní organizaci stejně jako Motorola 6809. Tedy akumulátory A, B, indexy X, Y, ukazatele U a S, 16bitový registr D &#8211; viz [minulý článek](https://retrocip.uelectronics.info/posledni-krasavec-osmibitove-ery/ "Poslední krasavec osmibitové éry"). O jakémkoli vylepšení v tomto směru cudně mlčí.
 

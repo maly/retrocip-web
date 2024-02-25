@@ -21,9 +21,9 @@ tags:
 ---
  
 
-Čím jiným začít, než fyzickým zapojením procesoru 6809&#8230;<figure class="wp-block-image">
+Čím jiným začít, než fyzickým zapojením procesoru 6809&#8230;
 
-<img loading="lazy" width="7536" height="3000" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png" alt="" class="wp-image-1127" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png 7536w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-650x259.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-768x306.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392-1024x408.png 1024w" sizes="(max-width: 7536px) 100vw, 7536px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2018/12/MC6809-pinout-e1543756426392.png)  
 
 Možná nepřekvapí jistá podobnost s&nbsp;procesorem 6502. Je to logické, protože, jak jsme si už několikrát řekli, 6502 i 6809 vycházejí ideově z&nbsp;téhož předchůdce, 6800.
 
@@ -47,9 +47,9 @@ Uvnitř poběží procesor na frekvenci, která je rovna čtvrtině frekvence kr
 
 Pro řízení vnějších obvodů slouží hodinové signály E a Q. E má stejnou funkci, jakou má u 6502 výstup PHI2. Sestupnou hranou na výstupu E oznamuje procesor, že začíná operační cyklus. Poté přijde vzestupná hrana na výstupu Q a oznámí, že na adresní sběrnici je platná adresa. Následuje vzestupná hrana signálu E, sestupná signálu Q (bez speciálního významu) a celý cyklus ukončuje (a zároveň zahajuje nový) sestupná hrana signálu E, při níž přečte procesor data ze sběrnice.
 
-<figure class="wp-block-image">
 
-<img loading="lazy" width="2000" height="500" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1.png" alt="" class="wp-image-1134" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1.png 2000w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1-650x163.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1-768x192.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1-1024x256.png 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /> </figure> 
+
+![](https://retrocip.cz/wp-content/uploads/sites/6/2018/12/6809time-1.png)  
 
 Pro většinu jednoduchých případů můžeme signál Q (Quadrature time) ignorovat a pracovat pouze se signálem E, stejně jako u 6502.
 
@@ -79,8 +79,8 @@ Vstup /FIRQ (Fast IRQ) funguje obdobně jako IRQ. I tento vstup vyvolá přeruš
 
 ## OMEN Kilo CPU
 
-Základní deska, která vychází z&nbsp;koncepce OMEN Bravo. Obsahuje jen procesor, 32 kB RAM, 8 kB EEPROM, dekodér signálů a nezbytné obvody okolo (RESET, krystal). Nakonec jsem k „nezbytným obvodům“ přidal i nám důvěrně známý 68B50 pro sériovou komunikaci. Díky tomu může být OMEN Kilo použit jako jednodeskový počítač, bez jakýchkoli dalších obvodů.<figure class="wp-block-image">
+Základní deska, která vychází z&nbsp;koncepce OMEN Bravo. Obsahuje jen procesor, 32 kB RAM, 8 kB EEPROM, dekodér signálů a nezbytné obvody okolo (RESET, krystal). Nakonec jsem k „nezbytným obvodům“ přidal i nám důvěrně známý 68B50 pro sériovou komunikaci. Díky tomu může být OMEN Kilo použit jako jednodeskový počítač, bez jakýchkoli dalších obvodů.
 
-<img loading="lazy" width="3420" height="2750" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu.png" alt="" class="wp-image-1129" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu.png 3420w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu-650x523.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu-768x618.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu-1024x823.png 1024w" sizes="(max-width: 3420px) 100vw, 3420px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2018/12/kilo-cpu.png)  
 
 _Pokračování příště&#8230;_

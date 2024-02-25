@@ -72,7 +72,7 @@ ROM byla od adresy 0000 (logicky, po RESETu se spouštěl program od téhle adre
 
 Stejný budič používala i klávesnice, dokonce kvůli tomu byla zapojená do matice 3&#215;9 (tlačítka I a RE, Interrupt a Reset, byly mimo matici a šly přímo k procesoru). Informace z řádků klávesnice se četly na portu PC, piny 4-6.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-972" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-650x430.png" alt="" width="650" height="430" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-650x430.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-768x508.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29.png 812w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-14-29-650x430.png)</a>
 
 Displej tedy musel být pravidelně občerstvován procesorem; jakmile se program někde zasekl, zůstala svítit jediná pozice a klávesnice přestala reagovat.
 
@@ -82,7 +82,7 @@ Na magnetofon se vysílalo pomocí nosného kmitočtu na bitu 6 portu PA, klíč
 
 Displej byl, jako u většiny jednodeskáčů, rozdělen na část adresní (vlevo) a část datovou (vpravo). Rozdělení nebylo nijak dané, byla to čistě konvence. Klávesnice obsahovala 25 tlačítek, fyzicky rozmístěných do matice 5&#215;5:
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-973" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png" alt="" width="264" height="467" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-19-29.png)</a>
 
 Tlačítko RE celý systém zresetovalo, a na displeji se objevil nápis &#8222;PMI-80&#8220;. Po stisknutí libovolné klávesy (tedy kromě RE a I) se na displeji úplně vlevo objeví znak, co má být asi otazník, který říká, že PMI je připravené přijímat pokyny.
 
@@ -108,7 +108,7 @@ Displej nebyl multiplexovaný, ale každá pozice měla vlastní adresu (0A &#82
 
 Pár zajímavých informací zase najdete na [Nostalcompu (BOB-85)](https://www.nostalcomp.cz/bob85.php), já jsem udělal [online emulátor](https://www.asm80.com/bob85.html), ale je v nějaké alfaverzi a ještě jsem ho nedodělal.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-974" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png" alt="" width="324" height="275" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/screenshot-www.nostalcomp.cz-2017-08-27-13-52-15.png)</a>
 
 Ovládání se od PMI-80 trochu lišilo. Nebyla tu možnost měnit obsah registrů nebo nastavovat breakpointy. Prohlížení paměti fungovalo podobně (jen místo klávesy M se jmenovala S MEM), místo klávesy &#8222;=&#8220; byla klávesa &#8222;NEXT&#8220; a při opravě dat nefungoval systém tak, že by obsah posouval, ale zadávali jste ho znovu. Navíc proti PMI tu je možnost postupovat pamětí nejen dopředu (NEXT), ale i dozadu (REC).
 
@@ -120,7 +120,7 @@ Pro nás trochu exotičtější stroj, s těmi jsme se v ČSSR moc nesetkávali.
 
 [Manuál najdete zde](https://www.kim-1.com/usrman.htm), [online emulátor zde](https://www.asm80.com/kim.html).
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-975" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg" alt="" width="546" height="400" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/kim1.jpg)</a>
 
 Displej držel stejnou konvenci, 4 pozice adresa, 2 data, ale ovládání bylo trošičku jiné. Tlačítkem AD jste zvolili možnost &#8222;zadám adresu&#8220;, tlačítkem DA jste začali přistupovat k datům. Roli tlačítka &#8222;=&#8220;, respektive &#8222;NEXT&#8220;, tu má tlačítko &#8222;+&#8220;.
 
@@ -132,7 +132,7 @@ Poslední tlačítko nebylo tlačítko, ale přepínač SST &#8211; pokud byl ak
 
 U tohoto jednodeskáče emulátor nemám. [Manuál ET3400](https://archive.org/details/HeathkitManualForTheEt-3400MicroprocessorTrainer) je k dispozici na Archive.org nebo jako [PDF](https://www.classiccmp.org/dunfield/heath/et3400.pdf).
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-full wp-image-976" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg" alt="" width="640" height="620" /></a>Tato počítačová stavebnice obsahovala procesor 6800 (ano, ten od Motoroly), a kromě klasických &#8222;jednodeskáčových&#8220; propriet i nepájivé kontaktní pole. Co mě na tomto stroji fascinuje je, že si vystačí s šestnácti tlačítky a RESETem. Každé tlačítko mělo dvě funkce &#8211; kromě hexadecimálního znaku to byl i nějaký povel, a co bylo aktivní, to záleželo na kontextu.
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/heathet3400.jpg)</a>Tato počítačová stavebnice obsahovala procesor 6800 (ano, ten od Motoroly), a kromě klasických &#8222;jednodeskáčových&#8220; propriet i nepájivé kontaktní pole. Co mě na tomto stroji fascinuje je, že si vystačí s šestnácti tlačítky a RESETem. Každé tlačítko mělo dvě funkce &#8211; kromě hexadecimálního znaku to byl i nějaký povel, a co bylo aktivní, to záleželo na kontextu.
 
 Mimochodem, ten manuál vřele doporučuju, stejně jako manuál ke KIM-1! Není to jen &#8222;jak se to ovládá&#8220;, ale představují i procesor, popisují jeho funkce, učí ho programovat, a ET3400 začíná dokonce konstrukčním návodem (IKEA faktor: 100!)
 

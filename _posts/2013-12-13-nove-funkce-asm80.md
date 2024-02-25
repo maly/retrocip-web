@@ -27,7 +27,7 @@ Opravil jsem chybu parsování argumentů, takže už funguje DB s řetězcem, v
 
 V pravém sloupci je konverzní nástroj z binárních souborů na DB (což není databáze, ale instrukce DB). Fungování je prosté: Nastavte si v editoru kurzor do místa, kam chcete vložit binární data, a pak přetáhněte soubor z počítače do této oblasti.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-65" alt="asm1" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg" width="218" height="86" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/12/asm1.jpg)
 
 &nbsp;
 

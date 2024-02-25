@@ -25,7 +25,7 @@ Navíc já už nevím, jaký další počítač bych si pořídil. Byl by fajn n
 
 A tak jsem dal průchod svým [starým novým](https://retrocip.cz/novy-stary-funkcni/) a investoval do [ZX Spectra Next](https://www.kickstarter.com/projects/1835143999/zx-spectrum-next/). No jasně, je to moderní klon, zrobený ve [FPGA](https://fpga.cz). Jak jinak. Duchaři jistě frflají, já jásám.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-955" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original-650x433.jpg" alt="" width="650" height="433" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original-650x433.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original.jpg 680w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/05/b17b47934a22efdd975234e91c1a04d4_original-650x433.jpg)</a>
 
 Ale než bude Spectrum Next, tak si pohraju s těmi svými experimenty. Já totiž zjišťuju, že to, co mě na starých počítačích láká a baví nejvíc, je vlastně stejná věc, jaká mě baví na modelech parních strojů: je to úplně jednoduché, pochopitelné a tak, tak nepraktické! Takže to je opravdu koníček.
 
@@ -36,19 +36,19 @@ A při tom psaní si tak říkám, že se vlastně mentálně vracím do doby, k
 <div id='gallery-12' class='gallery galleryid-954 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_17.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption959'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_17-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_17.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption959'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_17-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_18.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption958'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_18-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_18.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption958'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_18-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_21.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption957'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_21-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_21.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption957'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_21-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -56,7 +56,7 @@ A při tom psaní si tak říkám, že se vlastně mentálně vracím do doby, k
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_22.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption956'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_22-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_22.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption956'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/05/A04_85_Stránka_22-150x150.jpg)</a>
     </dt>
   </dl>
   

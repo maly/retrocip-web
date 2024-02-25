@@ -25,17 +25,17 @@ _Další ukázka z připravované knihy, pokračování_ [_předchozího článk
 
 <!--more-->
 
-Na zapojení procesoru není nic, co bychom už neviděli. Vstup DMA zůstane nepoužitý, je proto připojen na napájecí napětí, výstupy Q a BS jsou ponechány nezapojené.<figure class="wp-block-image">
+Na zapojení procesoru není nic, co bychom už neviděli. Vstup DMA zůstane nepoužitý, je proto připojen na napájecí napětí, výstupy Q a BS jsou ponechány nezapojené.
 
-<img loading="lazy" width="2834" height="1514" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder.png" alt="" class="wp-image-1142" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder.png 2834w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder-650x347.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder-768x410.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder-1024x547.png 1024w" sizes="(max-width: 2834px) 100vw, 2834px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-decoder.png)  
 
-Dekodér pamětí a signálů /RD, /WR funguje naprosto stejně jako u počítače Bravo. Opět stačí jeden obvod 7400. Jen místo výstupu PHI2 je použit výstup E se stejnou funkcí.<figure class="wp-block-image">
+Dekodér pamětí a signálů /RD, /WR funguje naprosto stejně jako u počítače Bravo. Opět stačí jeden obvod 7400. Jen místo výstupu PHI2 je použit výstup E se stejnou funkcí.
 
-<img loading="lazy" width="1957" height="3600" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory.png" alt="" class="wp-image-1143" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory.png 1957w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory-353x650.png 353w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory-768x1413.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory-557x1024.png 557w" sizes="(max-width: 1957px) 100vw, 1957px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-memory.png)  
 
-Paměti jsou vyřešené doslova stejně jako u předchozích počítačů. Na místě EEPROM jsem použil obvod 28C64 s&nbsp;kapacitou 8 kB, ale schéma je připravené i pro 28C256 – pak je potřeba přepínačem BANK zvolit vybranou polovinu paměti. <figure class="wp-block-image">
+Paměti jsou vyřešené doslova stejně jako u předchozích počítačů. Na místě EEPROM jsem použil obvod 28C64 s&nbsp;kapacitou 8 kB, ale schéma je připravené i pro 28C256 – pak je potřeba přepínačem BANK zvolit vybranou polovinu paměti. 
 
-<img loading="lazy" width="1528" height="1049" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io.png" alt="" class="wp-image-1144" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io.png 1528w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io-650x446.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io-768x527.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io-1024x703.png 1024w" sizes="(max-width: 1528px) 100vw, 1528px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-io.png)  
 
 Dekodér pro periferie je zapojen tak, aby využíval adresy, kde je A15 = 1 a A14 = A13 = 0, tedy 8000h až 9FFFh. Pro každou periferii je vyhrazen prostor 1 kB, a to takto:
 
@@ -131,9 +131,9 @@ Dekodér pro periferie je zapojen tak, aby využíval adresy, kde je A15 = 1 a A
   </tr>
 </table>
 
-Periferii IO0 věnujeme, podobně jako u Brava, sériovému portu:<figure class="wp-block-image">
+Periferii IO0 věnujeme, podobně jako u Brava, sériovému portu:
 
-<img loading="lazy" width="1700" height="1993" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial.png" alt="" class="wp-image-1145" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial.png 1700w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial-554x650.png 554w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial-768x900.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial-873x1024.png 873w" sizes="(max-width: 1700px) 100vw, 1700px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/02/kilo-serial.png)  
 
 Vstup RS, výběr registru, připojíme opět k A0, takže se sériový port objeví jako dvojice registrů na adresách 8000h – 83FFh. Na sudých to bude řídicí registr, na lichých datový. Opět doporučuju použít takové adresy, které mají v nedekódovaných bitech 1, tedy využít adresy 83FEh (řídicí) a 83FFh (datový). 
 
@@ -141,9 +141,9 @@ Poslední část je připojení na sběrnici. Nevyvádím kompletní systémové
 
 ## <a>Paralelní port PIA (6821)</a>
 
-Použili jsme už obvod PPI 8255 (u OMEN Alpha) i VIA 6522 (u Brava). Obvod PIA 6821 (v rodině 65xx má analogický obvod 6521 – liší se pouze označením některých vývodů, např. místo E je PHI2) je jednodušší verze obvodu VIA 6822 / 6522. Obsahuje dva osmibitové paralelní porty s&nbsp;možností nastavit každý bit každého portu nezávisle jako vstup nebo výstup.<figure class="wp-block-image">
+Použili jsme už obvod PPI 8255 (u OMEN Alpha) i VIA 6522 (u Brava). Obvod PIA 6821 (v rodině 65xx má analogický obvod 6521 – liší se pouze označením některých vývodů, např. místo E je PHI2) je jednodušší verze obvodu VIA 6822 / 6522. Obsahuje dva osmibitové paralelní porty s&nbsp;možností nastavit každý bit každého portu nezávisle jako vstup nebo výstup.
 
-<img loading="lazy" width="2163" height="5000" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout.png" alt="" class="wp-image-1146" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout.png 2163w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout-281x650.png 281w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout-768x1775.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout-443x1024.png 443w" sizes="(max-width: 2163px) 100vw, 2163px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/02/MC6821-pinout.png)  
 
 Opět vidíme ze strany procesoru standardní rozhraní: datovou sběrnici se signály D0 – D7, dva vstupy pro výběr registrů (RS0 a RS1 – připojte je k&nbsp;adresní sběrnici, třeba na A0 a A1), signály R/W a E, které odpovídají signálům u procesoru 6809, vstup /RESET, tři vybavovací vstupy CS0, CS1 a /CS2 (obvod reaguje, pokud CS0 = CS1 = 1 a /CS2 = 0) a dva přerušovací výstupy /IRQA a /IRQB. &nbsp;Tyto výstupy jsou v&nbsp;provedení „s otevřeným kolektorem“, tak je můžete bez problémů spojit dohromady a připojit oba ke vstupu /IRQ, /FIRQ nebo /NMI (nezapomeňte na pull up rezistor).
 

@@ -28,19 +28,19 @@ Sharp MZ-800. A k němu stoh dokumentace, originální i všelijaké &#8222;Shar
 <div id='gallery-3' class='gallery galleryid-114 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption111'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption111'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image005-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption113'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption113'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image003-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption112'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption112'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image004-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -48,13 +48,13 @@ Sharp MZ-800. A k němu stoh dokumentace, originální i všelijaké &#8222;Shar
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption115'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption115'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image001-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption116'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption116'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image002-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -68,19 +68,19 @@ No a druhý stroj je taková reminiscence na jeden z počítačů, co jsem měl.
 <div id='gallery-4' class='gallery galleryid-114 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption110'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption110'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image006-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption109'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption109'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image007-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption108'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption108'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image008-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -88,7 +88,7 @@ No a druhý stroj je taková reminiscence na jeden z počítačů, co jsem měl.
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption107'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption107'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/01/image009-150x150.jpg)</a>
     </dt>
   </dl>
   

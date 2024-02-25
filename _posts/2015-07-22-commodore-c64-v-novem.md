@@ -27,39 +27,19 @@ PS: Kdybyste chtěli nové plasty pro Amigu 1200, tak [můžete přispět tady](
 <div id='gallery-8' class='gallery galleryid-596 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095337.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption584'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095337-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095337.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption584'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095337-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095348.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption585'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095348-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095348.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption585'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095348-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095414.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption587'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095414-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095354.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption586'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095354-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095601.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption595'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095601-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095554.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption594'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095554-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095414.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption587'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095414-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -67,19 +47,19 @@ PS: Kdybyste chtěli nové plasty pro Amigu 1200, tak [můžete přispět tady](
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095539.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption593'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095539-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095354.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption586'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095354-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095521.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption592'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095521-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095601.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption595'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095601-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095502.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption591'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095502-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095554.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption594'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095554-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -87,19 +67,39 @@ PS: Kdybyste chtěli nové plasty pro Amigu 1200, tak [můžete přispět tady](
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095442.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption590'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095442-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095539.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption593'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095539-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095432.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption589'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095432-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095521.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption592'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095521-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095425.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption588'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095425-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095502.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption591'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095502-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095442.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption590'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095442-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095432.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption589'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095432-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095425.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption588'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2015/07/IMG_20150722_095425-150x150.jpg)</a>
     </dt>
   </dl>
   

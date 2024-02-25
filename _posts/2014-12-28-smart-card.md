@@ -30,7 +30,7 @@ Karta má především dvě oblasti využití. Jednak jako rychlé načítání 
 
 Druhá možnost je využít ji jako diagnostický nástroj &#8211; Phil nabízí &#8222;Diagnostic ROM&#8220;, která otestuje funkčnost pamětí a dalšího hardware (klávesnice, ULA, reproduktor, interní ROM, &#8230;) Pokud je Spectrum aspoň trochu živé (tzn. funguje mu zobrazování), můžete zjistit např. to, jaký paměťový čip je třeba vyměnit.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-471" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-650x366.jpg" alt="IMG_20141228_152448" width="650" height="366" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-650x366.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-1024x576.jpg 1024w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-650x366.jpg) 
 
 Z hlediska ZX Spectra jde o interface na portech FAF3h, FAF7h a FAFBh (joystick je samozřejmě na portu 1Fh). Zapojení je následující:
 
@@ -47,39 +47,19 @@ Já tam vidím ještě jedno možné využití &#8211; můžete si snadno vyzkou
 <div id='gallery-6' class='gallery galleryid-466 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152347.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption474'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152347-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152347.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption474'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152347-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152409.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption473'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152409-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152409.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption473'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152409-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152423.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption472'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152423-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption471'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152458.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption470'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152458-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152541.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption468'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152541-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152423.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption472'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152423-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -87,7 +67,27 @@ Já tam vidím ještě jedno možné využití &#8211; můžete si snadno vyzkou
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152612.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption467'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152612-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption471'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152448-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152458.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption470'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152458-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152541.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption468'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152541-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152612.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption467'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2014/12/IMG_20141228_152612-150x150.jpg)</a>
     </dt>
   </dl>
   

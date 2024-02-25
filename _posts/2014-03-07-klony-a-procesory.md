@@ -27,7 +27,7 @@ V [kurzu assembleru](https://strojak.cz) jsem se dostal do bodu, kde začnu popi
 
 Každopádně mě přemýšlení nad tím, jak popsat vznik Z80, přivedlo k zajímavé věci z historie procesorů a integrovaných obvodů, která dneska už může znít docela neobvykle.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-129" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg" alt="Zilog_Z80" width="588" height="324" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/Zilog_Z80.jpg)
 
 První mikroprocesor, a to je už notoricky známé, byl Intel 4004. Intel ho vyráběl ve třech verzích &#8211; tedy navenek. Uvnitř to byl stejný čip, lišilo se jen pouzdro &#8211; plastické, keramické, nebo plasto-keramické.
 

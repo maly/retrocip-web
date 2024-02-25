@@ -23,7 +23,7 @@ Rozepsal jsem editor spritů, co na požádání vygeneruje DB (jako že sekvenc
 
 Pak jsem práce na chvíli přerušil a udělal [Gamesfer](https://gamesfer.com) aka Burzu herních kódů. Ta je teď hotová, takže bych se rád vrátil k tomu rozdělanému a pokračoval. Takže bod 1: Dodělat editor spritů.
 
-<img loading="lazy" class="aligncenter size-medium wp-image-534" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/03/screenshot-localhost-2015-03-22-11-26-45-650x386.png" alt="Editor spritů" width="650" height="386" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2015/03/screenshot-localhost-2015-03-22-11-26-45-650x386.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2015/03/screenshot-localhost-2015-03-22-11-26-45-1024x608.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2015/03/screenshot-localhost-2015-03-22-11-26-45.png 1128w" sizes="(max-width: 650px) 100vw, 650px" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2015/03/screenshot-localhost-2015-03-22-11-26-45-650x386.png) 
 
 Na bod 2 mě navedl Busy: Do assembleru přidat opakování prvního průběhu, dokud nebudou pořešena všechna návěští. Úprava bude poměrně jednoduchá. _(Aktualizace 4.4. &#8211; je hotovo!)_
 

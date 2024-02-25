@@ -41,10 +41,10 @@ Za osmé: převedete výsledný HEX na sérii čísel, kterou includnete do toho
 
 Za deváté: Sebevědomě to celé přeložíte, spustíte &#8211; a ono to funguje!
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-967" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg" alt="" width="650" height="460" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-768x544.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg 819w" sizes="(max-width: 650px) 100vw, 650px" /></a>Přiznávám, že kdyby to nefungovalo, tak by mi to asi sebralo trochu elánu, ale ono to fungovalo.
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic-650x460.jpg)</a>Přiznávám, že kdyby to nefungovalo, tak by mi to asi sebralo trochu elánu, ale ono to fungovalo.
 
 Za desáté: Zkusíte si přeložit i TinyBASIC verze 2. Nefunguje na první dobrou, protože musíte ještě změnit komunikační porty, ale pokud to uděláte stejně jako ve verzi 1, tak se to zase rozeběhne.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-968" src="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg" alt="" width="650" height="515" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-768x609.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg 820w" sizes="(max-width: 650px) 100vw, 650px" /></a>Nakonec z toho celého uděláte [balíček a publikujete na GitHubu](https://github.com/maly/arduino8080basic).
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2.jpg" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2017/08/tinybasic2-650x515.jpg)</a>Nakonec z toho celého uděláte [balíček a publikujete na GitHubu](https://github.com/maly/arduino8080basic).
 
 Dejte si taky!

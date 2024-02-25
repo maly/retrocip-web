@@ -29,6 +29,6 @@ Díky. Snad se vám i třetí kniha bude líbit.
 
 <!--more-->
 
-Soukromé PS: &#8222;[Asi všichni víme, že tohle nikdy nevznikne](https://www.facebook.com/martin.maly/posts/10152995187362496?comment_id=10152997157742496)&#8222;<figure class="wp-block-image size-large">
+Soukromé PS: &#8222;[Asi všichni víme, že tohle nikdy nevznikne](https://www.facebook.com/martin.maly/posts/10152995187362496?comment_id=10152997157742496)&#8222;
 
-<img loading="lazy" width="467" height="493" src="https://retrocip.cz/wp-content/uploads/sites/6/2020/08/fpl.png" alt="" class="wp-image-1198" /> </figure>
+![](https://retrocip.cz/wp-content/uploads/sites/6/2020/08/fpl.png) 

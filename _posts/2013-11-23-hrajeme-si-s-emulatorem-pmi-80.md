@@ -71,7 +71,7 @@ Není co řešit &#8211; klikněte na odkaz [Emulátor PMI-80](https://www.asm8
 
 _Intermezzo: Ano, asi by šlo vše upravit tak, aby to fungovalo i s IE6, ale &#8222;poměr cena-výkon&#8220; je velmi nepříznivý. Ztratil bych tím tolik času, že by mě to pravděpodobně přestalo bavit ještě před dokončením, takže jsem upřednostnil řešení &#8222;mít hotovo pro 97 % internetové populace&#8220; před řešením &#8222;nikdy to nedodělat pro 100 %&#8220;_
 
-[<img loading="lazy" class="aligncenter size-medium wp-image-18" alt="pmi1" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi11-650x321.png" width="650" height="321" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/pmi11-650x321.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2013/11/pmi11-1024x506.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2013/11/pmi11.png 1135w" sizes="(max-width: 650px) 100vw, 650px" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi11.png)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi11-650x321.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi11.png)
 
 &nbsp;
 
@@ -81,7 +81,7 @@ Vlevo je sloupec se soubory, které máte uložené v prohlížeči. Uprostřed 
 
 Stisknutím jakéhokoli tlačítka (kromě RE, což je RESET, a I, které vyvolá přerušení) se dostanete do režimu, kdy PMI čeká na příkaz &#8211; poznáte to podle toho, že se vlevo objeví &#8222;něco jako otazník&#8220;:
 
-[<img loading="lazy" class="aligncenter size-full wp-image-19" alt="pmi2" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi2.png" width="280" height="78" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi2.png)Co teď? Teď tam naťukáme první program. Kde ho vezmeme?
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi2.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi2.png)Co teď? Teď tam naťukáme první program. Kde ho vezmeme?
 
 ### <span id="Prvni_program">První program</span>
 
@@ -113,7 +113,7 @@ Jistě znáte výpis assembleru &#8211; úplně vlevo adresa, pak operační kó
 
 Na displeji máme otazník. Stiskneme M (pro práci s pamětí) a na displeji se objeví &#8222;M 0000&#8220; (samosebou limitované sedmisegmentovým displejem, takže M je spíš takové obrácené U). Zadáme adresu (1c00) a stiskneme [=] (na PC klávesnici je to ENTER). V pravé části se objeví &#8222;00&#8220;. Teď zadáváme data. Na adrese 1C00 je to 3E, takže zadáme 3E, mačkáme ENTER ([=]), adresa se o jedničku zvýší, zadáme obsah na adrese 1C01, tedy 19&#8230; a pokračujeme, dokud nenaťukáme všechno.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-21" alt="pmi3" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi3.png" width="275" height="75" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi3.png)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi3.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi3.png)
 
 Když dojdeme k poslední adrese a poslední hodnotě, tak stiskneme třeba \[EX\] (na klávesnici je to X). Na displeji se objeví &#8222;Err:data&#8220;, po dalším stisknutí se dostaneme zpátky na otazník.
 
@@ -156,7 +156,7 @@ Postup je obdobný ukládání.
   * Po nahrání displej zobrazí &#8222;MG Stop&#8220;
   * Stiskem [=] se zase dostaneme do pohotovostního režimu.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-23" alt="pmi4" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png" width="204" height="147" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)
 
 ## <span id="Ukladame_si_pasku_pro_pozdejsi_pouziti">Ukládáme si pásku pro pozdější použití</span>
 

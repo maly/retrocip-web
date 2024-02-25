@@ -64,7 +64,7 @@ Ale jak jsem už naznačil v [minulém článku o klonech](https://retrocip.uele
 
 Když jsem si pak pořídil Atari ST, musel jsem se naučit assembler procesoru 68000 a byl jsem unešen. Ortogonální instrukční sada, spousta adresních módů, prostě paráda! Ale měl jsem zato, že to je možné až u šestnáctibitů. Z mého omylu mě vyvedly dva procesory: 8086, který byl sice šestnáctibitový, ale ve srovnání s 68k to byla tragédie, a pak 6809.
 
-[<img loading="lazy" class="aligncenter size-medium wp-image-139" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg" alt="6809" width="650" height="328" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809-1024x518.jpg 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2014/03/6809.jpg 1476w" sizes="(max-width: 650px) 100vw, 650px" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809.jpg)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809-650x328.jpg)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/03/6809.jpg)
 
 ## <span id="6809">6809</span>
 

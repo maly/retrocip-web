@@ -88,7 +88,7 @@ tags:
 </p>
 
 <p data-key="125680">
-  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1054" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal-650x422.png" alt="" width="650" height="422" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal-650x422.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal-768x499.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal-1024x665.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal.png 1391w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8080minimal-650x422.png)</a>
 </p>
 
 <span data-key="125683">Teprve až tato <em>svatá trojice</em>, jak se těmto třem obvodům někdy přezdívá, tvoří samotný &#8222;mikroprocesor 8080&#8220;.</span>
@@ -121,7 +121,7 @@ tags:
   </h2>
   
   <p>
-    <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1055" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout-491x650.png" alt="" width="491" height="650" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout-491x650.png 491w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout.png 656w" sizes="(max-width: 491px) 100vw, 491px" /></a>
+    <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-pinout-491x650.png)</a>
   </p>
 </div>
 
@@ -136,7 +136,7 @@ tags:
 </p>
 
 <p data-key="125768">
-  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1056" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85-650x475.png" alt="" width="650" height="475" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85-650x475.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85-768x562.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85-1024x749.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85.png 1169w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/05/80c85-650x475.png)</a>
 </p>
 
 <p data-key="125774">
@@ -386,7 +386,7 @@ tags:
 </p>
 
 <p data-key="125994">
-  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1057" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing-650x498.png" alt="" width="650" height="498" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing-650x498.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing.png 748w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+  <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/05/8085-timing-650x498.png)</a>
 </p>
 
 <p data-key="125999">
@@ -576,7 +576,7 @@ tags:
   Zapojení procesoru 8085
 </h1>
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1058" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu-650x363.png" alt="" width="650" height="363" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu-650x363.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu-768x429.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu-1024x573.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/05/alpha85-cpu-650x363.png)</a>
 
 Takto bude vypadat srdce celého počítače. Dovolte jen pár poznámek:
 

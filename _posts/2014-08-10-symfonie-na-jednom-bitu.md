@@ -82,13 +82,13 @@ Tak samozřejmě nebyla to žádná extra sláva, ale šlo to, a když se tomu t
 
 **Obdélník** je poslední ze svaté čtveřice základních průběhů. Namísto plynulého klesání nebo stoupání má pouze dvě hodnoty &#8211; maximum a minimum. Konstruuje se stejně jako trojúhelník, tedy součtem lichých harmonických, ale hlasitost tentokrát neklesá exponeniálně, tedy s druhou mocninou, ale lineárně.
 
-**Šum** je náhodný průběh.<figure id="attachment\_379" aria-labelledby="figcaption\_attachment_379" class="wp-caption aligncenter" style="width: 567px">
+**Šum** je náhodný průběh.
 
-<img loading="lazy" class="wp-image-379 size-full" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/557px-Waveforms.svg_.png" alt="557px-Waveforms.svg" width="557" height="480" /> <figcaption id="figcaption\_attachment\_379" class="wp-caption-text">Zdroj: https://en.wikipedia.org/wiki/File:Waveforms.svg</figcaption></figure> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/08/557px-Waveforms.svg_.png) <figcaption id="figcaption\_attachment\_379" class="wp-caption-text">Zdroj: https://en.wikipedia.org/wiki/File:Waveforms.svg</figcaption> 
 
-To rozkládání základních periodických funkcí na součty sinusovek je samo o sobě velmi zajímavá část matematiky, a pokud by vás to zajímalo víc, tak klíčová slova jsou [Fourierova transformace](https://cs.wikipedia.org/wiki/Fourierova_transformace) a Fourierovy řady.<figure class="wp-caption aligncenter" style="width: 510px">
+To rozkládání základních periodických funkcí na součty sinusovek je samo o sobě velmi zajímavá část matematiky, a pokud by vás to zajímalo víc, tak klíčová slova jsou [Fourierova transformace](https://cs.wikipedia.org/wiki/Fourierova_transformace) a Fourierovy řady.
 
-<img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Synthesis_square.gif" alt="" width="500" height="250" /> <figcaption class="wp-caption-text">Zdroj: https://cs.wikibooks.org/wiki/Soubor:Synthesis_square.gif</figcaption></figure> 
+![](https://upload.wikimedia.org/wikipedia/commons/0/0a/Synthesis_square.gif) <figcaption class="wp-caption-text">Zdroj: https://cs.wikibooks.org/wiki/Soubor:Synthesis_square.gif</figcaption> 
 
 ## <span id="Obdelnik_vladne_vsem">Obdélník vládne všem</span>
 

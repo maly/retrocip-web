@@ -43,19 +43,19 @@ Na akci jsem přivezl i několik starších kousků, zapojil jsem je k televizí
 <div id='gallery-10' class='gallery galleryid-765 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/600684_10153515387422496_4756415373634951829_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption772'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/600684_10153515387422496_4756415373634951829_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/600684_10153515387422496_4756415373634951829_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption772'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/600684_10153515387422496_4756415373634951829_n-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12523892_10153515387477496_7505419680903680049_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption773'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12523892_10153515387477496_7505419680903680049_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12523892_10153515387477496_7505419680903680049_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption773'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12523892_10153515387477496_7505419680903680049_n-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10387702_10153515387367496_7573605468496318499_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption771'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10387702_10153515387367496_7573605468496318499_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10387702_10153515387367496_7573605468496318499_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption771'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10387702_10153515387367496_7573605468496318499_n-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -63,7 +63,7 @@ Na akci jsem přivezl i několik starších kousků, zapojil jsem je k televizí
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10407032_10153515386967496_8320520211423998695_n.jpg" title="Retročipařská výstavka na Devel 2016" class="highslide" onclick="return hs.expand(this,{captionId:'caption766'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10407032_10153515386967496_8320520211423998695_n-150x150.jpg" width="150" height="150" alt="Retročipařská výstavka na Devel 2016" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10407032_10153515386967496_8320520211423998695_n.jpg" title="Retročipařská výstavka na Devel 2016" class="highslide" onclick="return hs.expand(this,{captionId:'caption766'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10407032_10153515386967496_8320520211423998695_n-150x150.jpg)</a>
     </dt>
     
     <dd class="gallery-caption" id="caption766">
@@ -73,33 +73,13 @@ Na akci jsem přivezl i několik starších kousků, zapojil jsem je k televizí
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12189961_10153515387057496_515566159307672223_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption767'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12189961_10153515387057496_515566159307672223_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12189961_10153515387057496_515566159307672223_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption767'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12189961_10153515387057496_515566159307672223_n-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/970469_10153515387212496_5793808113455511761_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption768'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/970469_10153515387212496_5793808113455511761_n-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/1924004_10153515387277496_7446025834420251948_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption769'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/1924004_10153515387277496_7446025834420251948_n-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12143064_10153515387312496_340425830953014266_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption770'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12143064_10153515387312496_340425830953014266_n-150x150.jpg" width="150" height="150" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class="gallery-item">
-    <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12107773_10153515387612496_8722114112772120592_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption774'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12107773_10153515387612496_8722114112772120592_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/970469_10153515387212496_5793808113455511761_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption768'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/970469_10153515387212496_5793808113455511761_n-150x150.jpg)</a>
     </dt>
   </dl>
   
@@ -107,7 +87,27 @@ Na akci jsem přivezl i několik starších kousků, zapojil jsem je k televizí
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10612673_10153515387652496_502823875489423105_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption775'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10612673_10153515387652496_502823875489423105_n-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/1924004_10153515387277496_7446025834420251948_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption769'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/1924004_10153515387277496_7446025834420251948_n-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12143064_10153515387312496_340425830953014266_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption770'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12143064_10153515387312496_340425830953014266_n-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12107773_10153515387612496_8722114112772120592_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption774'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/12107773_10153515387612496_8722114112772120592_n-150x150.jpg)</a>
+    </dt>
+  </dl>
+  
+  <br style="clear: both" />
+  
+  <dl class="gallery-item">
+    <dt class="gallery-icon">
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10612673_10153515387652496_502823875489423105_n.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption775'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2016/03/10612673_10153515387652496_502823875489423105_n-150x150.jpg)</a>
     </dt>
   </dl>
   

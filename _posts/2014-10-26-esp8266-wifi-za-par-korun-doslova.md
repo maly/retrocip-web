@@ -19,9 +19,9 @@ tags:
   - LAN
   - wifi
 ---
-Tyhle moduly se po eBay rozšířily jako houby po dešti. Podle popisu je <a href="https://esp8266.cz" target="_self">ESP8266</a><img style="text-decoration: none; border: 0; padding: 0; margin: 0;" src="https://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=9&pub=5575085282&toolid=10001&campid=5337592372&customid=&uq=ESP8266&mpt=[CACHEBUSTER]" alt="" /> levný WiFi modul se sériovým rozhraním (že nekecám, [tady ho máte za 90 Kč, poštovné zdarma](https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575085282&toolid=10001&campid=5337592372&customid=&icep_item=181524343824&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg)).
+Tyhle moduly se po eBay rozšířily jako houby po dešti. Podle popisu je <a href="https://esp8266.cz" target="_self">ESP8266</a>![](https://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=9&pub=5575085282&toolid=10001&campid=5337592372&customid=&uq=ESP8266&mpt=[CACHEBUSTER]) levný WiFi modul se sériovým rozhraním (že nekecám, [tady ho máte za 90 Kč, poštovné zdarma](https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575085282&toolid=10001&campid=5337592372&customid=&icep_item=181524343824&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg)).
 
-<img loading="lazy" class="aligncenter wp-image-416 size-full" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/10/ESP8266-e1414314282119.jpg" alt="" width="344" height="202" /> 
+![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2014/10/ESP8266-e1414314282119.jpg) 
 
 Jen to má trošku háček. Jak jinak, je to z Číny. Největší háček, tedy spíš hák, představovalo to, že dokumentace byla dostupná jen v čínštině.
 

@@ -63,27 +63,27 @@ tags:
   </ul>
 </div>
 
-Já vím, otravoval jsem tu s tím už rok, ale konečně se TO stane! 15.5. začne prodej druhé knihy, tentokrát věnované stavbě osmibitových počítačů. Ponese název [Porty, bajty, osmibity](https://www.osmibity.cz/) a opět ji vydá sdružení [CZ.NIC](https://edice.nic.cz/).<figure class="wp-block-image">
+Já vím, otravoval jsem tu s tím už rok, ale konečně se TO stane! 15.5. začne prodej druhé knihy, tentokrát věnované stavbě osmibitových počítačů. Ponese název [Porty, bajty, osmibity](https://www.osmibity.cz/) a opět ji vydá sdružení [CZ.NIC](https://edice.nic.cz/).
 
-<img loading="lazy" width="2000" height="1334" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh.jpg" alt="" class="wp-image-1150" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh.jpg 2000w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh-650x434.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh-768x512.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh-1024x683.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /> </figure> <!--more-->
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/04/porty-bajty-osmibity-navrh.jpg)  <!--more-->
 
 Tentokrát se přeneseme do začátku 80. let, do dob, kdy v Amatérském rádiu vycházely roztodivné konstrukce osmibitových počítačů, většinou jednodeskových, ve stylu _procesor 8080, 1 kB RAM, 4 kB EPROM, nějaké ty porty_.
 
 Už při psaní bylo jasné, že se do jedné knihy nevejde všechno, takže paralelně s ní vznikají i Dodatky, kde probírám i věci, co se do knihy nevešly. Kromě kapitol o neobvyklých procesorech, o procesorových řezech nebo o oscilátorech je kniha postavena hlavně kolem tématu FPGA a VHDL.
 
-Naučíte se nejen základy VHDL (nejvíc vám dá samozřejmě až praxe), ale i to, jak si poskládat vlastní počítač z připravených HDL modulů (cores), a milovníci hardcore témat se dozví i jak si vytvořit ve VHDL vlastní mikroprocesor.<figure class="wp-block-image">
+Naučíte se nejen základy VHDL (nejvíc vám dá samozřejmě až praxe), ale i to, jak si poskládat vlastní počítač z připravených HDL modulů (cores), a milovníci hardcore témat se dozví i jak si vytvořit ve VHDL vlastní mikroprocesor.
 
-<img loading="lazy" width="1067" height="1089" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218.jpg" alt="" class="wp-image-1151" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218.jpg 1067w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218-637x650.jpg 637w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218-768x784.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218-1003x1024.jpg 1003w" sizes="(max-width: 1067px) 100vw, 1067px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190309_000847_218.jpg)  
 
-Ale zpět k hlavnímu titulu: V knize jsou tři konstrukce, které vyžadují jen pár integrovaných obvodů a trochu času. Samozřejmě si je můžete poskládat na nepájivém kontaktním poli, jak dokázal třeba pan Tomáš Gregor (děkuji za svolení k užití jeho fotky):<figure class="wp-block-image">
+Ale zpět k hlavnímu titulu: V knize jsou tři konstrukce, které vyžadují jen pár integrovaných obvodů a trochu času. Samozřejmě si je můžete poskládat na nepájivém kontaktním poli, jak dokázal třeba pan Tomáš Gregor (děkuji za svolení k užití jeho fotky):
 
-<img loading="lazy" width="2400" height="1800" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614.jpg" alt="" class="wp-image-1152" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614.jpg 2400w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614-650x488.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614-768x576.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614-1024x768.jpg 1024w" sizes="(max-width: 2400px) 100vw, 2400px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190402_105614.jpg)  
 
 Ale samozřejmě jsem připravil i desky plošných spojů. Nedělám si ani v nejmenším nárok na jejich ideálnost, ale fungují a jsou vyzkoušené. Pár jsem jich nechal vyrobit, takže pro případné zájemce budou dostupné například [na Aukru](https://aukro.cz/uzivatel/mmaly2/nabidky) (nebojte, ne jako aukce, ale jako &#8222;kup teď&#8220;). Případně si je můžete nechat vyrobit sami (třeba [na PCBWay](https://www.pcbway.com/project/member/?bmbno=W206155B)), zdrojové výkresy jsou k dispozici na [GitHubu](https://github.com/omenmicro) (jak Gerber, tak Eagle).
 
-Totéž platí i pro součástky. Pár sad mám (několik počítačů už je dokonce po světě postavených), a sady taky půjdou [na Aukro](https://aukro.cz/uzivatel/mmaly2/nabidky). Kalkulaci ještě nemám hotovou, ale za plošný spoj + sadu integrovaných obvodů dáte maximálně několik stokorun, podle typu někde v rozmezí 500-800 Kč.<figure class="wp-block-image">
+Totéž platí i pro součástky. Pár sad mám (několik počítačů už je dokonce po světě postavených), a sady taky půjdou [na Aukro](https://aukro.cz/uzivatel/mmaly2/nabidky). Kalkulaci ještě nemám hotovou, ale za plošný spoj + sadu integrovaných obvodů dáte maximálně několik stokorun, podle typu někde v rozmezí 500-800 Kč.
 
-<img loading="lazy" width="2160" height="2160" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221.jpg" alt="" class="wp-image-1153" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221.jpg 2160w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221-150x150.jpg 150w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221-650x650.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221-768x768.jpg 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221-1024x1024.jpg 1024w" sizes="(max-width: 2160px) 100vw, 2160px" /> </figure> 
+![](https://retrocip.cz/wp-content/uploads/sites/6/2019/04/IMG_20190409_113552_221.jpg)  
 
 Pro všechny tři modely je k dispozici i nějaký základní obslužný program, Monitor (opět na GitHubu). Postupně přidávám i příklady, třeba jak připojit displej 1602 nebo sedmisegmentovky&#8230; Uvítám i vaše vlastní dodatky a konstrukce. Mám připravenou i hexadecimální klávesnici, periferní modul, modul pro připojení CF karty nebo modul se zvukovým generátorem. Všechny tyto moduly půjdou ven průběžně s Dodatky.
 

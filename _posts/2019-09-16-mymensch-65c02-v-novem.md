@@ -52,9 +52,9 @@ Mají připraveno několik variant, ta první ([Rev-A](https://www.tindie.com/pr
   * Hardwarový breakpoint
   * &#8230; a zbytek jsou vstupně-výstupní piny GPIO
 
-Celé to běží na 14.7456 MHz, ACIA mají 1.8432 MHz (tedy maximální komunikační rychlost je 115200 Bd)<figure class="wp-block-image">
+Celé to běží na 14.7456 MHz, ACIA mají 1.8432 MHz (tedy maximální komunikační rychlost je 115200 Bd)
 
-[<img loading="lazy" width="1024" height="734" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1-1024x734.png" alt="" class="wp-image-1165" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1-1024x734.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1-650x466.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1-768x550.png 768w, https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1.png 1264w" sizes="(max-width: 1024px) 100vw, 1024px" />](https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1.png)<figcaption>Blokové schéma, autor: dokumentace WDC</figcaption></figure> 
+[![](https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1-1024x734.png)](https://retrocip.cz/wp-content/uploads/sites/6/2019/09/w65c02i1.png)<figcaption>Blokové schéma, autor: dokumentace WDC</figcaption> 
 
 Pokud si chcete hrát s 65C02, i když ne s tou úplně originální, a chcete k tomu použít hotový systém s mnoha a mnoha možnostmi, dokonce i s modernější 3.3V logikou, zkuste třeba právě [MyMensch](https://www.tindie.com/products/wdc/mymensch-rev-a/). 
 

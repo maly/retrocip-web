@@ -25,7 +25,7 @@ To nebyl takový problém: vycházely tehdy hlavně v Amáru a VTM, a obojí jse
 
 Hlavně články o domácích počítačích jsem měl rád. To se tak vždycky někdo utrhl a napsal článek o nějaké obskurní značce, jejíž leták sem kdosi přivezl ze zahraniční cesty do nespřáteleného zahraničí. Ofotila se reklamní fotka z toho letáku, v černobílém vydání na zeleném papíře přílohy AR Mikro to bylo obzvlášť krásné, a kolem toho byl text, který popisoval technické parametry. A na konec přišel ideový závěr, kam odvážnější autoři napsali, že &#8222;na takové stroje československé provenience budeme asi čekat ještě dlouho&#8220;, ti méně odvážní zmínili, že i v socialistických zemích vznikají kvalitní počítače, a ti, co měli nějaký škraloup, napsali, že &#8222;TESLA Horní Dolní chystá již v příští pětiletce výrobu domácího počítače, jehož parametry budou plně srovnatelné s těmi západními&#8220;.
 
-<a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40.png" rel="lightbox"><img loading="lazy" class="aligncenter size-medium wp-image-1004" src="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40-650x200.png" alt="" width="650" height="200" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40-650x200.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40.png 693w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+<a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40.png" rel="lightbox">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/02/screenshot-ia800604.us_.archive.org-2018.02.24-00-22-40-650x200.png)</a>
 
 Tyhle články mě naplňovaly nadějí, že počítače jsou vlastně za rohem a že jednou si i já takový výdobytek na vlastní kůži vyzkouším. Že třeba uvidím &#8222;velmi jemnou grafiku v rastru 256 x 192 bodů a s osmi barvami&#8220;. No, to jsem po pravdě neviděl, protože jsem sice měl Spectrum od roku 1986, ale u černobílé televize. Nebo že třeba uvidím ten počítač s _disketovým drivem_ společnosti Commodore, jehož _zvukový obvod pracuje v rozsahu téměř osmi oktáv_.
 
@@ -34,19 +34,19 @@ Těšil jsem se opravdu moc, a těšení mi nijak neusnadňovaly ani katalogy Qu
 <div id='gallery-15' class='gallery galleryid-1001 gallery-columns-3 gallery-size-thumbnail gallery1'>
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_15.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1009'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_15-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_15.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1009'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_15-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_14.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1008'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_14-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_14.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1008'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/02/aFoto-Quelle-1984_14-150x150.jpg)</a>
     </dt>
   </dl>
   
   <dl class="gallery-item">
     <dt class="gallery-icon">
-      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/Atari_Quelle_Hacks.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1007'})"><img src="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/Atari_Quelle_Hacks-150x150.jpg" width="150" height="150" alt="" /></a>
+      <a href="https://retrocip.cz/wp-content/uploads/sites/6/2018/02/Atari_Quelle_Hacks.jpg" title="" class="highslide" onclick="return hs.expand(this,{captionId:'caption1007'})">![](https://retrocip.cz/wp-content/uploads/sites/6/2018/02/Atari_Quelle_Hacks-150x150.jpg)</a>
     </dt>
   </dl>
   

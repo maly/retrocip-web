@@ -76,9 +76,9 @@ BASIC G &#8211; Spustí interpret BASICu. Nezapomeňte na mezeru před písmenem
 
 Ukážeme si nahrání a spuštění hry AUTO. Po resetu klikneme na demonstrační pásku Auto:
 
-[<img loading="lazy" class="aligncenter size-medium wp-image-50" alt="pmd1" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd1-650x374.jpg" width="650" height="374" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2013/11/pmd1-650x374.jpg 650w, https://retrocip.cz/wp-content/uploads/sites/6/2013/11/pmd1.jpg 921w" sizes="(max-width: 650px) 100vw, 650px" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd1.jpg)Tím se připraví páska s nahrávkou programu AUTO. Na displeji se objeví informace o programu:
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd1-650x374.jpg)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd1.jpg)Tím se připraví páska s nahrávkou programu AUTO. Na displeji se objeví informace o programu:
 
-[<img loading="lazy" class="aligncenter size-full wp-image-51" alt="pmd2" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd2.png" width="346" height="187" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd2.png)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd2.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmd2.png)
 
 &nbsp;
 
@@ -86,7 +86,7 @@ Je tedy jasné, že program se bude nahrávat z monitoru příkazem MGLD 00. Po 
 
 Napíšeme tedy MGLD 00, odešleme ENTERem a klikneme na &#8222;Tape start &#8211; playback&#8220;.
 
-[<img loading="lazy" class="aligncenter size-full wp-image-23" alt="pmi4" src="https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png" width="204" height="147" />](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)
+[![](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)](https://retrocip.uelectronics.info/wp-content/uploads/sites/6/2013/11/pmi4.png)
 
 &nbsp;
 

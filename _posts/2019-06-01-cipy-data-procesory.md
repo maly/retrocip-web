@@ -20,6 +20,6 @@ Dodatky ke knize právě vznikají pod názvem Čipy, data, procesory. Hlavní �
 
 Kniha postupně vzniká, některé části jsou už napsány a zveřejněny, jiné zatím čekají. To, kdy budou dopsány, záleží jen na zájmu čtenářů. K dopsání můžete přispět i vy! 
 
-<figure class="wp-block-image">
 
-<a href="https://www.osmibity.cz/addons.html" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="445" src="https://retrocip.cz/wp-content/uploads/sites/6/2019/06/donate-1024x445.png" alt="" class="wp-image-1161" srcset="https://retrocip.cz/wp-content/uploads/sites/6/2019/06/donate-1024x445.png 1024w, https://retrocip.cz/wp-content/uploads/sites/6/2019/06/donate-650x283.png 650w, https://retrocip.cz/wp-content/uploads/sites/6/2019/06/donate-768x334.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption><https://www.osmibity.cz/addons.html></figcaption></figure>
+
+<a href="https://www.osmibity.cz/addons.html" target="_blank" rel="noreferrer noopener">![](https://retrocip.cz/wp-content/uploads/sites/6/2019/06/donate-1024x445.png)</a><figcaption><https://www.osmibity.cz/addons.html></figcaption>
